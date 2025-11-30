@@ -2,7 +2,7 @@
 <img src="images/ossu-logo.webp" alt=""/>
 <h3>Hocbigg - Literary theory</h3>
 <p>
-  Path to a free self-taught education in Literary theory!
+Path to a free self-taught education in Literary theory!
 </p>
 </div>
 
@@ -13,228 +13,193 @@
 - [Curriculum](#curriculum)
 - [Code of conduct](#code-of-conduct)
 
+Here comes a fully-fledged, OSSU-style Literary Theory curriculum — lean, structured, globally accessible, and paced for 1–2 years at ~20 hours/week.
+
+The whole thing aims to mimic a strong undergraduate major *minus* gen-ed noise, while keeping the spark of the humanities alive: ideas rubbing against other ideas until they make warmth.
+
 
 # Summary
 
-The program provides a complete humanities-style undergraduate major in **literary theory**, combining structuralism, post-structuralism, narratology, rhetoric, psychoanalysis, Marxist/critical theory, digital humanities, world literature, philosophy of language, and methods of literary analysis.
+This program delivers a rigorous, self-directed education in Literary Theory using open online courses, reputable university resources, and authoritative textbooks. The curriculum mirrors the structure and intellectual depth of a 4-year undergraduate major but is compressed into a manageable 1–2 year plan.
 
-It builds the abilities essential to the discipline:
-interpretation, critical argumentation, historical contextualization, theoretical synthesis, close reading, comparative analysis, and the ability to connect literature with broader philosophical, cultural, and political questions.
+The goal is to give you both:
 
----
+* the historical sweep (from Aristotle to posthumanism),
+* and the conceptual machinery (formalism, structuralism, semiotics, psychoanalysis, Marxism, poststructuralism, deconstruction, feminist theory, postcolonial theory, queer theory, cognitive narratology, digital humanities).
 
-# Organization
+You develop theoretical fluency, interpretive method, strong academic writing, and research practice. The pacing is steady; the texts get thorny; the ideas get strange in the best way.
 
-* **Intro**: Orientation to literary study, critical reading, interpretive methods.
-* **Core**: Theoretical “spine” of the discipline—structuralism, narratology, hermeneutics, psychoanalysis, Marxism, feminist theory, postcolonial theory, philosophy of language, semiotics.
-* **Advanced Tracks**: Depth in one specialization (choose one):
-  * *Critical Theory & Continental Thought*
-  * *Narratology & Poetics*
-  * *Digital Humanities & Textual Technologies*
-  * *Postcolonial & Global Literary Theory*
-* **Final Project**: Independent capstone research paper (~6000–9000 words) with scholarly apparatus.
 
-**Duration**. It is possible to finish within about 1 years if you plan carefully and devote roughly 20 hours/week to your studies. Faster if you have prior humanities background; slower if you want to savor primary texts.
+## Organization
 
-**Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
+The curriculum unfolds in four parts:
 
-Decide how much or how little to spend based on your own time and budget;
-just remember that you can't purchase success!
+Intro Literary Theory – Orientation, foundational interpretive skills, academic writing, and reading practices.
+Core Literary Theory – The first three years of a major: theory history, close reading, criticism, comparative literature, linguistics foundations, philosophy relevant to theory, critical methods.
+Advanced Literary Theory – Choose one of several specialized tracks to dive deeper.
+Final Project – A substantial, research-driven piece of scholarship to demonstrate mastery.
 
-# Community
 
-- You can interact through GitHub issues. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
+**Duration**. 1–2 years at ~20 hours/week, depending on background and pace.
+Courses are sequenced to avoid cognitive overload; many are self-paced.
 
-# TL;DR:
-
-Study all subjects below, in roughly the presented order, using either the suggested textbook or video lecture series, but ideally both.
-
-| Subject                           | Why study?                                                       | Book                                                                             | Videos                                                                                                                                 |
-| :-------- | :------------------ | :---------------------- | :---------------------------------- |
-| **Foundations of Literary Study** | Build habits of close reading and theoretical awareness.         | *Jonathan Culler – Literary Theory: A Very Short Introduction*                   | [HarvardX: Masterpieces of World Literature](https://www.edx.org/learn/literature/harvard-university-masterpieces-of-world-literature) |
-| **History of Literary Theory**    | Understand the major movements from Plato to post-structuralism. | *The Norton Anthology of Theory and Criticism*                                   | [Yale – Introduction to Theory of Literature](https://www.youtube.com/playlist?list=PL6C8A3225E51608F7)                                |
-| **Narratology & Poetics**         | Learn how stories work: structure, voice, temporality, form.     | *Mieke Bal – Narratology*; *Aristotle – Poetics*                                 | [Stanford Continuing Studies – How to Read a Novel](https://www.youtube.com/playlist?list=PLoX3-lUeJdFsH7U2JZOwP6mPG5xFyFgF3)          |
-| **Structuralism & Semiotics**     | Core analytical tools: signs, codes, discourse structures.       | *Saussure – Course in General Linguistics*; *Barthes – Mythologies*              | [MIT OCW – Linguistics & Philosophy](https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-fall-2012/)                        |
-| **Philosophy of Language**        | Meaning, reference, interpretation—intellectual backbone.        | *Lycan – Philosophy of Language*                                                 | [MIT OCW – Philosophy of Language](https://ocw.mit.edu/courses/24-251-introduction-to-philosophy-of-language-spring-2016/)             |
-| **Psychoanalysis & Literature**   | Freud, Lacan, desire, repression, the unconscious.               | *Freud – Introductory Lectures on Psychoanalysis*                                | [Yale – Foundations of Modern Social Theory](https://www.youtube.com/playlist?list=PL77CB8C0D56B99C8A)                                 |
-| **Marxism & Critical Theory**     | Material conditions, ideology critique, culture power.           | *Eagleton – Marxism and Literary Criticism*; *Adorno/Horkheimer*                 | [Berkeley – Critical Theory 1: Marx/Adorno](https://www.youtube.com/playlist?list=PL3A8C2F4559F94FE5)                                  |
-| **Feminist Theory**               | Gender, identity, embodiment, intersectionality.                 | *Butler – Gender Trouble* (advanced); *Moi – Sexual/Textual Politics* (beginner) | [Stanford – Feminist, Gender, and Sexuality Studies](https://www.youtube.com/playlist?list=PLoX3-lUeJdFsq9FhylE7KXO1CecPnF7cG)         |
-| **Postcolonial Theory**           | Empire, global literature, decolonization.                       | *Said – Orientalism*; *Spivak – Can the Subaltern Speak?*                        | [Yale – The Postcolonial Novel](https://www.youtube.com/playlist?list=PLh9mgdi4rNezhoQw43B05lDjPZsCkG3Mo)                              |
-| **Digital Humanities**            | Methods for text mining, archives, digital editions.             | *Jockers – Text Analysis with R for Students of Literature*                      | [HarvardX – Humanities Data Analysis](https://pll.harvard.edu/course/humanities-data-analysis)                                         |
-| **Research Methods**              | Learn to write scholarly essays with rigor.                      | *Graff & Birkenstein – They Say / I Say*                                         | [MIT OCW – Writing and Experience](https://ocw.mit.edu/courses/21w-730-3-writing-and-experience-exploring-self-in-society-fall-2001/)  |
-
----
 
 # Curriculum
 
-Below are structured tables giving durations, effort, prerequisites, and notes.
+```
+Intro ──► Core A ──► Core D ──► Advanced
+          Core B ──►┘
+          Core C ──► Advanced (Cognitive/Digital especially)
+```
 
----
+- [Intro LT](#intro-lt)
+- [Core LT](#core-lt)
+   - [Core A: History of Literary Theory](#core-a-history-of-literary-theory)
+- [Core B: Approaches & Methods in Criticism](#core-b-approaches--methods-in-criticism)
+- [Core C: Linguistics & Semiotics because theory sits between words and meaning](#core-c-linguistics--semiotics-because-theory-sits-between-words-and-meaning)
+- [Core D: Critical Theory 20th–21st Century](#core-d-critical-theory-20th21st-century)
+- [Advanced LT](#advanced-lt)
+   - [Track 1: Critical & Continental Theory](#track-1-critical--continental-theory)
+   - [Track 2: Comparative Literature & World Literature](#track-2-comparative-literature--world-literature)
+   - [Track 3: Cognitive, Digital & Scientific Approaches](#track-3-cognitive-digital--scientific-approaches)
+   - [Track 4: Gender, Sexuality & Postcolonial Theory](#track-4-gender-sexuality--postcolonial-theory)
+- [Final Project Capstone](#final-project-capstone)
+   - [Stages](#stages)
+- [Congratulations](#congratulations)
 
-## **Introductory Phase**
 
-| Courses                                                                                                                                 |  Duration  |    Effort   | Prerequisites | Notes                                               |
-| :----------------------------------- | :--: | :---: | :-----: | :-------------- |
-| [Masterpieces of World Literature (HarvardX)](https://www.edx.org/learn/literature/harvard-university-masterpieces-of-world-literature) |  12 weeks  |  5–10 h/wk  |      none     | Orientation to literary study; global canon.        |
-| [MIT OCW: Writing and Reading Short Stories](https://ocw.mit.edu/courses/21w-755-writing-and-reading-short-stories-spring-2016/)        | self-paced |   ~6 h/wk   |      none     | Develop close-reading habits & narrative awareness. |
-| Textbook Module: *Jonathan Culler – Literary Theory: A Very Short Introduction*                                                         | self-paced | 10–20 hours |      none     | Short, essential theoretical grounding.             |
+## Intro LT
 
----
+These courses build habits of analytical reading, theoretical awareness, and academic writing.
 
-## **Core Phase (~9–12 months)**
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :--------------------------------------------------------------------------------------------------------------------------- | :---------: | :--------: | :-----------: | :------------------------------------------------------------------ |
+| [The American Novel Since 1945 (Yale OYC)](https://oyc.yale.edu/english/engl-291) | 28 lectures | ~8–10 h/wk | none | Solid intro to interpretive reading & lecture-based literary study. |
+| [Reading Literature: Fiction, Poetry, Drama (MIT OCW)](https://ocw.mit.edu/courses/21l-003-reading-fiction-fall-2014/) | Self-paced | 6–8 h/wk | none | MIT close-reading foundation; freeform assignments. |
+| [English Grammar and Style (edX, University of Queensland)](https://www.edx.org/learn/grammar/uqx-english-grammar-and-style) | 8 weeks | 3–5 h/wk | none | Strengthens linguistic precision. |
+| [Writing in the Humanities (MIT OCW)](https://ocw.mit.edu/courses/21w-7470-writing-in-the-humanities-fall-2013/) | Self-paced | 5–7 h/wk | none | Essential academic writing discipline; essay-based. |
 
-### 1. History of Literary Theory
 
-| Courses                                                                                                 |   Duration  |  Effort  | Prerequisites | Notes                       |
-| :--------------------------- | :---: | :---: | :-----: | :-------- |
-| [Yale – Introduction to Theory of Literature](https://www.youtube.com/playlist?list=PL6C8A3225E51608F7) | 24 lectures |  ~8 h/wk |  Intro phase  | Complete, canonical series. |
-| Textbook: *Norton Anthology of Theory & Criticism*                                                      |      —      | variable |      none     | Use as primary reference.   |
+## Core LT
 
----
+### Core A: History of Literary Theory
 
-### 2. Semiotics, Structuralism, Post-Structuralism
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :-------------------------------------------------------------------------------------------------------------------- | :---------: | :-------: | :-----------: | :-------------------------------------------------------------------------- |
+| [Introduction to Theory of Literature (Yale OYC)](https://oyc.yale.edu/english/engl-300) | 26 lectures | 8–10 h/wk | Intro section | Seminal Yale course; essential backbone. |
+| [The Philosophy of Literature (MIT OCW)](https://ocw.mit.edu/courses/24-120-moral-psychology-fall-2014/) *(see note)* | Self-paced | 6–8 h/wk | none | MIT’s best open philosophy-of-art content. For a dedicated text, see below. |
+| Textbook supplement (no MOOC equivalent): | | | | |
+| • Best authoritative: Peter Lamarque & Stein Haugom Olsen — *A Philosophy of Literature* (Wiley-Blackwell). | | | | |
+| • Free alternative: Stanford Encyclopedia of Philosophy (SEP) entries on Aesthetics, Fiction, Interpretation. | | | | |
 
-| Courses                                                                                                          |  Duration  |  Effort  | Prerequisites | Notes                                 |
-| :------------------------------ | :--: | :---: | :-----: | :--------- |
-| [MIT OCW – Intro to Linguistics](https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-fall-2012/)      |  14 weeks  | 6–8 h/wk |      none     | Foundation for structuralist methods. |
-| Textbook Module: Saussure + Barthes                                                                              | self-paced |     —    |      none     | Essential structuralist readings.     |
-| Supplement: [Yale – Derrida / Deconstruction lectures](https://www.youtube.com/playlist?list=PLD12668F2A6E5B1B2) |  variable  | 4–6 h/wk | history-phase | Complements post-structuralism.       |
 
----
+## Core B: Approaches & Methods in Criticism
 
-### 3. Narratology & Poetics
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------: | :-------: | :-----------: | :---------------------------------------------------------- |
+| [The Sacred & the Secular: Religion and Literature (Harvard Free)](https://pll.harvard.edu/course/christianity-through-its-scriptures) | 4–8 weeks | 4–6 h/wk | none | Strong intro to hermeneutics & interpretive traditions. |
+| [Modern & Contemporary American Poetry (“ModPo”, Coursera)](https://www.coursera.org/learn/modpo) | 10 weeks (repeats yearly) | 5–10 h/wk | none | Live discussion model; teaches multiple theoretical lenses. |
+| [Introduction to Comparative Literature (MIT OCW)](https://ocw.mit.edu/courses/21l-020j-global-literary-histories) | Self-paced | 6–8 h/wk | none | Global comparative perspectives. |
 
-| Courses                                                                                                    |   Duration  |  Effort  | Prerequisites | Notes                           |
-| :--------------------------- | :---: | :---: | :-----: | :--------- |
-| [Stanford – How to Read a Novel](https://www.youtube.com/playlist?list=PLoX3-lUeJdFsH7U2JZOwP6mPG5xFyFgF3) | 10 lectures | 4–6 h/wk |     intro     | Strong literary form analysis.  |
-| Textbook: Mieke Bal – *Narratology*                                                                        |      —      |     —    |       —       | Standard narrative theory text. |
 
----
+## Core C: Linguistics & Semiotics (because theory sits between words and meaning)
 
-### 4. Psychoanalysis & Literature
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :----------------------------------------------------------------------------------------------------------------- | :---------: | :-------: | :---------------: | :------------------------------------------------------------------- |
+| [Introduction to Linguistics (MIT OCW)](https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-fall-2016/) | Self-paced | 8–12 h/wk | none | Structural linguistics foundation; core for Saussure-derived theory. |
+| [Language, Proof, and Logic (edX)](https://www.edx.org/learn/logic/uc-berkeley-language-proof-and-logic) | 10–15 weeks | 5–10 h/wk | none | Helps with formal structuralist logic and close-argument reading. |
+| [Signs of Life: Semiotics (textbook supplement)] | — | — | Linguistics intro | No existing high-quality free MOOC. |
+| • Best authoritative: Daniel Chandler — *Semiotics: The Basics*. | | | | |
+| • Free alternative: Paul Cobley (ed.), *The Routledge Companion to Semiotics* (open at select libraries). | | | | |
 
-| Courses                                                                                                |   Duration  |  Effort  | Prerequisites | Notes                                                                  |
-| :-------------------------- | :---: | :---: | :-----: | :------------------ |
-| [Yale – Foundations of Modern Social Theory](https://www.youtube.com/playlist?list=PL77CB8C0D56B99C8A) | 24 lectures | 5–8 h/wk |      none     | Includes Freud, Durkheim, Weber—use Freud lectures for literary angle. |
-| Textbook: *Freud – Introductory Lectures on Psychoanalysis*                                            |      —      |     —    |      none     | Base text; supplement with Lacan summaries if desired.                 |
 
----
+## Core D: Critical Theory (20th–21st Century)
 
-### 5. Marxism & Critical Theory
+This set covers structuralism → poststructuralism → postmodernism → contemporary theory.
 
-| Courses                                                                                  |    Duration    |  Effort  | Prerequisites | Notes                    |
-| :------------------------ | :---: | :---: | :-----: | :-------- |
-| [Berkeley – Critical Theory 1](https://www.youtube.com/playlist?list=PL3A8C2F4559F94FE5) | 15–20 lectures | 6–8 h/wk | history-phase | Marx, Frankfurt School.  |
-| Reading: Eagleton – *Marxism and Literary Criticism*                                     |        —       |     —    |       —       | Accessible introduction. |
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :--------------------------------------------------------------------------------------------------------------------------- | :--------: | :------: | :-----------: | :------------------------------------------------------------ |
+| [Postmodernity: Philosophy & Critical Theory (Coursera, Wesleyan)](https://www.coursera.org/learn/postmodernity) | 7 weeks | 4–6 h/wk | Core A | Covers Derrida, Foucault, Lyotard. |
+| [Feminist Theory (MIT OCW)](https://ocw.mit.edu/courses/womens-and-gender-studies/wgs-301j-gender-and-technology-fall-2014/) | Self-paced | 6–8 h/wk | none | Intersectional theory; mix of science studies and humanities. |
+| [Race and Gender in Film & Media (Harvard Free)](https://pll.harvard.edu/course/gender-and-sexuality-media) | 6–8 weeks | 5–8 h/wk | none | Cultural theory lens. |
+| [Global Postcolonial Literature (MIT OCW)](https://ocw.mit.edu/courses/21l-488-contemporary-literature-fall-2016/) | Self-paced | 6–8 h/wk | none | Postcolonial criticism + contemporary texts. |
 
----
+## Advanced LT
 
-### 6. Feminist Theory, Gender & Sexuality Studies
+You only need one track for depth, but readings from others are encouraged.
 
-| Courses                                                                                                                        |    Duration    |  Effort  | Prerequisites | Notes                                  |
-| :-------------------------------- | :---: | :---: | :-----: | :---------- |
-| [Stanford – Feminist, Gender, and Sexuality Studies](https://www.youtube.com/playlist?list=PLoX3-lUeJdFsq9FhylE7KXO1CecPnF7cG) | 12–16 lectures | 5–8 h/wk |      none     | High-quality lecture series.           |
-| Textbook: Toril Moi – *Sexual/Textual Politics*                                                                                |        —       |     —    |      none     | Foundational literary feminist theory. |
+### Track 1: Critical & Continental Theory
 
----
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :-------------------------------------------------------------------------------------------------------------------------- | :--------: | :------: | :-----------: | :------------------------------------------ |
+| [Heidegger, Wittgenstein, and Modern Philosophy (MIT OCW)](https://ocw.mit.edu/courses/24-203-modern-philosophy-fall-2010/) | Self-paced | 6–8 h/wk | Core A | Context for deconstruction & phenomenology. |
+| [Philosophy of Derrida (text-based)]() | — | — | Core D | No MOOC. |
+| • Best authoritative: Jonathan Culler — *On Deconstruction*. | | | | |
+| • Free alternative: SEP entries on Derrida, Deconstruction. | | | | |
+| [Critical Theory & Social Structure (Harvard)](https://pll.harvard.edu/course/introduction-critical-theory) | 7–10 weeks | 5–8 h/wk | none | Frankfurt School & beyond. |
 
-### 7. Postcolonial Theory
 
-| Courses                                                                                                   |   Duration  |  Effort  | Prerequisites | Notes                               |
-| :-------------------------- | :---: | :---: | :-----: | :---------- |
-| [Yale – The Postcolonial Novel](https://www.youtube.com/playlist?list=PLh9mgdi4rNezhoQw43B05lDjPZsCkG3Mo) | 26 lectures | 6–8 h/wk |      core     | Uses novels as theoretical objects. |
-| Textbooks: Said – *Orientalism*; Spivak essays                                                            |      —      |     —    |       —       | Theoretical backbone.               |
+### Track 2: Comparative Literature & World Literature
 
----
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :---------------------------------------------------------------------------------------------------------------------------------- | :--------: | :------: | :-----------: | :----------------------------------------- |
+| [World Literature (edX, Harvard/Hanyang)](https://www.edx.org/learn/literature/harvard-university-masterpieces-of-world-literature) | 12 weeks | 5–7 h/wk | Core B | Excellent for transnational theory. |
+| [Global Literature and Culture (MIT OCW)](https://ocw.mit.edu/courses/21l-501-the-american-novel-fall-2013/) | Self-paced | 6–8 h/wk | none | Global modernism and cultural circulation. |
+| Textbook: David Damrosch — *What Is World Literature?* (authoritative). | | | | |
 
-### 8. Philosophy of Language
 
-| Courses                                                                                                                             | Duration |   Effort  | Prerequisites | Notes                    |
-| :---------------------------------- | :---: | :----: | :-----: | :-------- |
-| [MIT OCW – Intro to Philosophy of Language](https://ocw.mit.edu/courses/24-251-introduction-to-philosophy-of-language-spring-2016/) | 13 weeks | 6–10 h/wk |      none     | Rigorous meaning theory. |
-| Textbook: Lycan – *Philosophy of Language*                                                                                          |     —    |     —     |      none     | Best accessible intro.   |
+### Track 3: Cognitive, Digital & Scientific Approaches
 
----
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :-------------------------------------------------------------------------------------------------------- | :-------------------: | :-----------: | :-----------: | :------------------------- |
+| [Cognitive Science (MIT OCW)](https://ocw.mit.edu/courses/9-13-the-human-brain-fall-2019/) | Self-paced | 6–10 h/wk | Linguistics | For cognitive narratology. |
+| [Digital Humanities (Coursera, U. Virginia)](https://www.coursera.org/specializations/digital-humanities) | 3 courses (~3 months) | 4–6 h/wk each | none | Data-driven humanities. |
+| Textbook: David Herman — *Storytelling and the Sciences of Mind*. | | | | |
 
-### 9. Research & Writing Methods
 
-| Courses                                                                                                                               |  Duration  |  Effort  | Prerequisites | Notes                        |
-| :--------------------------------- | :--: | :---: | :-----: | :--------- |
-| [MIT OCW – Writing and Experience](https://ocw.mit.edu/courses/21w-730-3-writing-and-experience-exploring-self-in-society-fall-2001/) | self-paced | 4–6 h/wk |      none     | Sharpen analytical writing.  |
-| Book: *They Say / I Say*                                                                                                              |      —     |     —    |       —       | Scholarly argument patterns. |
+### Track 4: Gender, Sexuality & Postcolonial Theory
 
----
+| Courses | Duration | Effort | Prerequisites | Notes |
+| :--------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: | :-----------: | :------------------------------------------------------------------------------------ |
+| [Women Making History (edX, Harvard)](https://www.edx.org/learn/history/harvard-university-women-making-history-ten-objects-ten-stories) | 10 weeks | 4–6 h/wk | Intro | Feminist historiography and theory. |
+| [Queer Studies (text-based)] | — | — | Core D | No consistent MOOC. |
+| • Best authoritative: Eve Sedgwick — *Epistemology of the Closet*. | | | | |
+| • Free alternative: *GLQ* selected open articles. | | | | |
+| [Postcolonial Digital Humanities (text-based/open)] | — | — | none | Open project & syllabus repository: [https://www.hastac.org](https://www.hastac.org). |
 
-## **Advanced Tracks**
+## Final Project (Capstone)
 
-### Critical Theory & Continental Thought
+The capstone synthesizes theory, methodology, and literary argumentation into a polished scholarly artifact.
 
-| Courses                                                                                                 |  Duration  |  Effort  |
-| :--------------------------- | :--: | :---: |
-| [Yale – Derrida Seminar](https://www.youtube.com/playlist?list=PLD12668F2A6E5B1B2)                      | 8–10 weeks | 6–8 h/wk |
-| [Berkeley – Nietzsche / Foucault / Post-structuralism](https://www.youtube.com/user/klintron/playlists) |  variable  |     —    |
+Goal: Produce a 25–40 page research essay (or multimodal equivalent) that applies theoretical frameworks from the curriculum to a chosen literary corpus.
 
----
+### Stages
 
-### Narratology & Poetics
+1. Proposal (2–3 weeks)
+Choose a theoretical framework (e.g., narratology, postcolonial theory, deconstruction).
+Select primary texts.
+Draft a 1–2 page proposal with research question + annotated bibliography.
 
-| Courses                                                                                                                | Duration |   Effort  |
-| :------------------------------ | :---: | :----: |
-| [Harvard – The Ancient Greek Hero](https://www.edx.org/learn/ancient-greece/harvard-university-the-ancient-greek-hero) | 18 weeks | 5–10 h/wk |
-| [MIT OCW – Forms of Western Narrative](https://ocw.mit.edu/courses/21l-421-major-authors-shakespeare-fall-2001/)       | variable |     —     |
+2. Research & Development (6–8 weeks)
+Deep reading of primary and secondary sources.
+Outline argument structure.
+Peer feedback via online humanities communities (r/askphilosophy, r/humanities, university MOOC forums).
 
----
+3. Drafting (4–6 weeks)
+Write full draft; revise for structure and clarity.
+Integrate theory cleanly (avoid name-dropping).
 
-### Digital Humanities & Textual Technologies
+4. Final Submission (2 weeks)
+Produce polished draft with consistent citation (MLA or Chicago).
+Optional: publish on Humanities Commons, Zenodo, or personal website.
 
-| Courses                                                                                        |  Duration |  Effort  |
-| :------------------------ | :----: | :---: |
-| [HarvardX – Humanities Data Analysis](https://pll.harvard.edu/course/humanities-data-analysis) |  12 weeks | 5–8 h/wk |
-| [Text Mining with R Modules](https://www.coursera.org/specializations/tidyverse-data-science)  | 4 courses | 5–7 h/wk |
+Deliverables:
 
----
-
-### Postcolonial & Global Literary Theory
-
-| Courses                                                                                             | Duration |  Effort  |
-| :-------------------------- | :---: | :---: |
-| [SOAS – Global Literature & Empire (YouTube)](https://www.youtube.com/@soasuniversity/playlists)    | variable | 6–8 h/wk |
-| [Yale – Modern Middle Eastern Literature](https://www.youtube.com/playlist?list=PL6B6C1A99E45C5E70) | variable |     —    |
-
-# Final Project (Capstone)
-
-A self-designed **6,000–9,000 word scholarly research paper**, equivalent to an upper-division undergraduate seminar paper.
-
-### Milestones:
-
-1. **Proposal (500–800 words)**
-   Research question, theoretical framework, primary texts, 5–10 scholarly sources.
-
-2. **Annotated Bibliography**
-   10–20 sources with evaluative notes.
-
-3. **Midterm Draft (≈3000–4500 words)**
-   Should demonstrate:
-
-   * Clear thesis
-   * Engagement with at least one major theoretical tradition
-
-4. **Final Paper (6000–9000 words)**
-   Revised based on feedback.
-
-5. **Peer Review Package**
-
-   * 2–3 reviews of others’ papers (use online communities)
-   * Reflection on received feedback
-
-### Rubric (for self-assessment)
-
-* **Argument Quality (25%)**: clarity, rigor, coherence.
-* **Use of Theory (25%)**: integrates at least two theoretical traditions.
-* **Close Reading (20%)**: textual evidence, precision.
-* **Originality (15%)**: insightful framing or conceptual synthesis.
-* **Writing Quality (15%)**: structure, clarity, citations (MLA or Chicago).
-
+* Proposal
+* Annotated bibliography
+* Full research paper (25–40 pages)
+* Optional short video summary (5–7 min)
+* Peer-review exchange
 
 ## Congratulations
 
@@ -245,4 +210,5 @@ Congratulations!
 ![keep learning](images/keep-learning.webp)
 
 # Code of conduct
+
 [Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
