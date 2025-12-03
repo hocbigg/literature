@@ -74,6 +74,7 @@ Intro -> Core Foundations -> Core Theories -> Advanced (one track) -> Capstone
 Define 3 specialization paths relevant to Literary Theory: Feminist and Gender Theory, Postcolonial and Cultural Studies, Psychoanalytic Theory. Recommend completing all courses/texts within one chosen specialization to develop expertise.
 
 ### Feminist and Gender Theory
+
 | Courses | Duration | Effort | Prerequisites | Notes |
 | :-- | :--: | :--: | :--: | :--: |
 | Feminist Literary Theory: A Reader by Mary Eagleton (Textbook) | 10 weeks | 8–10 hours/week | Core | Key topics: Key essays on feminist criticism; best authoritative (paid, ~$40); free alternative: Selected online essays from JSTOR or academia.edu; assessments: Analytical essays applying to texts like Woolf's works. |
@@ -81,6 +82,7 @@ Define 3 specialization paths relevant to Literary Theory: Feminist and Gender T
 | Beginning Theory: An Introduction to Literary and Cultural Theory by Peter Barry (Textbook, focus on feminist chapters) | 6 weeks | 6–8 hours/week | Core | Key topics: Feminist approaches; best authoritative (paid, ~$20); free alternative: PDF excerpts; assessments: Practice critiques. |
 
 ### Postcolonial and Cultural Studies
+
 | Courses | Duration | Effort | Prerequisites | Notes |
 | :-- | :--: | :--: | :--: | :--: |
 | [Postcolonial Literature](https://onlinecourses.nptel.ac.in/noc21_hs48/preview) (NPTEL/Swayam) | 12 weeks | 6–8 hours/week | Core | Key topics: Colonialism, resistance in literature; assessments: Quizzes, assignments; self-paced with videos; free certificate optional. |
@@ -88,6 +90,7 @@ Define 3 specialization paths relevant to Literary Theory: Feminist and Gender T
 | Orientalism by Edward W. Said (Textbook) | 6 weeks | 7–9 hours/week | Core | Key topics: Western representations of the East; best authoritative (paid, ~$15); free alternative: Public domain critiques; assessments: Application projects. |
 
 ### Psychoanalytic Theory
+
 | Courses | Duration | Effort | Prerequisites | Notes |
 | :-- | :--: | :--: | :--: | :--: |
 | Psychoanalysis and Literary Theory: An Introduction by Mathew R. Martin (Textbook) | 10 weeks | 8–10 hours/week | Core | Key topics: Freud, Lacan in literature; best authoritative (paid, ~$40); free alternative: Freud's texts on Project Gutenberg; assessments: Psychoanalytic readings of novels. |
