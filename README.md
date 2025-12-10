@@ -1,114 +1,114 @@
 <div align="center" style="text-align: center">
 <img src="images/ossu-logo.webp" alt=""/>
-<h3>Hocbigg - Literary theory</h3>
+<h3>Hocbigg - Literature</h3>
 <p>
-Path to a free self-taught education in Literary theory!
+Path to a free self-taught education in Literature!
 </p>
 </div>
 
 # Contents
 
 - [Summary](#summary)
-- [Community](#community)
 - [Curriculum](#curriculum)
 - [Code of conduct](#code-of-conduct)
 
-Here comes a fully-fledged, OSSU-style Literary Theory curriculum — lean, structured, globally accessible, and paced for 1–2 years at ~20 hours/week.
-
-The whole thing aims to mimic a strong undergraduate major *minus* gen-ed noise, while keeping the spark of the humanities alive: ideas rubbing against other ideas until they make warmth.
-
-
 # Summary
 
-This program delivers a rigorous, self-directed education in Literary Theory using open online courses, reputable university resources, and authoritative textbooks. The curriculum mirrors the structure and intellectual depth of a 4-year undergraduate major but is compressed into a manageable 1–2 year plan.
-
-The goal is to give you both:
-
-* the historical sweep (from Aristotle to posthumanism),
-* and the conceptual machinery (formalism, structuralism, semiotics, psychoanalysis, Marxism, poststructuralism, deconstruction, feminist theory, postcolonial theory, queer theory, cognitive narratology, digital humanities).
-
-You develop theoretical fluency, interpretive method, strong academic writing, and research practice. The pacing is steady; the texts get thorny; the ideas get strange in the best way.
+This roadmap provides a structured, self-paced curriculum equivalent to a 4-year undergraduate degree in Literature, condensed into 1–2 years of study at approximately 20 hours per week. It is designed in the style of the Open Source Society University (OSSU), emphasizing modular progression, logical sequencing, and prerequisites to ensure foundational knowledge builds toward advanced synthesis. The program balances theoretical understanding (e.g., literary analysis and history), practical skills (e.g., close reading and writing), and creative synthesis (e.g., interpretation and critique).
 
 When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
 
 ## Organization
 
-The curriculum unfolds in four parts:
+- **Intro Phase**: Builds foundational skills in reading, writing, and basic literary concepts. Equivalent to first-year fundamentals.
+- **Core Phase**: Covers essential surveys of literature, genres, and analytical methods. Equivalent to second- and third-year breadth.
+- **Advanced Phase**: Offers depth through elective subjects and 2–4 specialization tracks for focused expertise.
+- **Capstone Phase**: A culminating project to integrate knowledge, demonstrate mastery, and apply skills in an original way.
 
-- Intro Literary Theory – Orientation, foundational interpretive skills, academic writing, and reading practices.
-- Core Literary Theory – The first three years of a major: theory history, close reading, criticism, comparative literature, linguistics foundations, philosophy relevant to theory, critical methods.
-- Advanced Literary Theory – Choose one of several specialized tracks to dive deeper.
-- Final Project – A substantial, research-driven piece of scholarship to demonstrate mastery.
+**Milestones**:
 
+- **After Intro**: Basic proficiency in literary analysis; ability to critique short texts independently.
+- **After Core**: Broad knowledge of literary history and genres; readiness for specialized study.
+- **After Advanced**: Deep expertise in chosen track(s); portfolio of analytical work.
+- **Program Completion**: Capstone submission, equivalent to a bachelor's thesis or project.
+
+**Specialization Tracks** (Choose 1–2 for depth; others as electives):
+
+- **British and Commonwealth Literature** – Focuses on literature from the UK and former colonies, emphasizing historical and postcolonial perspectives.
+- **American Literature** – Explores U.S. literary traditions, including regional, ethnic, and modern developments.
+- **World and Comparative Literature** – Examines global texts in translation, cross-cultural themes, and comparative methods.
+- **Literary Theory and Criticism** – Delves into theoretical frameworks, from formalism to postmodernism, for advanced interpretation.
 
 **Duration**. 1–2 years at ~20 hours/week, depending on background and pace.
 Courses are sequenced to avoid cognitive overload; many are self-paced.
 
-
 # Curriculum
 
-```
-Intro -> Core Foundations -> Core Theories -> Advanced (one track) -> Capstone
-```
+## Intro
 
-## Intro Literary Theory
+Orientation to literature as a discipline, fundamental reading/writing skills, and basic terminology.
 
-| Courses | Duration | Effort | Prerequisites | Notes |
-| :-- | :--: | :--: | :--: | :--: |
-| [Introduction to Theory of Literature](https://oyc.yale.edu/english/engl-300) (Open Yale Courses) | 13 weeks | 6–8 hours/week | None | Key topics: Survey of 20th-century theory (formalism, structuralism, deconstruction); assessments: Lectures, readings, optional essays; self-paced with video lectures; engage in course forums for discussion. |
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+| Introduction to Literary Studies | | *An Introduction to Literary Studies* by Mario Klarer (or *Literary Theory: An Introduction* by Terry Eagleton) | [Ancient Masterpieces of World Literature](https://pll.harvard.edu/course/ancient-masterpieces-world-literature) & [Introduction to Theory of Literature](https://oyc.yale.edu/english/engl-300) |
+| Academic Writing and Research in Literature | | *The Elements of Style* by William Strunk Jr. and E.B. White (or *They Say/I Say: The Moves That Matter in Academic Writing* by Gerald Graff and Cathy Birkenstein). | [Writing in English at University](https://www.coursera.org/learn/writing-english-university) & [Academic English: Writing](https://www.coursera.org/specializations/academic-english) |
 
-## Core Literary Theory
+## Core
 
-| Courses | Duration | Effort | Prerequisites | Notes |
-| :-- | :--: | :--: | :--: | :--: |
-| [Introduction to Literary Theory](https://ocw.mit.edu/courses/21l-451-introduction-to-literary-theory-spring-2010/) (MIT OCW) | 12 weeks | 8–10 hours/week | Intro course | Key topics: Reading strategies, 20th-century theories (psychoanalysis, Marxism, feminism); assessments: Readings, problem sets, essays; self-paced; supplement with note-taking and spaced repetition for key concepts. |
-| [The Modern and the Postmodern (Part 1)](https://www.coursera.org/learn/modern-postmodern-1) (Coursera, Wesleyan University) | 7 weeks | 5–7 hours/week | Intro course | Key topics: Enlightenment to modernism in philosophy and literature; assessments: Quizzes, peer-graded essays; self-paced; focus on interdisciplinary links. |
-| [The Modern and the Postmodern (Part 2)](https://www.coursera.org/learn/modern-postmodern-2) (Coursera, Wesleyan University) | 7 weeks | 5–7 hours/week | The Modern and the Postmodern (Part 1) | Key topics: Postmodernism, key thinkers (Baudrillard, Lyotard); assessments: Quizzes, essays; self-paced. |
-| [Modern Masterpieces of World Literature](https://www.edx.org/learn/literature/harvard-university-modern-masterpieces-of-world-literature) (edX, Harvard) | 8 weeks | 3–5 hours/week | Intro course | Key topics: Global literature, cross-cultural themes; assessments: Discussions, short papers; self-paced; emphasizes worldly reading. |
-| Literary Theory: An Introduction by Terry Eagleton (Textbook) | 10 weeks | 8–10 hours/week | Core courses above | Key topics: Comprehensive overview of theories; best authoritative (paid, ~$20); free alternative: Online PDFs or borrow via library; assessments: Self-designed chapter summaries and application essays; use for gaps in MOOCs. |
-| The Norton Anthology of Theory and Criticism (Textbook) | 12 weeks | 10 hours/week | Intro course | Key topics: Historical texts from Plato to contemporary; best authoritative (paid, ~$80); free alternative: Project Gutenberg for classics like Aristotle's Poetics; assessments: Annotated readings, comparative essays. |
+Broad surveys of literary history, major works, and analytical tools. Subjects build sequentially but allow some parallelism after fundamentals.
 
-## Advanced Literary Theory
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+| Survey of Western Literature I (Ancient to Medieval) | | *The Norton Anthology of Western Literature, Volume 1* | [Great Books 101: Ancient to Medieval](https://online.hillsdale.edu/courses/promo/great-books-101) & [Ancient Masterpieces of World Literature](https://pll.harvard.edu/course/ancient-masterpieces-world-literature) |
+| Survey of Western Literature II (Renaissance to Enlightenment) | | *The Norton Anthology of Western Literature, Volume 1* (or Public domain texts from Project Gutenberg). | [Renaissance Literature](https://ocw.mit.edu/courses/21l-463-renaissance-literature-fall-2008/) |
+| Survey of Western Literature III (Romanticism to Modernism) | | *The Norton Anthology of Western Literature, Volume 2* (or Public domain texts from Project Gutenberg). | [The Romantics](https://www.open.edu/openlearn/history-the-arts/literature/the-romantics) |
+| Introduction to Non-Western Literature | | *The Norton Anthology of World Literature, Volume F* (or Public domain translations from Project Gutenberg). | [Modern Masterpieces of World Literature](https://www.edx.org/learn/literature/harvard-university-modern-masterpieces-of-world-literature) | Self-paced | 4 hours/week | Introduction to Literary Studies
+| Literary Genres and Forms | | | *The Norton Introduction to Literature* by Kelly J. Mays (or *How to Read Literature Like a Professor* by Thomas C. Foster) |
+| Introduction to Literary Theory | | *Literary Theory: An Introduction* by Terry Eagleton | [Introduction to Theory of Literature](https://oyc.yale.edu/english/engl-300) |
 
-Define 3 specialization paths relevant to Literary Theory: Feminist and Gender Theory, Postcolonial and Cultural Studies, Psychoanalytic Theory. Recommend completing all courses/texts within one chosen specialization to develop expertise.
+## Advanced
 
-### Feminist and Gender Theory
+Elective depth and specialization. Complete 4–6 subjects, including at least 2–3 from one track. Electives can be drawn from other tracks for breadth.
 
-| Courses | Duration | Effort | Prerequisites | Notes |
-| :-- | :--: | :--: | :--: | :--: |
-| Feminist Literary Theory: A Reader by Mary Eagleton (Textbook) | 10 weeks | 8–10 hours/week | Core | Key topics: Key essays on feminist criticism; best authoritative (paid, ~$40); free alternative: Selected online essays from JSTOR or academia.edu; assessments: Analytical essays applying to texts like Woolf's works. |
-| The Cambridge Companion to Feminist Literary Theory (Textbook) | 8 weeks | 7–9 hours/week | Core | Key topics: Debates in feminist theory; best authoritative (paid, ~$30); free alternative: Open access chapters via Cambridge Core; assessments: Discussion posts in online forums. |
-| Beginning Theory: An Introduction to Literary and Cultural Theory by Peter Barry (Textbook, focus on feminist chapters) | 6 weeks | 6–8 hours/week | Core | Key topics: Feminist approaches; best authoritative (paid, ~$20); free alternative: PDF excerpts; assessments: Practice critiques. |
+### General Electives (Available to all tracks; choose 1–2)
 
-### Postcolonial and Cultural Studies
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+| Literature and Society | Intersections with history, politics, economics; themes like class, race, gender; cultural studies approaches. | *Literature and Society: An Introduction to Fiction, Poetry, Drama, Nonfiction* by Pamela J. Annas | ... |
+| Creative Writing Fundamentals | Fiction, poetry, and script writing; workshop-style feedback; narrative techniques. | ... | [Start Writing Fiction](https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-0) (Prerequisites: Academic Writing and Research in Literature; Literary Genres and Forms) |
 
-| Courses | Duration | Effort | Prerequisites | Notes |
-| :-- | :--: | :--: | :--: | :--: |
-| [Postcolonial Literature](https://onlinecourses.nptel.ac.in/noc21_hs48/preview) (NPTEL/Swayam) | 12 weeks | 6–8 hours/week | Core | Key topics: Colonialism, resistance in literature; assessments: Quizzes, assignments; self-paced with videos; free certificate optional. |
-| The Post-Colonial Studies Reader by Bill Ashcroft et al. (Textbook) | 10 weeks | 8–10 hours/week | Core | Key topics: Key texts and theories; best authoritative (paid, ~$50); free alternative: Selected readings from open sources; assessments: Essays on texts like Achebe's works. |
-| Orientalism by Edward W. Said (Textbook) | 6 weeks | 7–9 hours/week | Core | Key topics: Western representations of the East; best authoritative (paid, ~$15); free alternative: Public domain critiques; assessments: Application projects. |
+### British and Commonwealth Literature
 
-### Psychoanalytic Theory
+| Subject | Key Topics | Book | Videos |
+| --- | --- | --- | --- |
+| Early British Literature | Anglo-Saxon to Elizabethan; Chaucer, Shakespeare; feudal to early modern transitions. | *The Norton Anthology of English Literature, Volume A* |  |
+| 19th–20th Century British Literature | Romantic poets; Victorian novelists; modernism (e.g., Woolf, Joyce); empire and decline. | *The Norton Anthology of English Literature, Volume E and F* |  |
+| Commonwealth and Postcolonial Literature | Authors from India, Africa, Caribbean; identity, migration, resistance themes. |  | [Postcolonial Literature](https://www.classcentral.com/course/swayam-postcolonial-literature-7942) |
 
-| Courses | Duration | Effort | Prerequisites | Notes |
-| :-- | :--: | :--: | :--: | :--: |
-| Psychoanalysis and Literary Theory: An Introduction by Mathew R. Martin (Textbook) | 10 weeks | 8–10 hours/week | Core | Key topics: Freud, Lacan in literature; best authoritative (paid, ~$40); free alternative: Freud's texts on Project Gutenberg; assessments: Psychoanalytic readings of novels. |
-| Freud and Beyond by Stephen A. Mitchell (Textbook) | 8 weeks | 7–9 hours/week | Core | Key topics: Modern psychoanalysis; best authoritative (paid, ~$25); free alternative: Open lectures; assessments: Case studies. |
-| Écrits by Jacques Lacan (Textbook, selected) | 6 weeks | 6–8 hours/week | Core | Key topics: Lacanian theory; best authoritative (paid, ~$30); free alternative: Online translations; assessments: Interpretive essays. |
+### American Literature
 
-## Final Project
-The capstone is a culminating project that allows learners to apply and demonstrate knowledge and skills gained throughout the curriculum. It should be scoped and structured with clear stages: planning (1–2 weeks: select a literary text and 2–3 theories), development (4–6 weeks: research, analysis, drafting), and completion (2 weeks: revision, peer feedback).
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+| Early American Literature | | | [American Literature](https://ocw.mit.edu/courses/21l-006-american-literature-spring-2013/) |
+| 19th–20th Century American Literature | | | [The American Renaissance: Classic Literature of the 19th Century](https://www.edx.org/learn/literature/dartmouth-college-the-american-renaissance-classic-literature-of-the-19th-century) | Self-paced | 5 hours/week | Early American Literature
+| Contemporary American Literature | | | [The American Novel Since 1945](https://oyc.yale.edu/english/engl-291) |
 
-**Goals**: Consolidate theoretical understanding, produce original analysis, and prepare for peer review.
+### World and Comparative Literature
 
-**Deliverables**:
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+African and Middle Eastern Literature | | *The Norton Anthology of World Literature, Volumes D and E* | |
+Asian and Latin American Literature | | *The Norton Anthology of World Literature, Volume F* | |
+Comparative Themes in Global Literature | | | [Masterpieces of World Literature](https://pll.harvard.edu/course/masterpieces-world-literature) |
 
-- A 15–20 page analytical paper applying theories from Core and Advanced to a chosen literary work (e.g., analyze Kafka's *The Metamorphosis* through psychoanalytic and postcolonial lenses).
-- An annotated bibliography of 10–15 sources.
-- A short presentation (video or slides) summarizing findings.
+### Literary Theory and Criticism
 
-**Evaluation Criteria**: Depth of theoretical application, originality, clarity of argument, use of evidence; self-assess via rubric, then seek peer review on forums like Reddit's r/literature or academic Discord groups. Optional: Submit to open journals or blogs for validation.
+| Subject | Why study? | Book | Videos |
+| --- | --- | --- | --- |
+| Advanced Literary Theory | | *Literary Theory: The Basics* by Hans Bertens | |
+| Feminist and Gender Studies in Literature | | | [Introduction to Women's and Gender Studies](https://ocw.mit.edu/courses/womens-and-gender-studies/wgs-101-introduction-to-womens-and-gender-studies-fall-2014/) |
+| Cultural and Postcolonial Theory | | | [Postcolonial Literature](https://www.classcentral.com/course/swayam-postcolonial-literature-7942) |
 
 ## Congratulations
 
