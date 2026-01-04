@@ -3,11 +3,11 @@
 <h3>Hocbigg - Literature</h3>
 <p>
 Path to a free self-taught education in Literature!
-<p>
-  <a href="https://github.com/hocbigg/literature">
-    <img alt="Hocbigg" src="/images/view_on_github.svg"
-  ></a>
 </p>
+<p>
+<a href="https://github.com/hocbigg/literature">
+<img alt="Hocbigg" src="/images/view_on_github.svg"
+></a>
 </p>
 </div>
 
@@ -20,18 +20,10 @@ Path to a free self-taught education in Literature!
 
 # Summary
 
-This roadmap provides a structured, self-paced curriculum equivalent to a 4-year undergraduate degree in Literature, condensed into 1–2 years of study at approximately 20 hours per week.
-
-**Duration**. 1–2 years at ~20 hours/week, depending on background and pace. Courses are sequenced to avoid cognitive overload; many are self-paced.
+This roadmap provides a structured, self-paced curriculum in Literature.
 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
-
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -60,138 +52,96 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 # Curriculum
 
+## TL;DR:
 
-- [Intro Literature](#intro-literature)
-- [Core Literature](#core-literature)
-    - [Historical and Genre Foundations](#historical-and-genre-foundations)
-    - [Theoretical and Comparative Foundations](#theoretical-and-comparative-foundations)
-- [Advanced Literature](#advanced-literature)
-    - [Modernism](#modernism)
-    - [Postcolonial Studies](#postcolonial-studies)
-    - [Gender Studies](#gender-studies)
-    - [Digital Humanities](#digital-humanities)
-    - [Critical Theory Advanced](#critical-theory-advanced)
-- [Final Project](#final-project)
+Study all subjects below, in roughly the presented order, using either the suggested textbook or the online course, but ideally both.
 
-## Intro Literature
+| Subject | Why study? | Book | Online Courses |
+| --- | --- | --- | --- |
+| Introduction to Literary Studies | Establishes what literature is studied as, how literary knowledge is produced, and how academic interpretation differs from casual reading or opinion. | | [Introduction to Literary Studies - Dana Cole](https://www.youtube.com/playlist?list=PL_CIbJULPbazZj-vGVK6bqbDt4zY_13qw) |
+| Close Reading and Interpretation | Develops disciplined attention to language, form, and structure as the basis of all literary analysis. | | |
+| Literary Form and Genre | Clarifies how conventions shape meaning and how texts position themselves within or against formal traditions. | | |
+| Literary History and Periodization | Provides historical orientation, showing how literary forms and values change over time without reducing texts to historical documents. | | [History of English Language and Literature](https://onlinecourses.nptel.ac.in/noc25_hs129/preview) (*[alternative](https://www.youtube.com/channel/UCiND6c4ozNNoKAsP8covKgQ)*) |
+| Poetry as a Literary Mode | Trains sensitivity to sound, rhythm, figurative language, and condensed form. | [*The Making of a Poem: A Norton Anthology of Poetic Forms*](https://www.amazon.com/Making-Poem-Norton-Anthology-Poetic/dp/0393321789) | [Approaching poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
+| Drama and Performance | Examines texts written for performance, highlighting dialogue, action, and theatrical conventions. | [*The Norton Anthology of Drama*](https://archive.org/details/nortonanthologyo0002unse_b3f2) | [Crash Course Theater](https://thecrashcourse.com/topic/theaterdrama/) |
+| Fiction and Narrative | Studies narrative form, including plot, character, perspective, and narrative voice. | | [Narrative Mode and Fiction](https://onlinecourses.nptel.ac.in/noc23_hs61/preview)  |
+| Rhetoric and Style | Builds awareness of how linguistic choices shape meaning, persuasion, and aesthetic effect. | | [Rhetoric: The Art of Persuasive Writing and Public Speaking](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking) ([*alternative*](https://harvardonline.harvard.edu/course/rhetoric-art-persuasive-writing-public-speaking?referrer=grok.com)) |
+| Comparative Literature and Translation | Encourages cross-cultural reading and reflection on language, difference, and transnational literary exchange. | [*Comparative Literature: A Critical Introduction*](https://www.amazon.com/Comparative-Literature-Critical-Introduction-Bassnett/dp/0631167056) | [Comparative Literature](https://wizape.com/English/Comparative-Literature) |
+| Introduction to Literary Theory | Introduces interpretive frameworks that articulate how meaning, authorship, readers, and texts are conceptualized. | [*Literary Theory: An Introduction*](https://archive.org/details/terryeagletonliterarytheoryanintroductionzlib.org) | [Introduction to Theory of Literature](https://oyc.yale.edu/english/engl-300) |
 
-Focus on building foundational skills for academic engagement with literature. No prerequisites; ideal starting point for beginners.
+## Subject guides
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Academic Reading and Writing | Develops critical reading strategies, essay composition, and argumentation skills essential for literary analysis and scholarly communication. | [*They Say/I Say: The Moves That Matter in Academic Writing*](https://archive.org/details/theysayisaymoves02edgraf) | [Essay and report writing skills](https://www.open.edu/openlearn/education-development/essay-and-report-writing-skills/content-section-0) |
-| Literary Terms and Concepts | Introduces key vocabulary (e.g., metaphor, irony, narrative structure) to enable precise discussion of texts. | [*A Glossary of Literary Terms*](https://archive.org/details/glossaryoflitera0000abra_m8a1) | [The Oregon State Guide to English Literary Terms](https://liberalarts.oregonstate.edu/wlf/oregon-state-guide-english-literary-terms) |
-| Introduction to Literary Theory | Provides an overview of major theoretical approaches (e.g., formalism, structuralism) to interpret literature beyond surface level. | [*Literary Theory: An Introduction*](https://archive.org/details/terryeagletonliterarytheoryanintroductionzlib.org) | [Introduction to Theory of Literature](https://oyc.yale.edu/english/engl-300) |
+### Introduction to Literary Studies
 
-## Core Literature
+This subject introduces literature as an academic field of inquiry rather than as a collection of admired works. It examines what counts as a literary text, how literary study differs from biography, history, or personal response, and how interpretation is justified through textual evidence. Basic academic practices—argumentation, citation, and critical reading—are also introduced, not as technical skills but as components of scholarly reasoning.
 
-Deepens knowledge in historical contexts, genres, and critical frameworks. Prerequisites: All Introductory subjects.
+This subject establishes the discipline’s intellectual boundaries and methods. Without it, learners often treat literature as subjective impression, moral instruction, or cultural commentary detached from textual form. It provides the conceptual ground that allows later study to proceed as disciplined inquiry rather than opinion-driven discussion.
 
-Divide into two sub-phases for balance: Phase I focuses on history and genres; Phase II on theory and comparative studies.
+### Close Reading and Interpretation
 
-### Historical and Genre Foundations
+Close reading focuses on careful, sustained attention to language, syntax, imagery, metaphor, and formal patterning within a text. Interpretation is treated as a reasoned activity grounded in textual features rather than authorial intention or reader emotion.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| History of English Literature: Medieval to Renaissance | Traces the evolution of English literature from its origins, building contextual understanding of cultural influences. | [*The Norton Anthology of English Literature, Volume 1*](https://archive.org/details/nortonanthologyo0001unse_m9r4) | [History of English Literature](https://www.classcentral.com/course/youtube-history-of-english-literature-102417) |
-| History of English Literature: Enlightenment to Romanticism | Examines shifts in thought, society, and style during periods of intellectual and emotional transformation. | [*The Norton Anthology of English Literature, Volume 2*](https://archive.org/details/nortonanthologyo0002unse_c0b2) | Covered in [History of English Literature](https://www.classcentral.com/course/youtube-history-of-english-literature-102417) |
-| History of English Literature: Victorian to Modern | Explores industrialization, imperialism, and modernity's impact on literary forms. | [*The Norton Anthology of English Literature, Volume 2*](https://archive.org/details/nortonanthologyo0002unse_c0b2) (continued) | Covered in [History of English Literature](https://www.classcentral.com/course/youtube-history-of-english-literature-102417) |
-| Genres: Poetry | Analyzes poetic forms, techniques, and themes across eras to appreciate linguistic artistry. | [*The Making of a Poem: A Norton Anthology of Poetic Forms*](https://www.amazon.com/Making-Poem-Norton-Anthology-Poetic/dp/0393321789) | [Approaching poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
-| Genres: Novel and Prose Fiction | Investigates narrative structures, character development, and social commentary in long-form fiction. | [*The Novel: An Anthology of Criticism and Theory 1900–2000*](https://www.amazon.com/Novel-Anthology-Criticism-Theory-1900-2000/dp/140510774X) | [Approaching prose fiction](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0) |
+Close reading is the foundational practice upon which all other literary study depends. Without it, historical knowledge and theory become external overlays rather than tools that illuminate textual meaning. This subject cultivates interpretive judgment and restraint, preventing the common error of substituting thematic paraphrase for analysis.
 
-### Theoretical and Comparative Foundations
+### Literary Form and Genre
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Genres: Drama and Theater | Studies dramatic conventions, performance elements, and societal reflections in plays. | [*The Norton Anthology of Drama*](https://archive.org/details/nortonanthologyo0002unse_b3f2) | [Crash Course Theater](https://thecrashcourse.com/topic/theaterdrama/) |
-| Critical Theory: Foundations | Builds on intro theory with deeper exploration of Marxism, psychoanalysis, and feminism for interpretive tools. | [*Critical Theory Today: A User-Friendly Guide*](https://archive.org/details/criticaltheoryto0000tyso_j3c9) | [The Frankfurt School of Critical Theory](https://www.classcentral.com/course/youtube-17-the-frankfurt-school-of-critical-theory-109810) |
-| Comparative Literature: Principles | Introduces methods for comparing texts across cultures, languages, and traditions to broaden perspectives. | [*Comparative Literature: A Critical Introduction*](https://www.amazon.com/Comparative-Literature-Critical-Introduction-Bassnett/dp/0631167056) | [Comparative Literature](https://wizape.com/English/Comparative-Literature) |
-| World Literature in English | Examines non-Anglo texts translated into English, fostering global awareness. | [*The Norton Anthology of World Literature*](https://archive.org/details/nortonanthologyo0000unse_n5e2) | [Masterpieces of World Literature](https://pll.harvard.edu/course/masterpieces-world-literature) |
+This subject examines genres such as epic, lyric, tragedy, comedy, novel, and essay, along with formal concepts like narrative structure, meter, and mode. Genre is understood not as rigid classification but as a set of expectations that guide both writers and readers.
 
-## Advanced Literature
+Understanding form and genre allows learners to see how meaning emerges from convention and variation. Without this foundation, texts are often read as isolated expressions rather than as participants in ongoing formal traditions, leading to shallow or ahistorical interpretation.
 
-Elective deepening through specialization tracks. Choose 1–2 tracks; each includes 3–4 subjects to allow focused expertise while maintaining breadth.
+### Literary History and Periodization
 
-### Modernism
+Literary history surveys major periods and movements—such as classical, medieval, Renaissance, Romantic, modern, and contemporary—while introducing the concept of periodization as an interpretive tool rather than a fixed timeline.
 
-Focuses on experimental forms and responses to modernity (e.g., fragmentation, stream-of-consciousness).
+This subject situates texts within evolving aesthetic and intellectual contexts. It guards against anachronistic readings while avoiding the reduction of literature to historical background. Without this perspective, learners may misinterpret formal choices as personal quirks rather than historically meaningful decisions.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Modernist Literature: Key Texts | Explores innovations in form and content during the early 20th century. | [*The Modernist Papers*](https://www.amazon.com/Modernist-Papers-Fredric-Jameson/dp/1844672425) | [Introduction to Modernist Literature](https://alison.com/course/introduction-to-modernist-literature) |
-| Modernism and Culture | Examines intersections with art, psychology, and war. | [*Modernism: A Very Short Introduction*](https://archive.org/details/modernismverysho0000butl) | [The Modern and the Postmodern (Part 1)](https://www.coursera.org/learn/modern-postmodern-1) |
-| Postmodernism Extensions | Investigates shifts from modernism to postmodern playfulness and irony. | [*Postmodernism, or, The Cultural Logic of Late Capitalism*](https://archive.org/details/postmodernismorc0000jame) | Covered in [The Modern and the Postmodern (Part 1)](https://www.coursera.org/learn/modern-postmodern-1) |
+### Poetry as a Literary Mode
 
-### Postcolonial Studies
+Poetry is studied through its distinctive use of rhythm, sound, lineation, imagery, and figurative language. Attention is given to both traditional verse forms and free verse, across historical periods.
 
-Emphasizes literature from formerly colonized regions, addressing power, identity, and resistance.
+Poetry sharpens sensitivity to linguistic density and formal precision. Without sustained engagement with poetry, learners often miss how meaning can be generated through sound and structure as much as through narrative or theme.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Postcolonial Theory | Introduces concepts like hybridity and subaltern voices. | [*The Post-Colonial Studies Reader*](https://archive.org/details/postcolonialstud0000unse_q6m8) | [Postcolonial Literature](https://www.classcentral.com/course/swayam-postcolonial-literature-7942) |
-| Postcolonial Literature: Africa and Asia | Analyzes narratives of decolonization and cultural reclamation. | [*The Empire Writes Back: Theory and Practice in Post-Colonial Literatures*](https://archive.org/details/empirewritesback0000ashc_i3w1) | Covered in [Postcolonial Literature](https://www.classcentral.com/course/swayam-postcolonial-literature-7942) OR [Postcolonial Literature](https://www.youtube.com/@postcolonialliterature5324) (indian english, but this is the only full & free course I could find) |
-| Diaspora and Migration in Literature | Explores themes of displacement and transnational identities. | [*Diaspora: An Introduction*](https://archive.org/details/diasporaintroduc0000braz) | [Refugee, Migration, Diaspora](https://www.classcentral.com/course/swayam-refugee-migration-diaspora-379920) |
+### Drama and Performance
 
-### Gender Studies
+This subject examines dramatic texts as scripts for performance, focusing on dialogue, action, staging, and audience reception. It includes both reading plays and understanding theatrical conventions.
 
-Investigates representations of gender, sexuality, and power in literature.
+Drama complicates the idea of the literary text as a purely written object. Without this subject, learners may overlook how meaning emerges through performance, embodiment, and collective spectatorship.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Feminist Literary Criticism | Applies gender lenses to reinterpret canonical and marginalized texts. | [*Feminist Literary Theory: A Reader*](https://archive.org/details/feministliterary0000unse_s0x4) | [The Classical Feminist Tradition in Literature](https://www.classcentral.com/course/youtube-20-the-classical-feminist-tradition-109423) |
-| Queer Theory in Literature | Examines non-normative sexualities and identities. | [*Queer Theory: An Introduction*](https://archive.org/details/queertheoryintro0000jago) | [Queer Theory and Gender Performativity](https://www.classcentral.com/course/youtube-23-queer-theory-and-gender-performativity-109799) |
-| Gender and Intersectionality | Integrates race, class, and gender for multifaceted analysis. | [*This Bridge Called My Back: Writings by Radical Women of Color*](https://archive.org/details/in.ernet.dli.2015.182997) | [Gender and Intersectionality](https://www.classcentral.com/course/gender-studies-the-university-of-iceland-gender-a-19311) |
+### Fiction and Narrative
 
-### Digital Humanities
+Fiction is approached through narrative concepts such as plot, character, point of view, temporality, and narrative voice. Both short and long prose forms are examined.
 
-Blends literature with technology for new analytical methods (e.g., text mining, digital archives).
+Narrative analysis provides tools for understanding how stories structure experience and perspective. Without it, readers often default to plot summary or character judgment rather than formal analysis of narrative construction.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Introduction to Digital Humanities | Overviews tools for digitizing and analyzing texts. | [*Debates in the Digital Humanities*](https://www.amazon.com/Debates-Digital-Humanities-Matthew-Gold/dp/0816677956) | [Introduction to Digital Humanities](https://pll.harvard.edu/course/introduction-digital-humanities) |
-| Textual Analysis with Digital Tools | Teaches computational methods for pattern recognition in literature. | [*Digital_Humanities*](https://archive.org/details/DigitalHumanities_201701) | [Text Analysis with Digital Tools](https://guides.lib.virginia.edu/digital-humanities/text-analysis) (unavailable) |
-| Digital Storytelling and Archives | Explores creating and curating digital literary projects. | [*The Johns Hopkins Guide to Digital Media*](https://archive.org/details/johnshopkinsguid0000unse_p1l5) | [Digital Storytelling](https://www.coursera.org/learn/digital-storytelling) |
+### Rhetoric and Style
 
-### Critical Theory (Advanced)
+Rhetoric and style focus on how language persuades, organizes thought, and produces aesthetic effects. Concepts such as diction, syntax, tone, and figurative language are studied across genres.
 
-Deepens theoretical mastery for sophisticated critique.
+This subject bridges linguistic detail and interpretive meaning. Without rhetorical awareness, interpretation risks becoming thematic abstraction detached from how texts actually work at the sentence level.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Advanced Literary Theory | To delve into complex theories like post-structuralism for advanced analysis. | | |
-| Structuralism and Post-Structuralism | Delves into language, signs, and deconstruction. | [*Structuralism and Poststructuralism for Beginners*](https://www.amazon.com/Structuralism-Poststructuralism-Beginners-Donald-Palmer/dp/1934389102) | [Structuralism & Post-Structuralism](https://www.youtube.com/playlist?list=PLZZB5Jd0WePbZBStC4-H-hFGsbNW7HKjj) |
-| Marxist and Cultural Materialism | Analyzes literature through economic and ideological lenses. | [*Marxism and Literature*](https://archive.org/details/marxismliteratur00will_0) | |
-| Ecocriticism and Environmental Theory | Applies theory to nature, sustainability, and human-environment relations in texts. | [*The Ecocriticism Reader: Landmarks in Literary Ecology*](https://archive.org/details/ecocriticismread0000unse) | [Ecocriticism](https://massolit.io/courses/ecocriticism) |
+### Comparative Literature and Translation
 
-## Final Project
+Comparative literature examines texts across languages, cultures, and national traditions, often through translation. It explores how literary forms travel, transform, and interact across boundaries.
 
-Synthesizes the program through an independent project. Prerequisites: All previous phases.
+This subject expands literary study beyond national canons and challenges assumptions about universality and cultural specificity. Without it, learners may unconsciously treat one literary tradition as normative.
 
-Choose one project type based on interests and tracks:
+### Introduction to Literary Theory
 
-- **Research Thesis**: A 5,000–10,000-word paper on a literary topic (e.g., modernism in postcolonial contexts).
-- **Comparative Literature Analysis**: In-depth comparison of 3–5 texts across genres/periods/theories.
-- **Critical Edition Project**: Annotated edition of a lesser-known text.
-- **Digital Humanities Project**: Create a digital archive, visualization, or interactive analysis (e.g., text network graph).
-- **Annotated Anthology**: Curated collection of excerpts with critical annotations.
-- **Public-Facing Project**: Essays, podcasts, or explanatory series for general audiences.
+Literary theory introduces frameworks such as formalism, Marxism, psychoanalysis, feminism, structuralism, and poststructuralism. Theory is presented as a set of questions and models for interpretation, not as doctrinal answers.
 
-**Guidance**: Dedicate time to research, drafting, and revision. Use skills from all phases. Self-evaluate via rubric focusing on originality, evidence, and synthesis.
+Theory makes explicit the assumptions underlying interpretation. Without theoretical awareness, readers often apply unexamined beliefs about meaning, authorship, or value while assuming neutrality.
 
-| Subject | Why Study? | Book | Online Course |
-|---------|------------|------|---------------|
-| Research Thesis | A culminating academic paper on a literary topic. | [*Thesis Writing Guide*](https://www.wku.edu/msetm/pdfs/thesis_writing_guide_rev1.pdf) | [Academic Writing Made Easy](https://www.classcentral.com/course/writing-technische-universitat-munchen-academic-w-13157) |
-| Comparative Literature Analysis | Cross-cultural or cross-period study. | [*A Companion to Comparative Literature*](https://download.e-bookshelf.de/download/0000/6000/30/L-G-0000600030-0002333880.pdf) | [Comparative Literature](https://wizape.com/English/Comparative-Literature) |
-| Critical Edition Project | Annotated edition of a lesser-known text. | [*Guidelines for Editors of Scholarly Editions*](https://www.mla.org/cse_guidelines) | [Digital Critical Editions](https://guides.library.duke.edu/literature/digitalcriticaleditions) |
-| Digital Humanities Project | Blog, website, or data visualization of literary themes. | [*A Short Guide to the Digital_Humanities*](https://jeffreyschnapp.com/wp-content/uploads/2013/01/D_H_ShortGuide.pdf) | [Introduction to Digital Humanities](https://pll.harvard.edu/course/introduction-digital-humanities) |
-| Annotated Anthology | Curated collection with commentary. | [*Literature Study Guide: Anthology Highlights & Analysis*](https://www.cliffsnotes.com/study-notes/16877082) | [Thematic Reading Anthology](https://courses.lumenlearning.com/readinganthology/chapter/sources-for-additional-material/) |
-| Public-Facing Project | Essays, podcasts, or explanatory series for general audiences. | [*Engage in Public Scholarship*](https://spectrum.library.concordia.ca/993125/1/Ketchum-Engage-in-Public-Scholarship_Interior_cropped.pdf) | [Public Writing](https://jewlscholar.mtsu.edu/bitstreams/7ab0fdea-0c30-4ab9-9c67-3553c49d908b/download) |
+### Texts, Transmission, and Materiality
 
-## Congratulations
+This subject examines how literary texts are produced, preserved, edited, and circulated, including manuscripts, print culture, editions, and digital texts.
 
-After completing the requirements of the curriculum above,
-you will have completed the equivalent of a full bachelor's degree in Literature.
-Congratulations!
+It reveals that “the text” is not a transparent given but a constructed object. Without this understanding, learners may overlook how editorial decisions and material forms shape interpretation.
+
+## Note
+
+This curriculum does not include creative writing, professional criticism, journalism, or applied cultural analysis. It does not provide exhaustive coverage of global literatures or advanced theoretical debates that require specialized training and higher-level academic English. Fields such as postcolonial theory, digital humanities, manuscript studies, and advanced philosophy-informed theory are intentionally deferred until a firm grounding in textual analysis and literary history is established.
+
+The program emphasizes foundational understanding rather than comprehensive coverage. Its purpose is to prepare learners to read scholarly work independently, recognize legitimate interpretive arguments, and identify coherent paths for further academic study within literature as a discipline.
 
 # Code of conduct
 
