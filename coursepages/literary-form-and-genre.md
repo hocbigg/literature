@@ -1,6 +1,6 @@
 # Guide to "Literary Form and Genre"
 
-Begin with a single systematic account of literary form and genre. The primary text should be **[Peter Barry, *Beginning Theory***](https://archive.org/details/beginningtheoryi0000barr), read selectively: start with the chapters on formalism, narratology, and genre. These chapters provide the conceptual vocabulary—form, structure, narrative, convention—that will organize everything else.
+Begin with a single systematic account of literary form and genre. The primary text should be [**Peter Barry, Beginning Theory**](https://archive.org/details/beginningtheoryi0000barr), read selectively: start with the chapters on formalism, narratology, and genre. These chapters provide the conceptual vocabulary—form, structure, narrative, convention—that will organize everything else.
 
 Next, read **[Abrams and Harpham, *A Glossary of Literary Terms*](https://archive.org/details/glossaryoflitera0000abra_m8a1)**, focusing on entries for genre (epic, lyric, tragedy, comedy, novel, romance, satire), formal units (plot, stanza, meter, character, point of view), and mode. This is not a book to read straight through; it is to be used continuously as a reference while you encounter actual texts.
 
@@ -28,7 +28,7 @@ If you become overwhelmed by the number of terms, restrict yourself to a small c
 
 ## Supporting resources
 
-**[Peter Barry, *Beginning Theory***](https://archive.org/details/beginningtheoryi0000barr) provides the conceptual framework that links form and genre to larger interpretive questions.
+**[Peter Barry, Beginning Theory](https://archive.org/details/beginningtheoryi0000barr)** provides the conceptual framework that links form and genre to larger interpretive questions.
 
 **[Abrams and Harpham, A Glossary of Literary Terms](https://archive.org/details/glossaryoflitera0000abra_m8a1)** supplies precise definitions and historical context for the vocabulary you will constantly encounter.
 

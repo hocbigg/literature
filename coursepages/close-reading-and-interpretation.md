@@ -1,12 +1,12 @@
 # Guide to "Close Reading and Interpretation"
 
-Begin with a single book that treats close reading as a disciplined practice rather than as a set of tricks. The most suitable starting point is **[Frank Lentricchia and Andrew DuBois (eds.), *Close Reading: The Reader***](https://archive.org/details/closereadingread0000unse)**. Read the general introduction first, then work through the first section of exemplary readings before moving on to the more theoretically inflected essays later in the volume.
+Begin with a single book that treats close reading as a disciplined practice rather than as a set of tricks. The most suitable starting point is **[Frank Lentricchia and Andrew DuBois (eds.), Close Reading: The Reader](https://archive.org/details/closereadingread0000unse)**. Read the general introduction first, then work through the first section of exemplary readings before moving on to the more theoretically inflected essays later in the volume.
 
-Alongside this, use a compact, text-centered guide such as **Janet E. Gardner et al., *Making Literature Matter*** (selected chapters on reading and analysis). This book provides structured ways of approaching poems, fiction, and drama, and should be read in parallel with the anthology: one chapter from Gardner for orientation, then several essays from *Close Reading* to see how those ideas operate in actual criticism.
+Alongside this, use a compact, text-centered guide such as **Janet E. Gardner et al., Making Literature Matter** (selected chapters on reading and analysis). This book provides structured ways of approaching poems, fiction, and drama, and should be read in parallel with the anthology: one chapter from Gardner for orientation, then several essays from *Close Reading* to see how those ideas operate in actual criticism.
 
 To supplement this, watch selected lectures from **[Paul Fry’s Yale Open Course “Introduction to Theory of Literature”](https://oyc.yale.edu/english/engl-300)** (relevant to close reading approaches) and **[Langdon Hammer’s Yale course on Modern Poetry](https://oyc.yale.edu/english/engl-310)**. These should be used only after you have read the relevant literary texts and essays; their purpose is to model how an expert reader moves through a poem or passage in real time.
 
-The core literary corpus for practice should be a small, stable set of texts: a poetry anthology (for example, **[The Norton Anthology of Poetry**](https://archive.org/details/nortonanthologyo0000unse_f3m7) – older editions available for borrowing), a short story collection, and a handful of short plays. You should not be constantly changing what you read; depth of rereading matters more than breadth.
+The core literary corpus for practice should be a small, stable set of texts: a poetry anthology (for example, [**The Norton Anthology of Poetry**](https://archive.org/details/nortonanthologyo0000unse_f3m7) – older editions available for borrowing), a short story collection, and a handful of short plays. You should not be constantly changing what you read; depth of rereading matters more than breadth.
 
 ## How to work with the material
 
@@ -26,11 +26,11 @@ If an essay in *Close Reading* feels impenetrable, skip ahead to one that deals 
 
 ## Supporting resources
 
-**[Frank Lentricchia and Andrew DuBois, *Close Reading: The Reader***](https://archive.org/details/closereadingread0000unse) is the central resource because it presents real, sustained examples of interpretive work rather than abstract instruction.
+[**Frank Lentricchia and Andrew DuBois, Close Reading: The Reader**](https://archive.org/details/closereadingread0000unse) is the central resource because it presents real, sustained examples of interpretive work rather than abstract instruction.
 
 **Janet E. Gardner et al., *Making Literature Matter*** provides practical frameworks for approaching different genres and helps structure your early readings.
 
-**[The Norton Anthology of Poetry**](https://archive.org/details/nortonanthologyo0000unse_f3m7) or a comparable poetry anthology supplies a stable body of texts for repeated, focused reading.
+[**The Norton Anthology of Poetry**](https://archive.org/details/nortonanthologyo0000unse_f3m7) or a comparable poetry anthology supplies a stable body of texts for repeated, focused reading.
 
 **[Paul Fry’s](https://oyc.yale.edu/english/engl-300) and [Langdon Hammer’s](https://oyc.yale.edu/english/engl-310) Yale lectures** demonstrate expert interpretive thinking in action. Their value lies in modeling, not in replacing reading.
 

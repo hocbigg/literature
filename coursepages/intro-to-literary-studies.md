@@ -1,12 +1,12 @@
 # Guide to "Introduction to Literary Studies"
 
-Begin with a single, methodologically oriented introduction rather than with literary works themselves. The most suitable primary text is **[Jonathan Culler, *Literary Theory: A Very Short Introduction***](https://archive.org/details/literarytheory0000jona), not because it is “theory,” but because it presents in compact form the basic questions that define literary study: what counts as a text, what interpretation is, and how meaning is thought to operate. Read this straight through once to acquire a map of the discipline’s conceptual terrain.
+Begin with a single, methodologically oriented introduction rather than with literary works themselves. The most suitable primary text is [**Jonathan Culler, Literary Theory: A Very Short Introduction**](https://archive.org/details/literarytheory0000jona), not because it is “theory,” but because it presents in compact form the basic questions that define literary study: what counts as a text, what interpretation is, and how meaning is thought to operate. Read this straight through once to acquire a map of the discipline’s conceptual terrain.
 
-Next, read **[Terry Eagleton, *Literary Theory: An Introduction***](https://archive.org/details/LiteraryTheoryAnIntroduction) (first half only). Eagleton provides a historical narrative of how literary study became a discipline, which complements Culler’s conceptual overview. These two books should be read sequentially, not alternated: Culler for orientation, Eagleton for institutional and intellectual history.
+Next, read [**Terry Eagleton, Literary Theory: An Introduction**](https://archive.org/details/LiteraryTheoryAnIntroduction) (first half only). Eagleton provides a historical narrative of how literary study became a discipline, which complements Culler’s conceptual overview. These two books should be read sequentially, not alternated: Culler for orientation, Eagleton for institutional and intellectual history.
 
 Alongside these readings, follow **[Paul Fry’s Yale Open Course “Introduction to Theory of Literature”](https://oyc.yale.edu/english/engl-300)**, but only after completing each major section of Eagleton. The lectures function as commentary and exemplification; they should clarify and concretize what you have already encountered in print, not replace it.
 
-Finish this phase by reading the introductory chapters of [**M. H. Abrams and Geoffrey Harpham, *A Glossary of Literary Terms***](https://archive.org/details/glossaryoflitera0000abra_m8a1), which formalizes the vocabulary that the previous texts have implicitly introduced.
+Finish this phase by reading the introductory chapters of [**M. H. Abrams and Geoffrey Harpham, A Glossary of Literary Terms**](https://archive.org/details/glossaryoflitera0000abra_m8a1), which formalizes the vocabulary that the previous texts have implicitly introduced.
 
 ## How to work with the material
 
@@ -26,12 +26,12 @@ Use Abrams and Harpham whenever a term appears to be doing too much vague work. 
 
 ## Supporting resources
 
-**[Jonathan Culler, *Literary Theory: A Very Short Introduction***](https://archive.org/details/literarytheory0000jona) is the conceptual backbone. It introduces the fundamental problems that define literary study without assuming prior training.
+[**Jonathan Culler, Literary Theory: A Very Short Introduction**](https://archive.org/details/literarytheory0000jona) is the conceptual backbone. It introduces the fundamental problems that define literary study without assuming prior training.
 
-**[Terry Eagleton, *Literary Theory: An Introduction***](https://archive.org/details/LiteraryTheoryAnIntroduction) provides historical and institutional context, showing how those problems arose within modern academic practice.
+[**Terry Eagleton, Literary Theory: An Introduction**](https://archive.org/details/LiteraryTheoryAnIntroduction) provides historical and institutional context, showing how those problems arose within modern academic practice.
 
 **[Paul Fry’s Yale lectures](https://oyc.yale.edu/english/engl-300)** model how these abstract questions connect to actual literary analysis. Their value lies in demonstration, not in coverage.
 
-**[Abrams and Harpham, A Glossary of Literary Terms](https://archive.org/details/glossaryoflitera0000abra_m8a1)** supplies the shared vocabulary of the discipline, allowing you to read subsequent coursework with precision rather than approximation (or using [The Oregon State Guide to English Literary Terms](https://liberalarts.oregonstate.edu/wlf/oregon-state-guide-english-literary-terms)).
+**[Abrams and Harpham, A Glossary of Literary Terms](https://archive.org/details/glossaryoflitera0000abra_m8a1)** supplies the shared vocabulary of the discipline, allowing you to read subsequent coursework with precision rather than approximation (or using [*The Oregon State Guide to English Literary Terms*](https://liberalarts.oregonstate.edu/wlf/oregon-state-guide-english-literary-terms)).
 
 Together these resources teach you how literary studies thinks before asking you to practice it in depth.
