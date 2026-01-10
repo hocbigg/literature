@@ -56,11 +56,11 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 Study all subjects below, in roughly the presented order, using either the suggested textbook or the online course, but ideally both.
 
-| Subject | Why study? | Book | Online Courses |
+| Subject | Why study? | Book | Course |
 | --- | --- | --- | --- |
-| Introduction to Literary Studies | Establishes what literature is studied as, how literary knowledge is produced, and how academic interpretation differs from casual reading or opinion. | | [Introduction to Literary Studies - Dana Cole](https://www.youtube.com/playlist?list=PL_CIbJULPbazZj-vGVK6bqbDt4zY_13qw) |
-| Close Reading and Interpretation | Develops disciplined attention to language, form, and structure as the basis of all literary analysis. | | |
-| Literary Form and Genre | Clarifies how conventions shape meaning and how texts position themselves within or against formal traditions. | | |
+| Introduction to Literary Studies | Establishes what literature is studied as, how literary knowledge is produced, and how academic interpretation differs from casual reading or opinion. | | [Introduction to Literary Studies](coursepages/intro-to-literary-studies.md) |
+| Close Reading and Interpretation | Develops disciplined attention to language, form, and structure as the basis of all literary analysis. | | [Guide to "Close Reading and Interpretation"](coursepages/close-reading-and-interpretation.md) |
+| Literary Form and Genre | Clarifies how conventions shape meaning and how texts position themselves within or against formal traditions. | | [Guide to "Literary Form and Genre"](coursepages/literary-form-and-genre.md) |
 | Literary History and Periodization | Provides historical orientation, showing how literary forms and values change over time without reducing texts to historical documents. | | [History of English Language and Literature](https://onlinecourses.nptel.ac.in/noc25_hs129/preview) (*[alternative](https://www.youtube.com/channel/UCiND6c4ozNNoKAsP8covKgQ)*) |
 | Poetry as a Literary Mode | Trains sensitivity to sound, rhythm, figurative language, and condensed form. | [*The Making of a Poem: A Norton Anthology of Poetic Forms*](https://www.amazon.com/Making-Poem-Norton-Anthology-Poetic/dp/0393321789) | [Approaching poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
 | Drama and Performance | Examines texts written for performance, highlighting dialogue, action, and theatrical conventions. | [*The Norton Anthology of Drama*](https://archive.org/details/nortonanthologyo0002unse_b3f2) | [Crash Course Theater](https://thecrashcourse.com/topic/theaterdrama/) |
@@ -75,35 +75,32 @@ Study all subjects below, in roughly the presented order, using either the sugge
 
 This subject introduces literature as an academic field of inquiry rather than as a collection of admired works. It examines what counts as a literary text, how literary study differs from biography, history, or personal response, and how interpretation is justified through textual evidence. Basic academic practices—argumentation, citation, and critical reading—are also introduced, not as technical skills but as components of scholarly reasoning.
 
-This subject establishes the discipline’s intellectual boundaries and methods. Without it, learners often treat literature as subjective impression, moral instruction, or cultural commentary detached from textual form. It provides the conceptual ground that allows later study to proceed as disciplined inquiry rather than opinion-driven discussion.
+*Introduction to Literary Studies* establishes the discipline’s intellectual boundaries and methods. Without it, learners often treat literature as subjective impression, moral instruction, or cultural commentary detached from textual form. It provides the conceptual ground that allows later study to proceed as disciplined inquiry rather than opinion-driven discussion.
 
 ### Close Reading and Interpretation
 
-Close reading focuses on careful, sustained attention to language, syntax, imagery, metaphor, and formal patterning within a text. Interpretation is treated as a reasoned activity grounded in textual features rather than authorial intention or reader emotion.
+Close reading focuses on careful, sustained attention to language, syntax, imagery, metaphor, and formal patterning within a text.
+Interpretation is treated as a reasoned activity grounded in textual features rather than authorial intention or reader emotion.
 
-Close reading is the foundational practice upon which all other literary study depends. Without it, historical knowledge and theory become external overlays rather than tools that illuminate textual meaning. This subject cultivates interpretive judgment and restraint, preventing the common error of substituting thematic paraphrase for analysis.
+This is the foundational practice upon which all other literary study depends. Without it, historical knowledge and theory become external overlays rather than tools that illuminate textual meaning. This subject cultivates interpretive judgment and restraint, preventing the common error of substituting thematic paraphrase for analysis.
 
 ### Literary Form and Genre
 
-This subject examines genres such as epic, lyric, tragedy, comedy, novel, and essay, along with formal concepts like narrative structure, meter, and mode. Genre is understood not as rigid classification but as a set of expectations that guide both writers and readers.
-
-Understanding form and genre allows learners to see how meaning emerges from convention and variation. Without this foundation, texts are often read as isolated expressions rather than as participants in ongoing formal traditions, leading to shallow or ahistorical interpretation.
+This subject examines genres such as epic, lyric, tragedy, comedy, novel, and essay, along with formal concepts like narrative structure, meter, and mode. Genre is understood not as rigid classification but as a set of expectations that guide both writers and readers. Understanding form and genre allows learners to see how meaning emerges from convention and variation. Without this foundation, texts are often read as isolated expressions rather than as participants in ongoing formal traditions, leading to shallow or ahistorical interpretation.
 
 ### Literary History and Periodization
 
-Literary history surveys major periods and movements—such as classical, medieval, Renaissance, Romantic, modern, and contemporary—while introducing the concept of periodization as an interpretive tool rather than a fixed timeline.
-
-This subject situates texts within evolving aesthetic and intellectual contexts. It guards against anachronistic readings while avoiding the reduction of literature to historical background. Without this perspective, learners may misinterpret formal choices as personal quirks rather than historically meaningful decisions.
+Literary history surveys major periods and movements—such as classical, medieval, Renaissance, Romantic, modern, and contemporary—while introducing the concept of periodization as an interpretive tool rather than a fixed timeline. This subject situates texts within evolving aesthetic and intellectual contexts. It guards against anachronistic readings while avoiding the reduction of literature to historical background. Without this perspective, learners may misinterpret formal choices as personal quirks rather than historically meaningful decisions.
 
 ### Poetry as a Literary Mode
 
 Poetry is studied through its distinctive use of rhythm, sound, lineation, imagery, and figurative language. Attention is given to both traditional verse forms and free verse, across historical periods.
 
-Poetry sharpens sensitivity to linguistic density and formal precision. Without sustained engagement with poetry, learners often miss how meaning can be generated through sound and structure as much as through narrative or theme.
+This subject sharpens sensitivity to linguistic density and formal precision. Without sustained engagement with poetry, learners often miss how meaning can be generated through sound and structure as much as through narrative or theme.
 
 ### Drama and Performance
 
-This subject examines dramatic texts as scripts for performance, focusing on dialogue, action, staging, and audience reception. It includes both reading plays and understanding theatrical conventions.
+This subject examines dramatic texts as scripts for performance, focusing on dialogue, action, staging, and audience reception. It includes both reading plays and understanding theatrical conventions. 
 
 Drama complicates the idea of the literary text as a purely written object. Without this subject, learners may overlook how meaning emerges through performance, embodiment, and collective spectatorship.
 
