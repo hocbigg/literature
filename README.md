@@ -49,97 +49,108 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
   - [c18.masto.host (18th Century Literature Mastodon)](https://c18.masto.host/)
   - [hcommons.social (Humanities Commons Mastodon)](https://hcommons.social/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/literature/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-## TL;DR:
+- [I. Foundations: How Literature Works](#i-foundations-how-literature-works)
+    - [A. Academic Reading & Writing](#a-academic-reading--writing)
+    - [B. What Literature Is](#b-what-literature-is)
+- [II. Language, Form, and Close Reading](#ii-language-form-and-close-reading)
+- [III. Core Genres](#iii-core-genres)
+- [IV. Global Literary History Chronological Core](#iv-global-literary-history-chronological-core)
+    - [A. Ancient → Medieval](#a-ancient-%E2%86%92-medieval)
+    - [B. Renaissance → Enlightenment](#b-renaissance-%E2%86%92-enlightenment)
+    - [C. Romanticism → 19th Century](#c-romanticism-%E2%86%92-19th-century)
+    - [D. Modernism → Contemporary](#d-modernism-%E2%86%92-contemporary)
+- [V. Literary Theory](#v-literary-theory)
+    - [A. Theory Basics](#a-theory-basics)
+    - [B. Schools of Theory](#b-schools-of-theory)
+- [VI. Translation & World Literature](#vi-translation--world-literature)
 
-Study all subjects below, in roughly the presented order, using either the suggested textbook or the online course, but ideally both.
+## How to use this curriculum
 
-| Subject | Why study? | Book | Course |
-| --- | --- | --- | --- |
-| Introduction to Literary Studies | Establishes what literature is studied as, how literary knowledge is produced, and how academic interpretation differs from casual reading or opinion. | | [Introduction to Literary Studies](coursepages/intro-to-literary-studies.md) |
-| Close Reading and Interpretation | Develops disciplined attention to language, form, and structure as the basis of all literary analysis. | | [Guide to "Close Reading and Interpretation"](coursepages/close-reading-and-interpretation.md) |
-| Literary Form and Genre | Clarifies how conventions shape meaning and how texts position themselves within or against formal traditions. | | [Guide to "Literary Form and Genre"](coursepages/literary-form-and-genre.md) |
-| Literary History and Periodization | Provides historical orientation, showing how literary forms and values change over time without reducing texts to historical documents. | | [History of English Language and Literature](https://onlinecourses.nptel.ac.in/noc25_hs129/preview) (*[alternative](https://www.youtube.com/channel/UCiND6c4ozNNoKAsP8covKgQ)*) |
-| Poetry as a Literary Mode | Trains sensitivity to sound, rhythm, figurative language, and condensed form. | [*The Making of a Poem: A Norton Anthology of Poetic Forms*](https://www.amazon.com/Making-Poem-Norton-Anthology-Poetic/dp/0393321789) | [Approaching poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
-| Drama and Performance | Examines texts written for performance, highlighting dialogue, action, and theatrical conventions. | [*The Norton Anthology of Drama*](https://archive.org/details/nortonanthologyo0002unse_b3f2) | [Crash Course Theater](https://thecrashcourse.com/topic/theaterdrama/) |
-| Fiction and Narrative | Studies narrative form, including plot, character, perspective, and narrative voice. | | [Narrative Mode and Fiction](https://onlinecourses.nptel.ac.in/noc23_hs61/preview)  |
-| Rhetoric and Style | Builds awareness of how linguistic choices shape meaning, persuasion, and aesthetic effect. | | [Rhetoric: The Art of Persuasive Writing and Public Speaking](https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking) ([*alternative*](https://harvardonline.harvard.edu/course/rhetoric-art-persuasive-writing-public-speaking)) |
-| Comparative Literature and Translation | Encourages cross-cultural reading and reflection on language, difference, and transnational literary exchange. | [*Comparative Literature: A Critical Introduction*](https://www.amazon.com/Comparative-Literature-Critical-Introduction-Bassnett/dp/0631167056) |  |
-| Introduction to Literary Theory | Introduces interpretive frameworks that articulate how meaning, authorship, readers, and texts are conceptualized. | [*Literary Theory: An Introduction*](https://archive.org/details/terryeagletonliterarytheoryanintroductionzlib.org) | [Introduction to Theory of Literature](coursepages/intro-to-literature-theory.md) |
-| Texts, Transmission, and Materiality | Explains how literary works exist as physical and editorial objects, shaping what readers encounter as “the text.” | | [Texts, Transmission, and Materiality](coursepages/text-transmission-and-materiality.md) |
+*Study these sections in this exact order:*
 
-## Subject guides
+1. Foundations: How Literature Works
+2. Language, Form, and Close Reading
+3. Core Genres
+4. Global Literary History
+5. Literary Theory
+6. Translation & World Literature
 
-### Introduction to Literary Studies
+You begin by learning how literary study works, then how to read closely, then how major kinds of writing behave. After that, you move through literary history across cultures. Only once that exists in your mind does theory make sense. Translation and world literature come after theory so you can see how ideas and texts move across languages and cultures.
 
-This subject introduces literature as an academic field of inquiry rather than as a collection of admired works. It examines what counts as a literary text, how literary study differs from biography, history, or personal response, and how interpretation is justified through textual evidence. Basic academic practices—argumentation, citation, and critical reading—are also introduced, not as technical skills but as components of scholarly reasoning.
+Work through the Core slowly and in order. You do not need to master each part before moving on, but you should always be somewhere inside this sequence until it is complete.
 
-*Introduction to Literary Studies* establishes the discipline’s intellectual boundaries and methods. Without it, learners often treat literature as subjective impression, moral instruction, or cultural commentary detached from textual form. It provides the conceptual ground that allows later study to proceed as disciplined inquiry rather than opinion-driven discussion.
+## I. Foundations: How Literature Works
 
-### Close Reading and Interpretation
+### A. Academic Reading & Writing
 
-Close reading focuses on careful, sustained attention to language, syntax, imagery, metaphor, and formal patterning within a text.
-Interpretation is treated as a reasoned activity grounded in textual features rather than authorial intention or reader emotion.
+| Subject | Resource |
+| --- | --- |
+| Academic Argument | [They Say / I Say](https://archive.org/details/theysayisaymoves02edgraf) (Archive.org) |
+| Literary Writing | [Lumen Learning: Writing About Literature](https://courses.lumenlearning.com/suny-introliterature/) |
+| Essay & Report Writing | [Open University: Essay and report writing skills](https://www.open.edu/openlearn/education-development/essay-and-report-writing-skills/content-section-0) |
 
-This is the foundational practice upon which all other literary study depends. Without it, historical knowledge and theory become external overlays rather than tools that illuminate textual meaning. This subject cultivates interpretive judgment and restraint, preventing the common error of substituting thematic paraphrase for analysis.
+### B. What Literature Is
 
-### Literary Form and Genre
+| Subject | Resource |
+| --- | --- |
+| What is Literature? | [Jonathan Culler – Literary Theory: A Very Short Introduction](https://archive.org/details/jonathancullerliterarytheoryaveryshortinzlib.org) |
+| Author, Text, Reader | [Yale ENGL 300 (intro lectures)](https://oyc.yale.edu/english/engl-300) |
 
-This subject examines genres such as epic, lyric, tragedy, comedy, novel, and essay, along with formal concepts like narrative structure, meter, and mode. Genre is understood not as rigid classification but as a set of expectations that guide both writers and readers. Understanding form and genre allows learners to see how meaning emerges from convention and variation. Without this foundation, texts are often read as isolated expressions rather than as participants in ongoing formal traditions, leading to shallow or ahistorical interpretation.
+## II. Language, Form, and Close Reading
 
-### Literary History and Periodization
+| Subject | Resource |
+| --- | --- |
+| Literary Terms | [Abrams Glossary of Literary Terms](https://archive.org/details/glossaryoflitera00abra_0) (Archive.org) |
+| Close Reading | [Harvard Writing Center: How to Do a Close Reading](https://www.cablemuseum.org/wp-content/uploads/2016/06/AoW_Harvard_HowtoDoaCloseReading.pdf) ([*alternative*](coursepages/AoW_Harvard_HowtoDoaCloseReading.pdf)) |
+| Reading Longer Texts | [Open University: Reading longer works](https://www.open.edu/openlearn/mod/oucontent/view.php?id=80830&section=4.1) (part of free skills course) |
 
-Literary history surveys major periods and movements—such as classical, medieval, Renaissance, Romantic, modern, and contemporary—while introducing the concept of periodization as an interpretive tool rather than a fixed timeline. This subject situates texts within evolving aesthetic and intellectual contexts. It guards against anachronistic readings while avoiding the reduction of literature to historical background. Without this perspective, learners may misinterpret formal choices as personal quirks rather than historically meaningful decisions.
+## III. Core Genres
 
-### Poetry as a Literary Mode
+| Genre | Resource |
+| --- | --- |
+| Poetry | [Open University: Approaching Poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
+| Fiction | [Open University: Approaching Prose Fiction](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0) |
+| Drama | [OpenStax Introduction to Theatre Arts](https://open.umn.edu/opentextbooks/textbooks/242) |
 
-Poetry is studied through its distinctive use of rhythm, sound, lineation, imagery, and figurative language. Attention is given to both traditional verse forms and free verse, across historical periods.
+## IV. Global Literary History (Chronological Core)
 
-This subject sharpens sensitivity to linguistic density and formal precision. Without sustained engagement with poetry, learners often miss how meaning can be generated through sound and structure as much as through narrative or theme.
+| Topic | Resource |
+| --- | --- |
+| A. Ancient → Medieval | [Longman Anthology of World Literature](https://archive.org/details/longmananthology0000unse_c6r1) (Archive.org, various volumes) |
+| B. Renaissance → Enlightenment | - [Open University: English Literature 1500–1700](https://www.open.edu/openlearn/history-the-arts/english-literature-1500-1700/content-section-0)<br/>- [Longman World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
+| C. Romanticism → 19th Century | - [Open University: 1700–1830](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0)<br/>- [Open University: 1830–1914](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0) |
+| D. Modernism → Contemporary | - [Bradbury & McFarlane Modernism](https://archive.org/details/modernismguide0000unse)<br/>- [Longman World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
 
-### Drama and Performance
+## V. Literary Theory
 
-This subject examines dramatic texts as scripts for performance, focusing on dialogue, action, staging, and audience reception. It includes both reading plays and understanding theatrical conventions. 
+### A. Theory Basics
 
-Drama complicates the idea of the literary text as a purely written object. Without this subject, learners may overlook how meaning emerges through performance, embodiment, and collective spectatorship.
+- [Eagleton Literary Theory](https://archive.org/details/literarytheoryint00eagl) (Archive.org)
+- [Yale ENGL 300](https://oyc.yale.edu/english/engl-300)
 
-### Fiction and Narrative
+### B. Schools of Theory
 
-Fiction is approached through narrative concepts such as plot, character, point of view, temporality, and narrative voice. Both short and long prose forms are examined.
+| School | Resource |
+| --- | --- |
+| Structuralism & Poststructuralism | [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/structuralism/) (related entries) |
+| Marxism | [Raymond Williams](https://archive.org/details/cultureandsoci00will) (Archive.org) |
+| Feminism | [Purdue OWL Feminist Criticism](https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/literary_theory_and_schools_of_criticism/feminist_criticism.html) |
+| Postcolonial | [University of Cape Town Postcolonial Reader](https://libguides.lib.uct.ac.za/c.php?g=784893&p=5620979) |
+| Queer Theory | [Stanford Encyclopedia](https://plato.stanford.edu/entries/homosexuality/) |
 
-Narrative analysis provides tools for understanding how stories structure experience and perspective. Without it, readers often default to plot summary or character judgment rather than formal analysis of narrative construction.
+## VI. Translation & World Literature
 
-### Rhetoric and Style
-
-Rhetoric and style focus on how language persuades, organizes thought, and produces aesthetic effects. Concepts such as diction, syntax, tone, and figurative language are studied across genres.
-
-This subject bridges linguistic detail and interpretive meaning. Without rhetorical awareness, interpretation risks becoming thematic abstraction detached from how texts actually work at the sentence level.
-
-### Comparative Literature and Translation
-
-Comparative literature examines texts across languages, cultures, and national traditions, often through translation. It explores how literary forms travel, transform, and interact across boundaries.
-
-This subject expands literary study beyond national canons and challenges assumptions about universality and cultural specificity. Without it, learners may unconsciously treat one literary tradition as normative.
-
-### Introduction to Literary Theory
-
-Literary theory introduces frameworks such as formalism, Marxism, psychoanalysis, feminism, structuralism, and poststructuralism. Theory is presented as a set of questions and models for interpretation, not as doctrinal answers.
-
-Theory makes explicit the assumptions underlying interpretation. Without theoretical awareness, readers often apply unexamined beliefs about meaning, authorship, or value while assuming neutrality.
-
-### Texts, Transmission, and Materiality
-
-This subject examines how literary texts are produced, preserved, edited, and circulated, including manuscripts, print culture, editions, and digital texts.
-
-It reveals that “the text” is not a transparent given but a constructed object. Without this understanding, learners may overlook how editorial decisions and material forms shape interpretation.
-
-## Note
-
-This curriculum does not include creative writing, professional criticism, journalism, or applied cultural analysis. It does not provide exhaustive coverage of global literatures or advanced theoretical debates that require specialized training and higher-level academic English. Fields such as postcolonial theory, digital humanities, manuscript studies, and advanced philosophy-informed theory are intentionally deferred until a firm grounding in textual analysis and literary history is established.
-
-The program emphasizes foundational understanding rather than comprehensive coverage. Its purpose is to prepare learners to read scholarly work independently, recognize legitimate interpretive arguments, and identify coherent paths for further academic study within literature as a discipline.
+| Subject | Resource |
+| --- | --- |
+| Theory of Translation | [Yale: The Art of Translation](https://oyc.yale.edu/english) (related lectures) |
+| Global Canon | [Longman World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
+| Comparative Literature |  |
 
 # Code of conduct
 
