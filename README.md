@@ -4,11 +4,7 @@
 <p>
 Path to a free self-taught education in Literature!
 </p>
-<p>
-<a href="https://github.com/hocbigg/literature">
-<img alt="Hocbigg" src="/images/view_on_github.svg"
-></a>
-</p>
+
 </div>
 
 # Contents
@@ -20,12 +16,30 @@ Path to a free self-taught education in Literature!
 
 # Summary
 
-This roadmap provides a structured, self-paced curriculum in Literature.
+The Literature curriculum is a comprehensive education in Literature, designed for self-directed study using online materials.
 
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+Note: High-quality courses or books that do not fit into the core curriculum are listed separately in
+[extras/courses](extras/courses.md) and [extras/readings](extras/readings.md).
 
-**[How to contribute](/CONTRIBUTING.html)**
+## Organization
+
+This repository is organized into three main components:
+
+- **Core Curriculum** (this page): the foundational knowledge of the field;
+- **[Advanced Topics](advanced-topics.md)**: focused study in specific areas;
+- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
+
+## Process
+
+Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
+
+- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
+- The Core Curriculum provides a shared foundation and is intended to be completed in full.
+- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
+
+Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
+
+See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
 
 # Communities
 
@@ -34,7 +48,6 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
   - [OnlineBookClub.org Forums](https://forums.onlinebookclub.org/)
   - [Booktalk.org](https://www.booktalk.org/)
   - [Neoseeker Literature Forum](https://www.neoseeker.com/forums/83/)
-  - [Internet Writing Workshop](https://www.iwwg.com/)
 - Subreddits:
   - [r/literature](https://www.reddit.com/r/literature/)
   - [r/books](https://www.reddit.com/r/books/)
@@ -57,33 +70,14 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 - [I. Foundations: How Literature Works](#i-foundations-how-literature-works)
     - [A. Academic Reading & Writing](#a-academic-reading--writing)
-    - [B. What Literature Is](#b-what-literature-is)
-- [II. Language, Form, and Close Reading](#ii-language-form-and-close-reading)
-- [III. Core Genres](#iii-core-genres)
-- [IV. Global Literary History Chronological Core](#iv-global-literary-history-chronological-core)
-    - [A. Ancient → Medieval](#a-ancient-%E2%86%92-medieval)
-    - [B. Renaissance → Enlightenment](#b-renaissance-%E2%86%92-enlightenment)
-    - [C. Romanticism → 19th Century](#c-romanticism-%E2%86%92-19th-century)
-    - [D. Modernism → Contemporary](#d-modernism-%E2%86%92-contemporary)
-- [V. Literary Theory](#v-literary-theory)
+    - [B. What Literature Is and How It Is Read](#b-what-literature-is-and-how-it-is-read)
+    - [C. Literary Terms and Close Reading Skills](#c-literary-terms-and-close-reading-skills)
+- [II. Core Genres](#ii-core-genres)
+- [III. Survey of Literary History: Key Periods and Global Perspectives Chronological Core](#iii-survey-of-literary-history-key-periods-and-global-perspectives-chronological-core)
+- [IV. Translation & World Literature Basic Concepts](#iv-translation--world-literature-basic-concepts)
+- [V. Literary Theory Basics for Beginners](#v-literary-theory-basics-for-beginners)
     - [A. Theory Basics](#a-theory-basics)
-    - [B. Schools of Theory](#b-schools-of-theory)
-- [VI. Translation & World Literature](#vi-translation--world-literature)
-
-## How to use this curriculum
-
-*Study these sections in this exact order:*
-
-1. Foundations: How Literature Works
-2. Language, Form, and Close Reading
-3. Core Genres
-4. Global Literary History
-5. Literary Theory
-6. Translation & World Literature
-
-You begin by learning how literary study works, then how to read closely, then how major kinds of writing behave. After that, you move through literary history across cultures. Only once that exists in your mind does theory make sense. Translation and world literature come after theory so you can see how ideas and texts move across languages and cultures.
-
-Work through the Core slowly and in order. You do not need to master each part before moving on, but you should always be somewhere inside this sequence until it is complete.
+    - [B. Core Schools of Theory](#b-core-schools-of-theory)
 
 ## I. Foundations: How Literature Works
 
@@ -91,66 +85,80 @@ Work through the Core slowly and in order. You do not need to master each part b
 
 | Subject | Resource |
 | --- | --- |
-| Academic Argument | [They Say / I Say](https://archive.org/details/theysayisaymoves02edgraf) (Archive.org) |
-| Literary Writing | [Lumen Learning: Writing About Literature](https://courses.lumenlearning.com/suny-introliterature/) |
+| Academic Argument | [They Say / I Say](https://archive.org/details/they-say-i-say-5th-edition_202306) |
+| Literary Writing & Analysis | [Lumen Learning: Writing About Literature](https://courses.lumenlearning.com/suny-introliterature/) |
 | Essay & Report Writing | [Open University: Essay and report writing skills](https://www.open.edu/openlearn/education-development/essay-and-report-writing-skills/content-section-0) |
 
-### B. What Literature Is
+### B. What Literature Is and How It Is Read
 
 | Subject | Resource |
 | --- | --- |
-| What is Literature? | [Jonathan Culler – Literary Theory: A Very Short Introduction](https://archive.org/details/jonathancullerliterarytheoryaveryshortinzlib.org) |
-| Author, Text, Reader | [Yale ENGL 300 (intro lectures)](https://oyc.yale.edu/english/engl-300) |
+| What is Literature? + Introduction to Literary Studies | [Yale ENGL 300: Introduction to Theory of Literature (full course lectures)](https://oyc.yale.edu/english/engl-300) |
+| Author, Text, Reader | [Yale ENGL 300 (*introductory lectures* 1 and 2)](https://oyc.yale.edu/english/engl-300) |
 
-## II. Language, Form, and Close Reading
+### C. Literary Terms and Close Reading Skills
 
 | Subject | Resource |
 | --- | --- |
-| Literary Terms | [Abrams Glossary of Literary Terms](https://archive.org/details/glossaryoflitera00abra_0) (Archive.org) |
-| Close Reading | [Harvard Writing Center: How to Do a Close Reading](https://www.cablemuseum.org/wp-content/uploads/2016/06/AoW_Harvard_HowtoDoaCloseReading.pdf) ([*alternative*](coursepages/AoW_Harvard_HowtoDoaCloseReading.pdf)) |
-| Reading Longer Texts | [Open University: Reading longer works](https://www.open.edu/openlearn/mod/oucontent/view.php?id=80830&section=4.1) (part of free skills course) |
+| Literary Terms | [Abrams Glossary of Literary Terms](https://archive.org/details/glossaryoflitera00abra_0) |
+| Close Reading | [Harvard Writing Center: How to Do a Close Reading](https://www.cablemuseum.org/wp-content/uploads/2016/06/AoW_Harvard_HowtoDoaCloseReading.pdf) |
+| Narrative Fundamentals | [Open University: Exploring Narrative](https://www.open.edu/openlearn/history-the-arts/literature/exploring-narrative-fiction/) |
+| Reading Longer Texts | [Open University: Reading longer works](https://www.open.edu/openlearn/mod/oucontent/view.php?id=80830&section=4.1) |
 
-## III. Core Genres
+## II. Core Genres
 
 | Genre | Resource |
 | --- | --- |
-| Poetry | [Open University: Approaching Poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
-| Fiction | [Open University: Approaching Prose Fiction](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0) |
+| Poetry | [MIT OpenCourseWare: Reading Poetry](https://ocw.mit.edu/courses/21l-004-reading-poetry-spring-2018/) + [Open University: Approaching Poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
+| Fiction | [MIT OpenCourseWare: Reading Fiction](https://ocw.mit.edu/courses/21l-003-reading-fiction-imaginary-journeys-fall-2015/) + [Open University: Approaching Prose Fiction](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction) |
 | Drama | [OpenStax Introduction to Theatre Arts](https://open.umn.edu/opentextbooks/textbooks/242) |
 
-## IV. Global Literary History (Chronological Core)
+## III. Survey of Literary History: Key Periods and Global Perspectives (Chronological Core)
+
+Primary resource for all periods below: [**Longman Anthology of World Literature**](https://archive.org/details/longmananthology0000unse_c6r1) (focus on selections from the relevant volume/period as noted; read introductions, headnotes, and key texts for each era to build a global view).
 
 | Topic | Resource |
 | --- | --- |
-| A. Ancient → Medieval | [Longman Anthology of World Literature](https://archive.org/details/longmananthology0000unse_c6r1) (Archive.org, various volumes) |
-| B. Renaissance → Enlightenment | - [Open University: English Literature 1500–1700](https://www.open.edu/openlearn/history-the-arts/english-literature-1500-1700/content-section-0)<br/>- [Longman World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
-| C. Romanticism → 19th Century | - [Open University: 1700–1830](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0)<br/>- [Open University: 1830–1914](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0) |
-| D. Modernism → Contemporary | - [Bradbury & McFarlane Modernism](https://archive.org/details/modernismguide0000unse)<br/>- [Longman World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
+| A. Ancient → Medieval | Longman Anthology Volume A (The Ancient World) + Volume B (The Medieval Era) – selections from Near East, Greece, Rome, South Asia, China, Islamic world, Europe, etc. |
+| B. Renaissance → Enlightenment | Longman Anthology Volume C (The Early Modern Period) – focus on vernacular writing, Europe (Petrarch, Machiavelli, etc.), Asia, and emerging global exchanges |
+| C. Romanticism → 19th Century | Longman Anthology later volumes (19th-century sections) + supplementary Open University period introductions (e.g., 1700–1830 and 1830–1914 modules for context) |
+| D. Modernism → Contemporary | Longman Anthology 20th/21st-century sections + [Bradbury & McFarlane – Modernism: A Guide to European Literature 1890–1930](https://archive.org/details/modernism18901930000unse) (for focused Modernist overview) |
 
-## V. Literary Theory
+*Optional video companions*:
 
-### A. Theory Basics
+- [HarvardX: Ancient Masterpieces of World Literature](https://pll.harvard.edu/course/ancient-masterpieces-world-literature) (edX – covers ancient epics/myths globally).
+- [HarvardX: Modern Masterpieces of World Literature](https://pll.harvard.edu/course/modern-masterpieces-world-literature) (edX – 20th-century focus, Kafka to contemporary).
+Use these to watch lectures alongside anthology readings for chronological context and discussion.
 
-- [Eagleton Literary Theory](https://archive.org/details/literarytheoryint00eagl) (Archive.org)
-- [Yale ENGL 300](https://oyc.yale.edu/english/engl-300)
-
-### B. Schools of Theory
-
-| School | Resource |
-| --- | --- |
-| Structuralism & Poststructuralism | [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/structuralism/) (related entries) |
-| Marxism | [Raymond Williams](https://archive.org/details/cultureandsoci00will) (Archive.org) |
-| Feminism | [Purdue OWL Feminist Criticism](https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/literary_theory_and_schools_of_criticism/feminist_criticism.html) |
-| Postcolonial | [University of Cape Town Postcolonial Reader](https://libguides.lib.uct.ac.za/c.php?g=784893&p=5620979) |
-| Queer Theory | [Stanford Encyclopedia](https://plato.stanford.edu/entries/homosexuality/) |
-
-## VI. Translation & World Literature
+## IV. Translation & World Literature (Basic Concepts)
 
 | Subject | Resource |
 | --- | --- |
-| Theory of Translation | [Yale: The Art of Translation](https://oyc.yale.edu/english) (related lectures) |
-| Global Canon | [Longman World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
-| Comparative Literature |  |
+| Reading in Translation (introductory concepts) | [Longman Anthology of World Literature – general introduction sections](https://archive.org/details/longmananthology0000unse_c6r1) |
+| Global Canon | [Longman Anthology of World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
+| Comparative Reading | (Practice through anthology selections) |
+
+## V. Literary Theory (Basics for Beginners)
+
+### A. Theory Basics
+
+- [Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory](https://archive.org/details/beginning-theory-peter-barry/) – Start with the Introduction and Chapter 1 ("Theory before 'theory'") to build a beginner-friendly foundation, then proceed through the chapters on major schools.
+- [Terry Eagleton – Literary Theory: An Introduction](https://archive.org/details/literarytheoryin0000eagl_l4l5) (supplementary historical overview)
+
+### B. Core Schools of Theory
+
+Primary resource for all schools below: [Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory](https://archive.org/details/beginning-theory-peter-barry/) – read the relevant chapter(s) listed.
+
+| School | Resource |
+| --- | --- |
+| Formalism & New Criticism | Barry Ch. 1 ("Theory before 'theory'") & introductory discussions throughout early chapters |
+| Structuralism | Barry Ch. 2: Structuralism |
+| Marxist Criticism | Barry Ch. 8: Marxist criticism |
+| Feminist Criticism | Barry Ch. 6: Feminist criticism + [Feminist Criticism (1960s–present)](https://openwa.pressbooks.pub/octavianog/chapter/feminist-criticism-1960s-present/) |
+| Postcolonial Criticism | Barry Ch. 10: Postcolonial criticism + [Postcolonialism - NASRULLAH MAMBROL](https://literariness.org/2016/04/06/postcolonialism/) |
+| Queer Theory | Barry Ch. 7: Queer theory |
+
+> Optional video companion: Match these schools to lectures from [Yale ENGL 300: Introduction to Theory of Literature (full 26-lecture course by Paul H. Fry)](https://oyc.yale.edu/english/engl-300). Lectures 6–7 (Formalism/New Criticism), Lecture 8 (Structuralism), Lectures 17–18 (Marxist approaches), Lecture 20 (Feminist tradition), Lectures 21–23 (Postcolonial & Queer Theory).
 
 # Code of conduct
 
