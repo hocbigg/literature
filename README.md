@@ -26,7 +26,7 @@ Note: High-quality courses or books that do not fit into the core curriculum are
 This repository is organized into three main components:
 
 - **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced-topics.md)**: focused study in specific areas;
+- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
 - **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
 
 ## Process
