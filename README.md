@@ -111,7 +111,7 @@ See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
 
 ## III. Survey of Literary History: Key Periods and Global Perspectives (Chronological Core)
 
-Primary resource for all periods below: [**Longman Anthology of World Literature**](https://archive.org/details/longmananthology0000unse_c6r1) (focus on selections from the relevant volume/period as noted; read introductions, headnotes, and key texts for each era to build a global view).
+Primary textbook for all periods below: [**Longman Anthology of World Literature**](https://archive.org/details/longmananthology0000unse_c6r1) (focus on selections from the relevant volume/period as noted; read introductions, headnotes, and key texts for each era to build a global view).
 
 | Topic | Resource |
 | --- | --- |
@@ -143,7 +143,7 @@ Use these to watch lectures alongside anthology readings for chronological conte
 
 ### B. Core Schools of Theory
 
-Primary resource for all schools below: [Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory](https://archive.org/details/beginning-theory-peter-barry/) – read the relevant chapter(s) listed.
+Primary textbook for all schools below: [Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory](https://archive.org/details/beginning-theory-peter-barry/) – read the relevant chapter(s) listed.
 
 | School | Resource |
 | --- | --- |
