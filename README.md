@@ -120,7 +120,7 @@ Primary resource for all periods below: [**Longman Anthology of World Literature
 | C. Romanticism → 19th Century | Longman Anthology later volumes (19th-century sections) + supplementary Open University period introductions (e.g., 1700–1830 and 1830–1914 modules for context) |
 | D. Modernism → Contemporary | Longman Anthology 20th/21st-century sections + [Bradbury & McFarlane – Modernism: A Guide to European Literature 1890–1930](https://archive.org/details/modernism18901930000unse) (for focused Modernist overview) |
 
-*Optional video companions*:
+*Supplementary*:
 
 - [HarvardX: Ancient Masterpieces of World Literature](https://pll.harvard.edu/course/ancient-masterpieces-world-literature) (edX – covers ancient epics/myths globally).
 - [HarvardX: Modern Masterpieces of World Literature](https://pll.harvard.edu/course/modern-masterpieces-world-literature) (edX – 20th-century focus, Kafka to contemporary).
@@ -154,7 +154,7 @@ Primary resource for all schools below: [Peter Barry – Beginning Theory: An In
 | Postcolonial Criticism | Barry Ch. 10: Postcolonial criticism + [Postcolonialism - NASRULLAH MAMBROL](https://literariness.org/2016/04/06/postcolonialism/) |
 | Queer Theory | Barry Ch. 7: Queer theory |
 
-> Optional video companion: Match these schools to lectures from [Yale ENGL 300: Introduction to Theory of Literature (full 26-lecture course by Paul H. Fry)](https://oyc.yale.edu/english/engl-300). Lectures 6–7 (Formalism/New Criticism), Lecture 8 (Structuralism), Lectures 17–18 (Marxist approaches), Lecture 20 (Feminist tradition), Lectures 21–23 (Postcolonial & Queer Theory).
+> Supplementary: Match these schools to lectures from [Yale ENGL 300: Introduction to Theory of Literature (full 26-lecture course by Paul H. Fry)](https://oyc.yale.edu/english/engl-300). Lectures 6–7 (Formalism/New Criticism), Lecture 8 (Structuralism), Lectures 17–18 (Marxist approaches), Lecture 20 (Feminist tradition), Lectures 21–23 (Postcolonial & Queer Theory).
 
 # Code of conduct
 
