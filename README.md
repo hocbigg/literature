@@ -1,11 +1,7 @@
-<div align="center" style="text-align: center">
-<img src="/images/logo.png" alt=""/>
-<h3>Hocbigg - Literature</h3>
-<p>
-Path to a free self-taught education in Literature!
-</p>
-
-</div>
+---
+title: Hocbigg - Literature
+description: Path to a free self-taught education in Literature!
+---
 
 # Contents
 
@@ -44,23 +40,23 @@ See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
 # Communities
 
 - Forums:
-  - [Literature Network Forums](https://www.online-literature.com/forums/forum.php)
-  - [OnlineBookClub.org Forums](https://forums.onlinebookclub.org/)
-  - [Booktalk.org](https://www.booktalk.org/)
-  - [Neoseeker Literature Forum](https://www.neoseeker.com/forums/83/)
+    - [Literature Network Forums](https://www.online-literature.com/forums/forum.php)
+    - [OnlineBookClub.org Forums](https://forums.onlinebookclub.org/)
+    - [Booktalk.org](https://www.booktalk.org/)
+    - [Neoseeker Literature Forum](https://www.neoseeker.com/forums/83/)
 - Subreddits:
-  - [r/literature](https://www.reddit.com/r/literature/)
-  - [r/books](https://www.reddit.com/r/books/)
-  - [r/AskLiteraryStudies](https://www.reddit.com/r/AskLiteraryStudies/)
-  - [r/literaryfiction](https://www.reddit.com/r/literaryfiction/)
-  - [r/literaturememes](https://www.reddit.com/r/literaturememes/)
-  - [r/englishmajors](https://www.reddit.com/r/englishmajors/)
+    - [r/literature](https://www.reddit.com/r/literature/)
+    - [r/books](https://www.reddit.com/r/books/)
+    - [r/AskLiteraryStudies](https://www.reddit.com/r/AskLiteraryStudies/)
+    - [r/literaryfiction](https://www.reddit.com/r/literaryfiction/)
+    - [r/literaturememes](https://www.reddit.com/r/literaturememes/)
+    - [r/englishmajors](https://www.reddit.com/r/englishmajors/)
 - Discord servers:
-  - [The Writing Hub](https://discord.com/invite/writinghub)
+    - [The Writing Hub](https://discord.com/invite/writinghub)
 - Other:
-  - [zirk.us (Arts & Humanities Mastodon)](https://zirk.us/)
-  - [c18.masto.host (18th Century Literature Mastodon)](https://c18.masto.host/)
-  - [hcommons.social (Humanities Commons Mastodon)](https://hcommons.social/)
+    - [zirk.us (Arts & Humanities Mastodon)](https://zirk.us/)
+    - [c18.masto.host (18th Century Literature Mastodon)](https://c18.masto.host/)
+    - [hcommons.social (Humanities Commons Mastodon)](https://hcommons.social/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/literature/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 - Join our Discord server (for discussions around this and other curricula): 
     
