@@ -7,7 +7,7 @@
 
 body {
     margin: 1rem auto;
-    max-width: 42rem;
+    max-width: min(60rem, 92vw);
     padding: 0 0.75rem 3rem;
     background: var(--bg);
     color: var(--fg);
@@ -74,4 +74,15 @@ th {
     body {
         max-width: none;
     }
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
