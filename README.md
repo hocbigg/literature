@@ -64,18 +64,18 @@ See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
 
 # Curriculum
 
-- [I. Foundations: How Literature Works](#i-foundations-how-literature-works)
+- [Foundations: How Literature Works](#foundations-how-literature-works)
     - [A. Academic Reading & Writing](#a-academic-reading--writing)
     - [B. What Literature Is and How It Is Read](#b-what-literature-is-and-how-it-is-read)
     - [C. Literary Terms and Close Reading Skills](#c-literary-terms-and-close-reading-skills)
-- [II. Core Genres](#ii-core-genres)
-- [III. Survey of Literary History: Key Periods and Global Perspectives Chronological Core](#iii-survey-of-literary-history-key-periods-and-global-perspectives-chronological-core)
-- [IV. Translation & World Literature Basic Concepts](#iv-translation--world-literature-basic-concepts)
-- [V. Literary Theory Basics for Beginners](#v-literary-theory-basics-for-beginners)
+- [Core Genres](#core-genres)
+- [Survey of Literary History: Key Periods and Global Perspectives Chronological Core](#survey-of-literary-history-key-periods-and-global-perspectives-chronological-core)
+- [Translation & World Literature Basic Concepts](#translation--world-literature-basic-concepts)
+- [Literary Theory Basics for Beginners](#literary-theory-basics-for-beginners)
     - [A. Theory Basics](#a-theory-basics)
     - [B. Core Schools of Theory](#b-core-schools-of-theory)
 
-## I. Foundations: How Literature Works
+## Foundations: How Literature Works
 
 ### A. Academic Reading & Writing
 
@@ -101,7 +101,7 @@ See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
 | Narrative Fundamentals | [Open University: Exploring Narrative](https://www.open.edu/openlearn/history-the-arts/literature/exploring-narrative-fiction/) |
 | Reading Longer Texts | [Open University: Reading longer works](https://www.open.edu/openlearn/mod/oucontent/view.php?id=80830&section=4.1) |
 
-## II. Core Genres
+## Core Genres
 
 | Genre | Resource |
 | --- | --- |
@@ -109,7 +109,7 @@ See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
 | Fiction | [MIT OpenCourseWare: Reading Fiction](https://ocw.mit.edu/courses/21l-003-reading-fiction-imaginary-journeys-fall-2015/) + [Open University: Approaching Prose Fiction](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction) |
 | Drama | [OpenStax Introduction to Theatre Arts](https://open.umn.edu/opentextbooks/textbooks/242) |
 
-## III. Survey of Literary History: Key Periods and Global Perspectives (Chronological Core)
+## Survey of Literary History: Key Periods and Global Perspectives (Chronological Core)
 
 Primary textbook for all periods below: [**Longman Anthology of World Literature**](https://archive.org/details/longmananthology0000unse_c6r1) (focus on selections from the relevant volume/period as noted; read introductions, headnotes, and key texts for each era to build a global view).
 
@@ -126,7 +126,7 @@ Primary textbook for all periods below: [**Longman Anthology of World Literature
 - [HarvardX: Modern Masterpieces of World Literature](https://pll.harvard.edu/course/modern-masterpieces-world-literature) (edX – 20th-century focus, Kafka to contemporary).
 Use these to watch lectures alongside anthology readings for chronological context and discussion.
 
-## IV. Translation & World Literature (Basic Concepts)
+## Translation & World Literature (Basic Concepts)
 
 | Subject | Resource |
 | --- | --- |
@@ -134,7 +134,7 @@ Use these to watch lectures alongside anthology readings for chronological conte
 | Global Canon | [Longman Anthology of World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
 | Comparative Reading | (Practice through anthology selections) |
 
-## V. Literary Theory (Basics for Beginners)
+## Literary Theory (Basics for Beginners)
 
 ### A. Theory Basics
 
