@@ -3,41 +3,11 @@ title: Hocbigg - Literature
 description: Path to a free self-taught education in Literature!
 ---
 
-# Contents
-
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+## Introduction
 
 The Literature curriculum is a comprehensive education in Literature, designed for self-directed study using online materials.
 
-Note: High-quality courses or books that do not fit into the core curriculum are listed separately in
-[extras/courses](extras/courses.md) and [extras/readings](extras/readings.md).
-
-## Organization
-
-This repository is organized into three main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
-
-## Process
-
-Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
-
-See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
-
-# Communities
+## Communities
 
 - Forums:
     - [Literature Network Forums](https://www.online-literature.com/forums/forum.php)
@@ -58,104 +28,93 @@ See **[How to contribute](/CONTRIBUTING.html)** for contribution guidelines.
     - [c18.masto.host (18th Century Literature Mastodon)](https://c18.masto.host/)
     - [hcommons.social (Humanities Commons Mastodon)](https://hcommons.social/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/literature/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [Foundations: How Literature Works](#foundations-how-literature-works)
-    - [A. Academic Reading & Writing](#a-academic-reading--writing)
-    - [B. What Literature Is and How It Is Read](#b-what-literature-is-and-how-it-is-read)
-    - [C. Literary Terms and Close Reading Skills](#c-literary-terms-and-close-reading-skills)
-- [Core Genres](#core-genres)
-- [Survey of Literary History: Key Periods and Global Perspectives Chronological Core](#survey-of-literary-history-key-periods-and-global-perspectives-chronological-core)
-- [Translation & World Literature Basic Concepts](#translation--world-literature-basic-concepts)
-- [Literary Theory Basics for Beginners](#literary-theory-basics-for-beginners)
-    - [A. Theory Basics](#a-theory-basics)
-    - [B. Core Schools of Theory](#b-core-schools-of-theory)
+### Introduction to Literary Study and Close Reading
 
-## Foundations: How Literature Works
+This subject introduces the nature of literary language and the foundational techniques of close reading, training learners to analyze formal elements such as diction, syntax, tone, and figurative devices rather than merely summarizing plot.
 
-### A. Academic Reading & Writing
+[How to Read Literature (Terry Eagleton)](https://books.google.com/books?isbn=9780300247640) - Serves as the primary instructional textbook, offering an accessible, chapter-by-chapter guide to close-reading openings, characterization, narrative voice, and interpretive ambiguity.
 
-| Subject | Resource |
-| --- | --- |
-| Academic Argument | [They Say / I Say](https://archive.org/details/they-say-i-say-5th-edition_202306) |
-| Literary Writing & Analysis | [Lumen Learning: Writing About Literature](https://courses.lumenlearning.com/suny-introliterature/) |
-| Essay & Report Writing | [Open University: Essay and report writing skills](https://www.open.edu/openlearn/education-development/essay-and-report-writing-skills/content-section-0) |
+[How to Do a Close Reading (Harvard College Writing Center)](https://writingcenter.fas.harvard.edu/pages/how-do-close-reading) - A concise, practical methodological overview to use alongside Eagleton for step-by-step guidance on moving from marginal annotations to an analytical argument.
 
-### B. What Literature Is and How It Is Read
+[Literary Theory: A Very Short Introduction (Oxford University Press / Jonathan Culler)](https://archive.org/details/literarytheoryve00cull) - A conceptual complement to Eagleton that clarifies the fundamental questions of what distinguishes literature from informational writing and how texts construct meaning.
 
-| Subject | Resource |
-| --- | --- |
-| What is Literature? + Introduction to Literary Studies | [Yale ENGL 300: Introduction to Theory of Literature (full course lectures)](https://oyc.yale.edu/english/engl-300) |
-| Author, Text, Reader | [Yale ENGL 300 (*introductory lectures* 1 and 2)](https://oyc.yale.edu/english/engl-300) |
+### Writing About Literature and Critical Argument
 
-### C. Literary Terms and Close Reading Skills
+This subject guides learners through the process of formulating thesis-driven literary arguments, using textual evidence effectively, and entering critical academic dialogues.
 
-| Subject | Resource |
-| --- | --- |
-| Literary Terms | [Abrams Glossary of Literary Terms](https://archive.org/details/glossaryoflitera00abra_0) |
-| Close Reading | [Harvard Writing Center: How to Do a Close Reading](https://www.cablemuseum.org/wp-content/uploads/2016/06/AoW_Harvard_HowtoDoaCloseReading.pdf) |
-| Narrative Fundamentals | [Open University: Exploring Narrative](https://www.open.edu/openlearn/history-the-arts/literature/exploring-narrative-fiction/) |
-| Reading Longer Texts | [Open University: Reading longer works](https://www.open.edu/openlearn/mod/oucontent/view.php?id=80830&section=4.1) |
+[Writing About Literature (Lumen Learning / SUNY)](https://courses.lumenlearning.com/suny-introliterature/) - Serves as the core open-access instructional course, guiding learners through developing a defensible interpretive claim, integrating direct textual quotations, and structuring an essay.
 
-## Core Genres
+[They Say / I Say: The Moves That Matter in Academic Writing (Gerald Graff & Cathy Birkenstein)](https://archive.org/details/they-say-i-say-5th-edition_202306) - A practical rhetorical guide that provides templates for framing personal interpretations in relation to existing critical perspectives; read alongside the Lumen Learning units.
 
-| Genre | Resource |
-| --- | --- |
-| Poetry | [MIT OpenCourseWare: Reading Poetry](https://ocw.mit.edu/courses/21l-004-reading-poetry-spring-2018/) + [Open University: Approaching Poetry](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) |
-| Fiction | [MIT OpenCourseWare: Reading Fiction](https://ocw.mit.edu/courses/21l-003-reading-fiction-imaginary-journeys-fall-2015/) + [Open University: Approaching Prose Fiction](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction) |
-| Drama | [OpenStax Introduction to Theatre Arts](https://open.umn.edu/opentextbooks/textbooks/242) |
+### Poetry and Poetics
 
-## Survey of Literary History: Key Periods and Global Perspectives (Chronological Core)
+This subject examines the formal mechanisms and interpretive strategies specific to verse, including meter, rhythm, rhyme schemes, stanzaic structure, and figurative devices.
 
-Primary textbook for all periods below: [**Longman Anthology of World Literature**](https://archive.org/details/longmananthology0000unse_c6r1) (focus on selections from the relevant volume/period as noted; read introductions, headnotes, and key texts for each era to build a global view).
+[Approaching Poetry (OpenLearn / The Open University)](https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0) - The foundational interactive course for beginners, providing practical exercises in prosody, lineation, voice, and rhythm.
 
-| Topic | Resource |
-| --- | --- |
-| A. Ancient → Medieval | Longman Anthology Volume A (The Ancient World) + Volume B (The Medieval Era) – selections from Near East, Greece, Rome, South Asia, China, Islamic world, Europe, etc. |
-| B. Renaissance → Enlightenment | Longman Anthology Volume C (The Early Modern Period) – focus on vernacular writing, Europe (Petrarch, Machiavelli, etc.), Asia, and emerging global exchanges |
-| C. Romanticism → 19th Century | Longman Anthology later volumes (19th-century sections) + supplementary Open University period introductions (e.g., 1700–1830 and 1830–1914 modules for context) |
-| D. Modernism → Contemporary | Longman Anthology 20th/21st-century sections + [Bradbury & McFarlane – Modernism: A Guide to European Literature 1890–1930](https://archive.org/details/modernism18901930000unse) (for focused Modernist overview) |
+[Modern Poetry (Open Yale Courses / Langdon Hammer)](https://oyc.yale.edu/english/engl-310) - A comprehensive university video course that builds directly on introductory prosody by modeling close readings across major twentieth-century poets.
 
-*Supplementary*:
+[Modern Poetry Playlist (YouTube / Yale University)](https://www.youtube.com/playlist?list=PLh9mgdi4rNewA25FVJ-lawQ-yr-alF58z) - The complete YouTube video lecture playlist for Langdon Hammer's course, offering a free streaming alternative to the Open Yale Courses portal.
 
-- [HarvardX: Ancient Masterpieces of World Literature](https://pll.harvard.edu/course/ancient-masterpieces-world-literature) (edX – covers ancient epics/myths globally).
-- [HarvardX: Modern Masterpieces of World Literature](https://pll.harvard.edu/course/modern-masterpieces-world-literature) (edX – 20th-century focus, Kafka to contemporary).
-Use these to watch lectures alongside anthology readings for chronological context and discussion.
+### Prose Fiction and Narrative Theory
 
-## Translation & World Literature (Basic Concepts)
+This subject explores the structure and mechanics of narrative prose, focusing on point of view, plot architecture, characterization, focalization, and narrative discourse.
 
-| Subject | Resource |
-| --- | --- |
-| Reading in Translation (introductory concepts) | [Longman Anthology of World Literature – general introduction sections](https://archive.org/details/longmananthology0000unse_c6r1) |
-| Global Canon | [Longman Anthology of World Literature](https://archive.org/details/longmananthology0000unse_c6r1) |
-| Comparative Reading | (Practice through anthology selections) |
+[Approaching Prose Fiction (OpenLearn / The Open University)](https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0) - The primary interactive course introducing core concepts of setting, characterization, narrative perspective, and genre through guided exercises.
 
-## Literary Theory (Basics for Beginners)
+[The Art of Fiction (David Lodge)](https://books.google.com/books?isbn=9780099554240) - A practical, accessible bridge between close reading and narrative craft that analyzes fifty distinct fictional techniques using excerpts from classic and contemporary novels; study alongside the OpenLearn modules.
 
-### A. Theory Basics
+[The Cambridge Introduction to Narrative (H. Porter Abbott)](https://books.google.com/books?isbn=9781108823357) - An advanced, complementary textbook providing rigorous coverage of narratology, story versus discourse, framing, and narrative ethics; study after finishing Lodge.
 
-- [Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory](https://archive.org/details/beginning-theory-peter-barry/) – Start with the Introduction and Chapter 1 ("Theory before 'theory'") to build a beginner-friendly foundation, then proceed through the chapters on major schools.
-- [Terry Eagleton – Literary Theory: An Introduction](https://archive.org/details/literarytheoryin0000eagl_l4l5) (supplementary historical overview)
+### Drama and Dramatic Literature
 
-### B. Core Schools of Theory
+This subject analyzes the unique conventions of dramatic texts, exploring dialogue, stage directions, theatrical space, dramatic structure, and performance dynamics.
 
-Primary textbook for all schools below: [Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory](https://archive.org/details/beginning-theory-peter-barry/) – read the relevant chapter(s) listed.
+[Approaching Plays (OpenLearn / The Open University)](https://www.open.edu/openlearn/history-the-arts/literature/approaching-plays/content-section-0) - The primary introductory course, guiding learners through reading dialogue, interpreting stage directions, analyzing dramatic conflict, and visualizing performance spaces.
 
-| School | Resource |
-| --- | --- |
-| Formalism & New Criticism | Barry Ch. 1 ("Theory before 'theory'") & introductory discussions throughout early chapters |
-| Structuralism | Barry Ch. 2: Structuralism |
-| Marxist Criticism | Barry Ch. 8: Marxist criticism |
-| Feminist Criticism | Barry Ch. 6: Feminist criticism + [Feminist Criticism (1960s–present)](https://openwa.pressbooks.pub/octavianog/chapter/feminist-criticism-1960s-present/) |
-| Postcolonial Criticism | Barry Ch. 10: Postcolonial criticism + [Postcolonialism - NASRULLAH MAMBROL](https://literariness.org/2016/04/06/postcolonialism/) |
-| Queer Theory | Barry Ch. 7: Queer theory |
+[An Anatomy of Drama (Martin Esslin)](https://books.google.com/books?isbn=9780809005505) - A concise theoretical complement to the OpenLearn course that explores the nature of dramatic action, illusion, and audience engagement.
 
-> Supplementary: Match these schools to lectures from [Yale ENGL 300: Introduction to Theory of Literature (full 26-lecture course by Paul H. Fry)](https://oyc.yale.edu/english/engl-300). Lectures 6–7 (Formalism/New Criticism), Lecture 8 (Structuralism), Lectures 17–18 (Marxist approaches), Lecture 20 (Feminist tradition), Lectures 21–23 (Postcolonial & Queer Theory).
+[Shakespeare After All: The Later Plays (YouTube / Marjorie Garber)](https://www.youtube.com/playlist?list=PLaLOVNqqD-2HhqQG1BxUaQr0GpG8oN0DV) - A recorded Harvard lecture series demonstrating practical textual analysis and staging interpretation across canonical tragedies and romances; use as an applied masterclass after mastering dramatic fundamentals.
 
-# Code of conduct
+[Shakespeare After All (Marjorie Garber)](https://books.google.com/books?isbn=9780385722148) - The companion volume of analytical essays corresponding to the Harvard lectures, serving as an in-depth reading guide to accompany the video playlist.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+### Literary Nonfiction and the Essay
+
+This subject examines the history, rhetoric, and artistic conventions of the essay, tracing how personal voice, reflection, and argument merge in literary nonfiction.
+
+[The Art of the Personal Essay (Phillip Lopate)](https://books.google.com/books?isbn=9780385423397) - A canonical anthology whose foundational book-length introduction charts the historical evolution and stylistic conventions of personal prose from antiquity through the twentieth century.
+
+### Survey of World Literary History
+
+This subject provides a chronological overview of global literary traditions and major aesthetic movements from antiquity through the modern era.
+
+[Ancient Masterpieces of World Literature (HarvardX / David Damrosch & Martin Puchner)](https://pll.harvard.edu/course/ancient-masterpieces-world-literature) - Part one of the chronological survey, introducing ancient mythic, epic, and dramatic traditions across Mediterranean, Near Eastern, and Asian cultures.
+
+[Modern Masterpieces of World Literature (HarvardX / David Damrosch & Martin Puchner)](https://pll.harvard.edu/course/modern-masterpieces-world-literature) - Part two of the survey, tracing the global evolution of the novel, Romanticism, Realism, and postcolonial encounters from the eighteenth century to the present.
+
+[The Longman Anthology of World Literature (David Damrosch et al.)](https://archive.org/details/longmananthology0000unse_c6r1) - The primary multi-volume reader providing historical introductions and representative primary texts to read sequentially alongside both HarvardX courses.
+
+[Modernism: A Guide to European Literature 1890–1930 (Malcolm Bradbury & James McFarlane)](https://archive.org/details/modernism18901930000unse) - A historical and critical companion focusing specifically on the aesthetic experiments and cultural ruptures of high modernism; read alongside the modern section of the anthology.
+
+### World Literature and Comparative Frameworks
+
+This subject examines how literary works circulate beyond their linguistic and national borders, exploring translation, cross-cultural reception, and comparative reading practices.
+
+[Masterpieces of World Literature (HarvardX / David Damrosch & Martin Puchner)](https://pll.harvard.edu/course/masterpieces-world-literature) - A comprehensive introductory MOOC that synthesizes comparative methodologies and investigates how literature travels, transforms, and acquires new meanings across global cultures.
+
+[What Is World Literature? (David Damrosch)](https://books.google.com/books?isbn=9780691049861) - A foundational critical book establishing how texts function in translation and international circulation; read as a theoretical companion to the HarvardX course.
+
+### Literary Theory and Critical Frameworks
+
+This subject surveys the major theoretical frameworks for interpreting literature, including Formalism, Structuralism, Deconstruction, Psychoanalysis, Feminism, Marxism, Postcolonialism, and New Historicism.
+
+[Beginning Theory: An Introduction to Literary and Cultural Theory (Peter Barry)](https://archive.org/details/beginning-theory-peter-barry/) - The core introductory textbook, presenting each critical school through straightforward definitions, historical context, and practical demonstrations of how each approach analyzes a text.
+
+[Introduction to Theory of Literature (Open Yale Courses / Paul H. Fry)](https://oyc.yale.edu/english/engl-300) - A complete university lecture course delivering rigorous intellectual histories of major critical movements; watch in tandem with the corresponding chapters of Barry.
+
+[Introduction to the Theory of Literature Playlist (YouTube / Yale University)](https://www.youtube.com/playlist?list=PLD00D35CBC75941BD) - The complete YouTube video lecture series for Paul Fry's course, providing an alternative streaming option to the Open Yale Courses portal.
+
+[Literary Theory: An Introduction (Terry Eagleton)](https://archive.org/details/literarytheoryin0000eagl_l4l5) - A seminal historical critique tracing the ideological origins of English literary studies; read as an analytical complement to Barry to explore the politics of literary interpretation.
