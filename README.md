@@ -5,9 +5,22 @@ description: Path to a free self-taught education in Literature!
 
 ## Introduction
 
-The Literature curriculum is a comprehensive education in Literature, designed for self-directed study using online materials.
+Literary study is not simply the act of reading many books; it is the discipline of understanding how texts construct meaning, evoke emotion, and intervene in historical and cultural moments. Rather than treating literature as passive entertainment or reducing a work to mere plot summary, literary analysis examines the craft beneath the surface — attending to diction, syntax, rhythm, narrative focalization, and figurative language. Engaging with literature systematically trains the mind in close reading, interpretive argument, and empathetic discernment, equipping learners to unpack complex texts and evaluate competing worldviews.
 
-## Communities
+This curriculum is designed for independent, self-directed learners starting from scratch. No prior formal training in literary criticism, rhetoric, or literary theory is assumed. The only prerequisite is a willingness to read texts slowly, attentively, and with an analytical eye.
+
+### Curriculum Structure
+
+The curriculum is organized into four sequential phases that build from micro-textual mechanics to broad theoretical frameworks:
+
+- **Textual Foundations:** Begin with *Introduction to Literary Study and Close Reading* and *Writing About Literature and Critical Argument*. These subjects establish the essential habits of the discipline: identifying formal techniques on the page, moving from annotation to evidence, and constructing persuasive interpretive claims.
+- **The Core Genres:** Once the mechanics of close reading are established, proceed through the four primary literary genres — *Poetry and Poetics*, *Prose Fiction and Narrative Theory*, *Drama and Dramatic Literature*, and *Literary Nonfiction and the Essay*. These subjects explore the specific conventions and technical vocabularies of each form, from poetic prosody and dramatic staging to novelistic narratology and essayistic rhetoric. They may be studied in sequence or in any order depending on your current reading focus.
+- **Literary History and Comparative Reading:** Literary forms do not emerge in a vacuum. *Survey of World Literary History* and *World Literature and Comparative Frameworks* place texts within their historical eras and examine how narratives cross cultural and linguistic boundaries through translation and international circulation.
+- **Theoretical Frameworks:** Conclude with *Literary Theory and Critical Frameworks*. Critical theory challenges the assumptions behind reading itself, examining how power, gender, ideology, language, and historical conditions shape what a text means. Approaching theory after you have developed a firm foundation in close reading and literary history ensures that theoretical concepts remain grounded in concrete literary evidence.
+
+This page covers only the foundational core that every student of literature should work through before specializing. After completing this core foundation, you can branch into specialized tracks in [Advanced Topics](advanced_topics.md), put your reading and interpretive skills into practice through hands-on, self-directed deliverables in [Projects](projects.md), study landmark critical essays and monographs in [Readings](extras/readings.md), or follow full university lecture series and author seminars in [Courses](extras/courses.md).
+
+### Communities
 
 - Forums:
     - [Literature Network Forums](https://www.online-literature.com/forums/forum.php)

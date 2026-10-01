@@ -2,10 +2,10 @@
 
 A curated directory of open university lecture series, comprehensive audio podcasts, and university MOOCs in literary studies.
 
-- [Literary Theory & Critical Methods](#literary-theory--critical-methods)
-- [Major Author & Canonical Seminars](#major-author--canonical-seminars)
-- [Genre, National & Period Studies](#genre-national--period-studies)
-- [World Literature & Postcolonial Studies](#world-literature--postcolonial-studies)
+- [Literary Theory & Critical Methods](#literary-theory-critical-methods)
+- [Major Author & Canonical Seminars](#major-author-canonical-seminars)
+- [Genre, National & Period Studies](#genre-national-period-studies)
+- [World Literature & Postcolonial Studies](#world-literature-postcolonial-studies)
 
 ## Literary Theory & Critical Methods
 

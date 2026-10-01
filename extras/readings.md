@@ -2,11 +2,11 @@
 
 A curated collection of field-defining monographs, seminal theoretical essays, and landmark critical texts that have shaped the discipline of literary studies.
 
-- [Foundational Poetics & Critical Classics](#foundational-poetics--critical-classics)
-- [Form, Language & Narrative Poetics](#form-language--narrative-poetics)
-- [Ideology, Culture & Political Hermeneutics](#ideology-culture--political-hermeneutics)
-- [Empire, Race & Decolonial Critique](#empire-race--decolonial-critique)
-- [Gender, Sexuality & Subjectivity](#gender-sexuality--subjectivity)
+- [Foundational Poetics & Critical Classics](#foundational-poetics-critical-classics)
+- [Form, Language & Narrative Poetics](#form-language-narrative-poetics)
+- [Ideology, Culture & Political Hermeneutics](#ideology-culture-political-hermeneutics)
+- [Empire, Race & Decolonial Critique](#empire-race-decolonial-critique)
+- [Gender, Sexuality & Subjectivity](#gender-sexuality-subjectivity)
 
 ## Foundational Poetics & Critical Classics
 

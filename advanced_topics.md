@@ -2,12 +2,12 @@
 
 Specialized subfields, advanced theoretical frameworks, and research methodologies for post-core literary studies. Learners are expected to choose one or two tracks aligned with their interests and critical goals rather than attempting to complete every track.
 
-- [Critical Theory, Biopolitics & Affect](#critical-theory-biopolitics--affect): Investigates post-structuralist philosophies of textuality, the modern regulation of biological life and sovereign violence, bodily affect, and non-human agency beyond anthropocentric models.
-- [Postcolonial, Decolonial & Transnational Studies](#postcolonial-decolonial--transnational-studies): Examines imperial archives, subaltern agency, decolonial border thinking, and the uneven geopolitics of literary production and circulation across the Global South.
-- [Gender, Sexuality & Queer Poetics](#gender-sexuality--queer-poetics): Explores the discursive construction of gender performativity, queer temporalities and spatialities, intersectional Black feminist thought, and transgender phenomenology.
-- [Environmental Humanities & Ecocriticism](#environmental-humanities--ecocriticism): Analyzes literary representations of the non-human world, climate crisis, environmental justice, slow violence, and petrocultures in the Anthropocene.
-- [Computational Literary Studies & Digital Humanities](#computational-literary-studies--digital-humanities): Integrates quantitative distant reading, algorithmic text mining, corpus stylistics, and digital scholarly editing to analyze literary history at scale.
-- [Advanced Narratology, Poetics & Experimental Forms](#advanced-narratology-poetics--experimental-forms): Scrutinizes cognitive and unnatural narrative architectures, high modernist formal experimentation, postmodern metafiction, and the historical evolution of literary genres.
+- [Critical Theory, Biopolitics & Affect](#critical-theory-biopolitics-affect): Investigates post-structuralist philosophies of textuality, the modern regulation of biological life and sovereign violence, bodily affect, and non-human agency beyond anthropocentric models.
+- [Postcolonial, Decolonial & Transnational Studies](#postcolonial-decolonial-transnational-studies): Examines imperial archives, subaltern agency, decolonial border thinking, and the uneven geopolitics of literary production and circulation across the Global South.
+- [Gender, Sexuality & Queer Poetics](#gender-sexuality-queer-poetics): Explores the discursive construction of gender performativity, queer temporalities and spatialities, intersectional Black feminist thought, and transgender phenomenology.
+- [Environmental Humanities & Ecocriticism](#environmental-humanities-ecocriticism): Analyzes literary representations of the non-human world, climate crisis, environmental justice, slow violence, and petrocultures in the Anthropocene.
+- [Computational Literary Studies & Digital Humanities](#computational-literary-studies-digital-humanities): Integrates quantitative distant reading, algorithmic text mining, corpus stylistics, and digital scholarly editing to analyze literary history at scale.
+- [Advanced Narratology, Poetics & Experimental Forms](#advanced-narratology-poetics-experimental-forms): Scrutinizes cognitive and unnatural narrative architectures, high modernist formal experimentation, postmodern metafiction, and the historical evolution of literary genres.
 
 ## Critical Theory, Biopolitics & Affect
 
