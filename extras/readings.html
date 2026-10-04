@@ -1,81 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Reading</title>
-<link rel="stylesheet" href="/literature/style.css">
-<meta name="description" content="">
+  <title>Great Readings in Literature</title>
+  <meta name="description" content="Great Readings in Literature curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/literature/">
+  <link rel="canonical" href="https://hocbigg.github.io/literature/extras/readings.html">
+  <meta property="og:title" content="Great Readings in Literature">
+  <meta property="og:description" content="Great Readings in Literature curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/literature/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Reading">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/literature/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/literature/">Literature</a>
-<a href="/literature/advanced_topics.html">Advanced Topics</a>
-<a href="/literature/projects.html">Projects</a>
-<a href="/literature/extras/courses.html">Extra Courses</a>
-<a href="/literature/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/literature/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/literature/">Literature</a></li>
+      <li><a href="/literature/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/literature/projects.html">Projects</a></li>
+      <li><a href="/literature/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/literature/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/literature/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/literature" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-reading">Extra Reading</h1>
-<p>This document consists of great books or articles on Literature.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-literature">Great Readings in Literature</h1>
+<p>A curated collection of field-defining monographs, seminal theoretical essays, and landmark critical texts that have shaped the discipline of literary studies.</p>
+<ul>
+<li><a href="#foundational-poetics-critical-classics">Foundational Poetics &amp; Critical Classics</a></li>
+<li><a href="#form-language-narrative-poetics">Form, Language &amp; Narrative Poetics</a></li>
+<li><a href="#ideology-culture-political-hermeneutics">Ideology, Culture &amp; Political Hermeneutics</a></li>
+<li><a href="#empire-race-decolonial-critique">Empire, Race &amp; Decolonial Critique</a></li>
+<li><a href="#gender-sexuality-subjectivity">Gender, Sexuality &amp; Subjectivity</a></li>
+</ul>
+<h2 id="foundational-poetics-critical-classics">Foundational Poetics &amp; Critical Classics</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.routledge.com/Critical-Theory-Today-A-User-Friendly-Guide/Tyson/p/book/9780367709426">Critical Theory Today: A User-Friendly Guide</a></td>
-<td style="text-align: center;">Lois Tyson</td>
+<td><a href="https://www.gutenberg.org/ebooks/1974" target="_blank" rel="noopener noreferrer"><em>Poetics</em></a></td>
+<td>Aristotle</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://global.oup.com/academic/product/literary-theory-a-very-short-introduction-9780199691340">Literary Theory: A Very Short Introduction</a></td>
-<td style="text-align: center;">Jonathan Culler</td>
+<td><a href="https://www.gutenberg.org/ebooks/17957" target="_blank" rel="noopener noreferrer"><em>On the Sublime</em></a></td>
+<td>Longinus</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://press.princeton.edu/books/paperback/9780691202563/anatomy-of-criticism">Anatomy of Criticism: Four Essays</a></td>
-<td style="text-align: center;">Northrop Frye</td>
+<td><a href="https://archive.org/details/defenseofpoesyot00sidn" target="_blank" rel="noopener noreferrer"><em>An Apology for Poetry (The Defence of Poesy)</em></a></td>
+<td>Sir Philip Sidney</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://uogbooks.files.wordpress.com/2014/10/literary-theory-the-basics-by-hans-bertens-book.pdf">Literary Theory: The Basics</a> (free PDF alternative)</td>
-<td style="text-align: center;">Hans Bertens</td>
+<td><a href="https://www.gutenberg.org/ebooks/5428" target="_blank" rel="noopener noreferrer"><em>A Defence of Poetry</em></a></td>
+<td>Percy Bysshe Shelley</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.uv.es/fores/contemporary-literary-theory-5th-edition.pdf">A Reader's Guide to Contemporary Literary Theory</a> (free PDF alternative)</td>
-<td style="text-align: center;">Raman Selden, Peter Widdowson, Peter Brooker</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://parhamti.com/wp-content/uploads/2023/07/Literary-Theory-%25E2%2580%2593-A-Guide-for-the-Perplexed.pdf">Literary Theory: A Guide for the Perplexed</a> (free PDF alternative)</td>
-<td style="text-align: center;">Mary Klages</td>
+<td><a href="https://archive.org/details/anatomy-of-criticism" target="_blank" rel="noopener noreferrer"><em>Anatomy of Criticism: Four Essays</em></a></td>
+<td>Northrop Frye</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="form-language-narrative-poetics">Form, Language &amp; Narrative Poetics</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/mimesis00erich" target="_blank" rel="noopener noreferrer"><em>Mimesis: The Representation of Reality in Western Literature</em></a></td>
+<td>Erich Auerbach</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/dialogicimaginat0000bakh_z2j0" target="_blank" rel="noopener noreferrer"><em>The Dialogic Imagination: Four Essays</em></a></td>
+<td>Mikhail Bakhtin</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/TheoryOfProse" target="_blank" rel="noopener noreferrer"><em>"Art as Device" ("Art as Technique")</em></a></td>
+<td>Viktor Shklovsky</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/mythologies0000bart_f5p9" target="_blank" rel="noopener noreferrer"><em>Mythologies</em></a></td>
+<td>Roland Barthes</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/57-59-roland-barthes-the-death-of-the-author" target="_blank" rel="noopener noreferrer"><em>"The Death of the Author"</em></a></td>
+<td>Roland Barthes</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/styleinlanguage00sebe" target="_blank" rel="noopener noreferrer"><em>"Closing Statement: Linguistics and Poetics"</em></a></td>
+<td>Roman Jakobson</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="ideology-culture-political-hermeneutics">Ideology, Culture &amp; Political Hermeneutics</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/illuminations0000benj_v2o8" target="_blank" rel="noopener noreferrer"><em>Illuminations: Essays and Reflections</em></a></td>
+<td>Walter Benjamin</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/marxismliteratur00will_0" target="_blank" rel="noopener noreferrer"><em>Marxism and Literature</em></a></td>
+<td>Raymond Williams</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/politicalunconsc0000jame" target="_blank" rel="noopener noreferrer"><em>The Political Unconscious: Narrative as a Socially Symbolic Act</em></a></td>
+<td>Fredric Jameson</td>
+</tr>
+<tr>
+<td><a href="https://www.marxists.org/reference/archive/althusser/1970/ideology.htm" target="_blank" rel="noopener noreferrer"><em>"Ideology and Ideological State Apparatuses"</em></a></td>
+<td>Louis Althusser</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/dialecticofenlig0000hork" target="_blank" rel="noopener noreferrer"><em>Dialectic of Enlightenment</em></a></td>
+<td>Max Horkheimer &amp; Theodor W. Adorno</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="empire-race-decolonial-critique">Empire, Race &amp; Decolonial Critique</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/orientalism00said" target="_blank" rel="noopener noreferrer"><em>Orientalism</em></a></td>
+<td>Edward W. Said</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/CanTheSubalternSpeak_201804" target="_blank" rel="noopener noreferrer"><em>"Can the Subaltern Speak?"</em></a></td>
+<td>Gayatri Chakravorty Spivak</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780679745426" target="_blank" rel="noopener noreferrer"><em>Playing in the Dark: Whiteness and the Literary Imagination</em></a></td>
+<td>Toni Morrison</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/blackskinwhitema0000fano" target="_blank" rel="noopener noreferrer"><em>Black Skin, White Masks</em></a></td>
+<td>Frantz Fanon</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/hopesimpediments0000ache" target="_blank" rel="noopener noreferrer"><em>"An Image of Africa: Racism in Conrad's Heart of Darkness"</em></a></td>
+<td>Chinua Achebe</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="gender-sexuality-subjectivity">Gender, Sexuality &amp; Subjectivity</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/a-room-of-ones-own-and-three-guineas" target="_blank" rel="noopener noreferrer"><em>A Room of One's Own</em></a></td>
+<td>Virginia Woolf</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/madwomaninatticw0000gilb" target="_blank" rel="noopener noreferrer"><em>The Madwoman in the Attic: The Woman Writer and the Nineteenth-Century Literary Imagination</em></a></td>
+<td>Sandra M. Gilbert &amp; Susan Gubar</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780679724698" target="_blank" rel="noopener noreferrer"><em>The History of Sexuality, Volume 1: An Introduction</em></a></td>
+<td>Michel Foucault</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/epistemologyofcl0000sedg" target="_blank" rel="noopener noreferrer"><em>Epistemology of the Closet</em></a></td>
+<td>Eve Kosofsky Sedgwick</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/gendertroublefem0000butl" target="_blank" rel="noopener noreferrer"><em>Gender Trouble: Feminism and the Subversion of Identity</em></a></td>
+<td>Judith Butler</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>

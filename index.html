@@ -1,321 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Literature</title>
-<link rel="stylesheet" href="/literature/style.css">
-<meta name="description" content="Path to a free self-taught education in Literature!">
+  <title>Hocbigg - Literature</title>
+  <meta name="description" content="Path to a free self-taught education in Literature!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/literature/">
+  <link rel="canonical" href="https://hocbigg.github.io/literature/">
+  <meta property="og:title" content="Hocbigg - Literature">
+  <meta property="og:description" content="Path to a free self-taught education in Literature!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/literature/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Literature">
-<meta property="og:description" content="Path to a free self-taught education in Literature!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/literature/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/literature/">Literature</a>
-<a href="/literature/advanced_topics.html">Advanced Topics</a>
-<a href="/literature/projects.html">Projects</a>
-<a href="/literature/extras/courses.html">Extra Courses</a>
-<a href="/literature/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/literature/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/literature/">Literature</a></li>
+      <li><a href="/literature/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/literature/projects.html">Projects</a></li>
+      <li><a href="/literature/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/literature/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/literature/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/literature" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Literature</h1>
+  <p class="page-subtitle">Path to a free self-taught education in Literature!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-10-01">2026-10-01</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Literary study is not simply the act of reading many books; it is the discipline of understanding how texts construct meaning, evoke emotion, and intervene in historical and cultural moments. Rather than treating literature as passive entertainment or reducing a work to mere plot summary, literary analysis examines the craft beneath the surface — attending to diction, syntax, rhythm, narrative focalization, and figurative language. Engaging with literature systematically trains the mind in close reading, interpretive argument, and empathetic discernment, equipping learners to unpack complex texts and evaluate competing worldviews.</p>
+<p>This curriculum is designed for independent, self-directed learners starting from scratch. No prior formal training in literary criticism, rhetoric, or literary theory is assumed. The only prerequisite is a willingness to read texts slowly, attentively, and with an analytical eye.</p>
+<h3 id="curriculum-structure">Curriculum Structure</h3>
+<p>The curriculum is organized into four sequential phases that build from micro-textual mechanics to broad theoretical frameworks:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li><strong>Textual Foundations:</strong> Begin with <em>Introduction to Literary Study and Close Reading</em> and <em>Writing About Literature and Critical Argument</em>. These subjects establish the essential habits of the discipline: identifying formal techniques on the page, moving from annotation to evidence, and constructing persuasive interpretive claims.</li>
+<li><strong>The Core Genres:</strong> Once the mechanics of close reading are established, proceed through the four primary literary genres — <em>Poetry and Poetics</em>, <em>Prose Fiction and Narrative Theory</em>, <em>Drama and Dramatic Literature</em>, and <em>Literary Nonfiction and the Essay</em>. These subjects explore the specific conventions and technical vocabularies of each form, from poetic prosody and dramatic staging to novelistic narratology and essayistic rhetoric. They may be studied in sequence or in any order depending on your current reading focus.</li>
+<li><strong>Literary History and Comparative Reading:</strong> Literary forms do not emerge in a vacuum. <em>Survey of World Literary History</em> and <em>World Literature and Comparative Frameworks</em> place texts within their historical eras and examine how narratives cross cultural and linguistic boundaries through translation and international circulation.</li>
+<li><strong>Theoretical Frameworks:</strong> Conclude with <em>Literary Theory and Critical Frameworks</em>. Critical theory challenges the assumptions behind reading itself, examining how power, gender, ideology, language, and historical conditions shape what a text means. Approaching theory after you have developed a firm foundation in close reading and literary history ensures that theoretical concepts remain grounded in concrete literary evidence.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Literature curriculum is a comprehensive education in Literature, designed for self-directed study using online materials.</p>
-<p>Note: High-quality courses or books that do not fit into the core curriculum are listed separately in
-<a href="extras/courses.html">extras/courses</a> and <a href="extras/readings.html">extras/readings</a>.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into three main components:</p>
-<ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
-<li><strong><a href="projects.html">Projects</a></strong>: support learning through practical application throughout the curriculum.</li>
-</ul>
-<h2 id="process">Process</h2>
-<p>Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Practical work is integrated through the <a href="projects.html">Projects section</a> and may be undertaken alongside coursework.</p>
-<p>See <strong><a href="/CONTRIBUTING.html">How to contribute</a></strong> for contribution guidelines.</p>
-<h1 id="communities">Communities</h1>
+<p>This page covers only the foundational core that every student of literature should work through before specializing. After completing this core foundation, you can branch into specialized tracks in <a href="advanced_topics.html">Advanced Topics</a>, put your reading and interpretive skills into practice through hands-on, self-directed deliverables in <a href="projects.html">Projects</a>, study landmark critical essays and monographs in <a href="extras/readings.html">Readings</a>, or follow full university lecture series and author seminars in <a href="extras/courses.html">Courses</a>.</p>
+<h3 id="communities">Communities</h3>
 <ul>
 <li>Forums:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.online-literature.com/forums/forum.php">Literature Network Forums</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://forums.onlinebookclub.org/">OnlineBookClub.org Forums</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.booktalk.org/">Booktalk.org</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.neoseeker.com/forums/83/">Neoseeker Literature Forum</a></li>
+<li><a href="https://www.online-literature.com/forums/forum.php" target="_blank" rel="noopener noreferrer">Literature Network Forums</a></li>
+<li><a href="https://forums.onlinebookclub.org/" target="_blank" rel="noopener noreferrer">OnlineBookClub.org Forums</a></li>
+<li><a href="https://www.booktalk.org/" target="_blank" rel="noopener noreferrer">Booktalk.org</a></li>
+<li><a href="https://www.neoseeker.com/forums/83/" target="_blank" rel="noopener noreferrer">Neoseeker Literature Forum</a></li>
 </ul>
 </li>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/literature/">r/literature</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/books/">r/books</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AskLiteraryStudies/">r/AskLiteraryStudies</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/literaryfiction/">r/literaryfiction</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/literaturememes/">r/literaturememes</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/englishmajors/">r/englishmajors</a></li>
+<li><a href="https://www.reddit.com/r/literature/" target="_blank" rel="noopener noreferrer">r/literature</a></li>
+<li><a href="https://www.reddit.com/r/books/" target="_blank" rel="noopener noreferrer">r/books</a></li>
+<li><a href="https://www.reddit.com/r/AskLiteraryStudies/" target="_blank" rel="noopener noreferrer">r/AskLiteraryStudies</a></li>
+<li><a href="https://www.reddit.com/r/literaryfiction/" target="_blank" rel="noopener noreferrer">r/literaryfiction</a></li>
+<li><a href="https://www.reddit.com/r/literaturememes/" target="_blank" rel="noopener noreferrer">r/literaturememes</a></li>
+<li><a href="https://www.reddit.com/r/englishmajors/" target="_blank" rel="noopener noreferrer">r/englishmajors</a></li>
 </ul>
 </li>
 <li>Discord servers:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/writinghub">The Writing Hub</a></li>
+<li><a href="https://discord.com/invite/writinghub" target="_blank" rel="noopener noreferrer">The Writing Hub</a></li>
 </ul>
 </li>
 <li>Other:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://zirk.us/">zirk.us (Arts &amp; Humanities Mastodon)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://c18.masto.host/">c18.masto.host (18th Century Literature Mastodon)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://hcommons.social/">hcommons.social (Humanities Commons Mastodon)</a></li>
+<li><a href="https://zirk.us/" target="_blank" rel="noopener noreferrer">zirk.us (Arts &amp; Humanities Mastodon)</a></li>
+<li><a href="https://c18.masto.host/" target="_blank" rel="noopener noreferrer">c18.masto.host (18th Century Literature Mastodon)</a></li>
+<li><a href="https://hcommons.social/" target="_blank" rel="noopener noreferrer">hcommons.social (Humanities Commons Mastodon)</a></li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/literature/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/literature/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<ul>
-<li><a href="#foundations-how-literature-works">Foundations: How Literature Works</a><ul>
-<li><a href="#a-academic-reading--writing">A. Academic Reading &amp; Writing</a></li>
-<li><a href="#b-what-literature-is-and-how-it-is-read">B. What Literature Is and How It Is Read</a></li>
-<li><a href="#c-literary-terms-and-close-reading-skills">C. Literary Terms and Close Reading Skills</a></li>
-</ul>
-</li>
-<li><a href="#core-genres">Core Genres</a></li>
-<li><a href="#survey-of-literary-history-key-periods-and-global-perspectives-chronological-core">Survey of Literary History: Key Periods and Global Perspectives Chronological Core</a></li>
-<li><a href="#translation--world-literature-basic-concepts">Translation &amp; World Literature Basic Concepts</a></li>
-<li><a href="#literary-theory-basics-for-beginners">Literary Theory Basics for Beginners</a><ul>
-<li><a href="#a-theory-basics">A. Theory Basics</a></li>
-<li><a href="#b-core-schools-of-theory">B. Core Schools of Theory</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="foundations-how-literature-works">Foundations: How Literature Works</h2>
-<h3 id="a-academic-reading-writing">A. Academic Reading &amp; Writing</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Academic Argument</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/they-say-i-say-5th-edition_202306">They Say / I Say</a></td>
-</tr>
-<tr>
-<td>Literary Writing &amp; Analysis</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://courses.lumenlearning.com/suny-introliterature/">Lumen Learning: Writing About Literature</a></td>
-</tr>
-<tr>
-<td>Essay &amp; Report Writing</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/education-development/essay-and-report-writing-skills/content-section-0">Open University: Essay and report writing skills</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="b-what-literature-is-and-how-it-is-read">B. What Literature Is and How It Is Read</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>What is Literature? + Introduction to Literary Studies</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/english/engl-300">Yale ENGL 300: Introduction to Theory of Literature (full course lectures)</a></td>
-</tr>
-<tr>
-<td>Author, Text, Reader</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/english/engl-300">Yale ENGL 300 (<em>introductory lectures</em> 1 and 2)</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="c-literary-terms-and-close-reading-skills">C. Literary Terms and Close Reading Skills</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Literary Terms</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/glossaryoflitera00abra_0">Abrams Glossary of Literary Terms</a></td>
-</tr>
-<tr>
-<td>Close Reading</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.cablemuseum.org/wp-content/uploads/2016/06/AoW_Harvard_HowtoDoaCloseReading.pdf">Harvard Writing Center: How to Do a Close Reading</a></td>
-</tr>
-<tr>
-<td>Narrative Fundamentals</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/literature/exploring-narrative-fiction/">Open University: Exploring Narrative</a></td>
-</tr>
-<tr>
-<td>Reading Longer Texts</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/mod/oucontent/view.php?id=80830&amp;section=4.1">Open University: Reading longer works</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="core-genres">Core Genres</h2>
-<table>
-<thead>
-<tr>
-<th>Genre</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Poetry</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/21l-004-reading-poetry-spring-2018/">MIT OpenCourseWare: Reading Poetry</a> + <a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0">Open University: Approaching Poetry</a></td>
-</tr>
-<tr>
-<td>Fiction</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/21l-003-reading-fiction-imaginary-journeys-fall-2015/">MIT OpenCourseWare: Reading Fiction</a> + <a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction">Open University: Approaching Prose Fiction</a></td>
-</tr>
-<tr>
-<td>Drama</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/242">OpenStax Introduction to Theatre Arts</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="survey-of-literary-history-key-periods-and-global-perspectives-chronological-core">Survey of Literary History: Key Periods and Global Perspectives (Chronological Core)</h2>
-<p>Primary textbook for all periods below: <a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/longmananthology0000unse_c6r1"><strong>Longman Anthology of World Literature</strong></a> (focus on selections from the relevant volume/period as noted; read introductions, headnotes, and key texts for each era to build a global view).</p>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A. Ancient → Medieval</td>
-<td>Longman Anthology Volume A (The Ancient World) + Volume B (The Medieval Era) – selections from Near East, Greece, Rome, South Asia, China, Islamic world, Europe, etc.</td>
-</tr>
-<tr>
-<td>B. Renaissance → Enlightenment</td>
-<td>Longman Anthology Volume C (The Early Modern Period) – focus on vernacular writing, Europe (Petrarch, Machiavelli, etc.), Asia, and emerging global exchanges</td>
-</tr>
-<tr>
-<td>C. Romanticism → 19th Century</td>
-<td>Longman Anthology later volumes (19th-century sections) + supplementary Open University period introductions (e.g., 1700–1830 and 1830–1914 modules for context)</td>
-</tr>
-<tr>
-<td>D. Modernism → Contemporary</td>
-<td>Longman Anthology 20th/21st-century sections + <a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/modernism18901930000unse">Bradbury &amp; McFarlane – Modernism: A Guide to European Literature 1890–1930</a> (for focused Modernist overview)</td>
-</tr>
-</tbody>
-</table>
-<p><em>Supplementary</em>:</p>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/ancient-masterpieces-world-literature">HarvardX: Ancient Masterpieces of World Literature</a> (edX – covers ancient epics/myths globally).</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/modern-masterpieces-world-literature">HarvardX: Modern Masterpieces of World Literature</a> (edX – 20th-century focus, Kafka to contemporary).
-Use these to watch lectures alongside anthology readings for chronological context and discussion.</li>
-</ul>
-<h2 id="translation-world-literature-basic-concepts">Translation &amp; World Literature (Basic Concepts)</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Reading in Translation (introductory concepts)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/longmananthology0000unse_c6r1">Longman Anthology of World Literature – general introduction sections</a></td>
-</tr>
-<tr>
-<td>Global Canon</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/longmananthology0000unse_c6r1">Longman Anthology of World Literature</a></td>
-</tr>
-<tr>
-<td>Comparative Reading</td>
-<td>(Practice through anthology selections)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="literary-theory-basics-for-beginners">Literary Theory (Basics for Beginners)</h2>
-<h3 id="a-theory-basics">A. Theory Basics</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/beginning-theory-peter-barry/">Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory</a> – Start with the Introduction and Chapter 1 ("Theory before 'theory'") to build a beginner-friendly foundation, then proceed through the chapters on major schools.</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/literarytheoryin0000eagl_l4l5">Terry Eagleton – Literary Theory: An Introduction</a> (supplementary historical overview)</li>
-</ul>
-<h3 id="b-core-schools-of-theory">B. Core Schools of Theory</h3>
-<p>Primary textbook for all schools below: <a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/beginning-theory-peter-barry/">Peter Barry – Beginning Theory: An Introduction to Literary and Cultural Theory</a> – read the relevant chapter(s) listed.</p>
-<table>
-<thead>
-<tr>
-<th>School</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Formalism &amp; New Criticism</td>
-<td>Barry Ch. 1 ("Theory before 'theory'") &amp; introductory discussions throughout early chapters</td>
-</tr>
-<tr>
-<td>Structuralism</td>
-<td>Barry Ch. 2: Structuralism</td>
-</tr>
-<tr>
-<td>Marxist Criticism</td>
-<td>Barry Ch. 8: Marxist criticism</td>
-</tr>
-<tr>
-<td>Feminist Criticism</td>
-<td>Barry Ch. 6: Feminist criticism + <a target="_blank" rel="noopener noreferrer" href="https://openwa.pressbooks.pub/octavianog/chapter/feminist-criticism-1960s-present/">Feminist Criticism (1960s–present)</a></td>
-</tr>
-<tr>
-<td>Postcolonial Criticism</td>
-<td>Barry Ch. 10: Postcolonial criticism + <a target="_blank" rel="noopener noreferrer" href="https://literariness.org/2016/04/06/postcolonialism/">Postcolonialism - NASRULLAH MAMBROL</a></td>
-</tr>
-<tr>
-<td>Queer Theory</td>
-<td>Barry Ch. 7: Queer theory</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>Supplementary: Match these schools to lectures from <a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/english/engl-300">Yale ENGL 300: Introduction to Theory of Literature (full 26-lecture course by Paul H. Fry)</a>. Lectures 6–7 (Formalism/New Criticism), Lecture 8 (Structuralism), Lectures 17–18 (Marxist approaches), Lecture 20 (Feminist tradition), Lectures 21–23 (Postcolonial &amp; Queer Theory).</p>
-</blockquote>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="introduction-to-literary-study-and-close-reading">Introduction to Literary Study and Close Reading</h3>
+<p>This subject introduces the nature of literary language and the foundational techniques of close reading, training learners to analyze formal elements such as diction, syntax, tone, and figurative devices rather than merely summarizing plot.</p>
+<p><a href="https://books.google.com/books?isbn=9780300247640" target="_blank" rel="noopener noreferrer">How to Read Literature (Terry Eagleton)</a> - Serves as the primary instructional textbook, offering an accessible, chapter-by-chapter guide to close-reading openings, characterization, narrative voice, and interpretive ambiguity.</p>
+<p><a href="https://writingcenter.fas.harvard.edu/pages/how-do-close-reading" target="_blank" rel="noopener noreferrer">How to Do a Close Reading (Harvard College Writing Center)</a> - A concise, practical methodological overview to use alongside Eagleton for step-by-step guidance on moving from marginal annotations to an analytical argument.</p>
+<p><a href="https://archive.org/details/literarytheoryve00cull" target="_blank" rel="noopener noreferrer">Literary Theory: A Very Short Introduction (Oxford University Press / Jonathan Culler)</a> - A conceptual complement to Eagleton that clarifies the fundamental questions of what distinguishes literature from informational writing and how texts construct meaning.</p>
+<h3 id="writing-about-literature-and-critical-argument">Writing About Literature and Critical Argument</h3>
+<p>This subject guides learners through the process of formulating thesis-driven literary arguments, using textual evidence effectively, and entering critical academic dialogues.</p>
+<p><a href="https://courses.lumenlearning.com/suny-introliterature/" target="_blank" rel="noopener noreferrer">Writing About Literature (Lumen Learning / SUNY)</a> - Serves as the core open-access instructional course, guiding learners through developing a defensible interpretive claim, integrating direct textual quotations, and structuring an essay.</p>
+<p><a href="https://archive.org/details/they-say-i-say-5th-edition_202306" target="_blank" rel="noopener noreferrer">They Say / I Say: The Moves That Matter in Academic Writing (Gerald Graff &amp; Cathy Birkenstein)</a> - A practical rhetorical guide that provides templates for framing personal interpretations in relation to existing critical perspectives; read alongside the Lumen Learning units.</p>
+<h3 id="poetry-and-poetics">Poetry and Poetics</h3>
+<p>This subject examines the formal mechanisms and interpretive strategies specific to verse, including meter, rhythm, rhyme schemes, stanzaic structure, and figurative devices.</p>
+<p><a href="https://www.open.edu/openlearn/history-the-arts/literature/approaching-poetry/content-section-0" target="_blank" rel="noopener noreferrer">Approaching Poetry (OpenLearn / The Open University)</a> - The foundational interactive course for beginners, providing practical exercises in prosody, lineation, voice, and rhythm.</p>
+<p><a href="https://oyc.yale.edu/english/engl-310" target="_blank" rel="noopener noreferrer">Modern Poetry (Open Yale Courses / Langdon Hammer)</a> - A comprehensive university video course that builds directly on introductory prosody by modeling close readings across major twentieth-century poets.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLh9mgdi4rNewA25FVJ-lawQ-yr-alF58z" target="_blank" rel="noopener noreferrer">Modern Poetry Playlist (YouTube / Yale University)</a> - The complete YouTube video lecture playlist for Langdon Hammer's course, offering a free streaming alternative to the Open Yale Courses portal.</p>
+<h3 id="prose-fiction-and-narrative-theory">Prose Fiction and Narrative Theory</h3>
+<p>This subject explores the structure and mechanics of narrative prose, focusing on point of view, plot architecture, characterization, focalization, and narrative discourse.</p>
+<p><a href="https://www.open.edu/openlearn/history-the-arts/literature/approaching-prose-fiction/content-section-0" target="_blank" rel="noopener noreferrer">Approaching Prose Fiction (OpenLearn / The Open University)</a> - The primary interactive course introducing core concepts of setting, characterization, narrative perspective, and genre through guided exercises.</p>
+<p><a href="https://books.google.com/books?isbn=9780099554240" target="_blank" rel="noopener noreferrer">The Art of Fiction (David Lodge)</a> - A practical, accessible bridge between close reading and narrative craft that analyzes fifty distinct fictional techniques using excerpts from classic and contemporary novels; study alongside the OpenLearn modules.</p>
+<p><a href="https://books.google.com/books?isbn=9781108823357" target="_blank" rel="noopener noreferrer">The Cambridge Introduction to Narrative (H. Porter Abbott)</a> - An advanced, complementary textbook providing rigorous coverage of narratology, story versus discourse, framing, and narrative ethics; study after finishing Lodge.</p>
+<h3 id="drama-and-dramatic-literature">Drama and Dramatic Literature</h3>
+<p>This subject analyzes the unique conventions of dramatic texts, exploring dialogue, stage directions, theatrical space, dramatic structure, and performance dynamics.</p>
+<p><a href="https://www.open.edu/openlearn/history-the-arts/literature/approaching-plays/content-section-0" target="_blank" rel="noopener noreferrer">Approaching Plays (OpenLearn / The Open University)</a> - The primary introductory course, guiding learners through reading dialogue, interpreting stage directions, analyzing dramatic conflict, and visualizing performance spaces.</p>
+<p><a href="https://books.google.com/books?isbn=9780809005505" target="_blank" rel="noopener noreferrer">An Anatomy of Drama (Martin Esslin)</a> - A concise theoretical complement to the OpenLearn course that explores the nature of dramatic action, illusion, and audience engagement.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLaLOVNqqD-2HhqQG1BxUaQr0GpG8oN0DV" target="_blank" rel="noopener noreferrer">Shakespeare After All: The Later Plays (YouTube / Marjorie Garber)</a> - A recorded Harvard lecture series demonstrating practical textual analysis and staging interpretation across canonical tragedies and romances; use as an applied masterclass after mastering dramatic fundamentals.</p>
+<p><a href="https://books.google.com/books?isbn=9780385722148" target="_blank" rel="noopener noreferrer">Shakespeare After All (Marjorie Garber)</a> - The companion volume of analytical essays corresponding to the Harvard lectures, serving as an in-depth reading guide to accompany the video playlist.</p>
+<h3 id="literary-nonfiction-and-the-essay">Literary Nonfiction and the Essay</h3>
+<p>This subject examines the history, rhetoric, and artistic conventions of the essay, tracing how personal voice, reflection, and argument merge in literary nonfiction.</p>
+<p><a href="https://books.google.com/books?isbn=9780385423397" target="_blank" rel="noopener noreferrer">The Art of the Personal Essay (Phillip Lopate)</a> - A canonical anthology whose foundational book-length introduction charts the historical evolution and stylistic conventions of personal prose from antiquity through the twentieth century.</p>
+<h3 id="survey-of-world-literary-history">Survey of World Literary History</h3>
+<p>This subject provides a chronological overview of global literary traditions and major aesthetic movements from antiquity through the modern era.</p>
+<p><a href="https://pll.harvard.edu/course/ancient-masterpieces-world-literature" target="_blank" rel="noopener noreferrer">Ancient Masterpieces of World Literature (HarvardX / David Damrosch &amp; Martin Puchner)</a> - Part one of the chronological survey, introducing ancient mythic, epic, and dramatic traditions across Mediterranean, Near Eastern, and Asian cultures.</p>
+<p><a href="https://pll.harvard.edu/course/modern-masterpieces-world-literature" target="_blank" rel="noopener noreferrer">Modern Masterpieces of World Literature (HarvardX / David Damrosch &amp; Martin Puchner)</a> - Part two of the survey, tracing the global evolution of the novel, Romanticism, Realism, and postcolonial encounters from the eighteenth century to the present.</p>
+<p><a href="https://archive.org/details/longmananthology0000unse_c6r1" target="_blank" rel="noopener noreferrer">The Longman Anthology of World Literature (David Damrosch et al.)</a> - The primary multi-volume reader providing historical introductions and representative primary texts to read sequentially alongside both HarvardX courses.</p>
+<p><a href="https://archive.org/details/modernism18901930000unse" target="_blank" rel="noopener noreferrer">Modernism: A Guide to European Literature 1890–1930 (Malcolm Bradbury &amp; James McFarlane)</a> - A historical and critical companion focusing specifically on the aesthetic experiments and cultural ruptures of high modernism; read alongside the modern section of the anthology.</p>
+<h3 id="world-literature-and-comparative-frameworks">World Literature and Comparative Frameworks</h3>
+<p>This subject examines how literary works circulate beyond their linguistic and national borders, exploring translation, cross-cultural reception, and comparative reading practices.</p>
+<p><a href="https://pll.harvard.edu/course/masterpieces-world-literature" target="_blank" rel="noopener noreferrer">Masterpieces of World Literature (HarvardX / David Damrosch &amp; Martin Puchner)</a> - A comprehensive introductory MOOC that synthesizes comparative methodologies and investigates how literature travels, transforms, and acquires new meanings across global cultures.</p>
+<p><a href="https://books.google.com/books?isbn=9780691049861" target="_blank" rel="noopener noreferrer">What Is World Literature? (David Damrosch)</a> - A foundational critical book establishing how texts function in translation and international circulation; read as a theoretical companion to the HarvardX course.</p>
+<h3 id="literary-theory-and-critical-frameworks">Literary Theory and Critical Frameworks</h3>
+<p>This subject surveys the major theoretical frameworks for interpreting literature, including Formalism, Structuralism, Deconstruction, Psychoanalysis, Feminism, Marxism, Postcolonialism, and New Historicism.</p>
+<p><a href="https://archive.org/details/beginning-theory-peter-barry/" target="_blank" rel="noopener noreferrer">Beginning Theory: An Introduction to Literary and Cultural Theory (Peter Barry)</a> - The core introductory textbook, presenting each critical school through straightforward definitions, historical context, and practical demonstrations of how each approach analyzes a text.</p>
+<p><a href="https://oyc.yale.edu/english/engl-300" target="_blank" rel="noopener noreferrer">Introduction to Theory of Literature (Open Yale Courses / Paul H. Fry)</a> - A complete university lecture course delivering rigorous intellectual histories of major critical movements; watch in tandem with the corresponding chapters of Barry.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLD00D35CBC75941BD" target="_blank" rel="noopener noreferrer">Introduction to the Theory of Literature Playlist (YouTube / Yale University)</a> - The complete YouTube video lecture series for Paul Fry's course, providing an alternative streaming option to the Open Yale Courses portal.</p>
+<p><a href="https://archive.org/details/literarytheoryin0000eagl_l4l5" target="_blank" rel="noopener noreferrer">Literary Theory: An Introduction (Terry Eagleton)</a> - A seminal historical critique tracing the ideological origins of English literary studies; read as an analytical complement to Barry to explore the politics of literary interpretation.</p>
+    </article>
+  </main>
 
 </body>
 </html>

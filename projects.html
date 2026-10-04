@@ -1,160 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Projects</title>
-<link rel="stylesheet" href="/literature/style.css">
-<meta name="description" content="">
+  <title>Projects</title>
+  <meta name="description" content="Projects curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/literature/">
+  <link rel="canonical" href="https://hocbigg.github.io/literature/projects.html">
+  <meta property="og:title" content="Projects">
+  <meta property="og:description" content="Projects curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/literature/projects.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Projects">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/literature/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/literature/">Literature</a>
-<a href="/literature/advanced_topics.html">Advanced Topics</a>
-<a href="/literature/projects.html">Projects</a>
-<a href="/literature/extras/courses.html">Extra Courses</a>
-<a href="/literature/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/literature/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/literature/">Literature</a></li>
+      <li><a href="/literature/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/literature/projects.html">Projects</a></li>
+      <li><a href="/literature/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/literature/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/literature/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/literature" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="projects">Projects</h1>
 <blockquote>
-<p><em>What I cannot create, I do not understand — Richard Feynman.</em></p>
+<p>"What I cannot create, I do not understand." — Richard Feynman</p>
 </blockquote>
-<p>It's a great way to learn.</p>
 <ul>
-<li><a href="#write-your-own-poems">Write your own poems</a></li>
-<li><a href="#write-your-own-short-stories">Write your own short stories</a></li>
-<li><a href="#compose-your-own-novels">Compose your own novels</a></li>
-<li><a href="#create-your-own-plays">Create your own plays</a></li>
-<li><a href="#craft-your-own-essays">Craft your own essays</a></li>
-<li><a href="#compose-your-own-literary-criticism">Compose your own literary criticism</a></li>
-<li><a href="#write-your-own-experimental-prose">Write your own experimental prose</a></li>
-<li><a href="#build-your-own-narrative-worlds">Build your own narrative worlds</a></li>
-<li><a href="#construct-your-own-characters">Construct your own characters</a></li>
-<li><a href="#design-your-own-literary-forms">Design your own literary forms</a></li>
-<li><a href="#create-your-own-spoken-word-pieces">Create your own spoken-word pieces</a></li>
-<li><a href="#write-your-own-microfiction">Write your own microfiction</a></li>
-<li><a href="#reconstruct-your-own-myths-and-legends">Reconstruct your own myths and legends</a></li>
-<li><a href="#compose-your-own-epistolary-works">Compose your own epistolary works</a></li>
-<li><a href="#invent-your-own-poetic-sequences">Invent your own poetic sequences</a></li>
-<li><a href="#craft-your-own-hybrid-genre-texts">Craft your own hybrid genre texts</a></li>
-<li><a href="#build-your-own-literary-manifestos">Build your own literary manifestos</a></li>
+<li><a href="#write-your-own-close-reading-essays">Close Reading Essays</a></li>
+<li><a href="#conduct-your-own-computational-text-analyses">Computational Text Analyses</a></li>
+<li><a href="#build-your-own-digital-scholarly-editions">Digital Scholarly Editions</a></li>
+<li><a href="#produce-your-own-literary-translations">Literary Translations</a></li>
+<li><a href="#write-your-own-translation-commentaries">Translation Commentaries</a></li>
+<li><a href="#write-your-own-academic-book-reviews">Academic Book Reviews</a></li>
+<li><a href="#compile-your-own-annotated-bibliographies">Annotated Bibliographies</a></li>
+<li><a href="#curate-your-own-thematic-literary-anthologies">Thematic Literary Anthologies</a></li>
+<li><a href="#build-your-own-interactive-fiction-games">Interactive Fiction Games</a></li>
+<li><a href="#compose-your-own-constrained-literary-texts">Constrained Literary Texts</a></li>
 </ul>
-<h3 id="write-your-own-poems">Write your own poems</h3>
+<h2 id="write-your-own-close-reading-essays">Write your own close reading essays</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.grammarly.com/blog/creative-writing/how-to-write-a-poem">How to Write a Poem: A Step-by-Step Guide</a> (Article / Guide)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://thecreativeindependent.com/guides/how-to-write-a-poem">How to write a poem</a> (Guide / Tutorial)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerichowriters.com/how-to-write-a-poem">How To Write A Poem: A Step By Step Guide</a> (Article / Step-by-step)</li>
+<li><a href="https://writingcenter.fas.harvard.edu/pages/how-do-close-reading" target="_blank" rel="noopener noreferrer">How to Do a Close Reading (Harvard College Writing Center)</a></li>
+<li><a href="https://writing.wisc.edu/handbook/closereading/" target="_blank" rel="noopener noreferrer">A Short Guide to Close Reading for Literary Analysis (UW–Madison Writing Center)</a></li>
+<li><a href="https://writingcenter.unc.edu/tips-and-tools/poetry-explications/" target="_blank" rel="noopener noreferrer">Poetry Explications: Step-by-Step Guide (UNC Writing Center)</a></li>
+<li><a href="https://writingcenter.fas.harvard.edu/pages/asking-analytical-questions" target="_blank" rel="noopener noreferrer">Asking Analytical Questions (Harvard College Writing Center)</a></li>
 </ul>
-<h3 id="write-your-own-short-stories">Write your own short stories</h3>
+<h2 id="conduct-your-own-computational-text-analyses">Conduct your own computational text analyses</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerryjenkins.com/how-to-write-short-stories">How to Write a Short Story: 9 Proven Steps</a> (Guide / Tutorial)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reedsy.com/studio/resources/how-to-write-a-short-story">How to Write a Short Story in 8 Simple Steps</a> (Article / Step-by-step)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://writers.com/how-to-write-a-short-story">How to Write a Short Story: The Short Story Checklist</a> (Guide / Checklist-based)</li>
+<li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-with-spacy" target="_blank" rel="noopener noreferrer">Corpus Analysis with spaCy (Megan S. Kane / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/topic-modeling-and-mallet" target="_blank" rel="noopener noreferrer">Getting Started with Topic Modeling and MALLET (Shawn Graham, Scott Weingart, and Ian Milligan / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python" target="_blank" rel="noopener noreferrer">Introduction to Stylometry with Python (François Dominic Laramée / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/sentiment-analysis-for-exploratory-data-analysis" target="_blank" rel="noopener noreferrer">Sentiment Analysis for Exploratory Data Analysis (Zoë Wilkinson Saldaña / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-with-voyant-tools" target="_blank" rel="noopener noreferrer">Corpus Analysis with Voyant Tools (Silvia Gutiérrez De la Torre / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/introduction-to-jupyter-notebooks" target="_blank" rel="noopener noreferrer">Introduction to Jupyter Notebooks for Humanities Research (Quinn Dombrowski, Tassie Gniady, and David Kloster / The Programming Historian)</a></li>
 </ul>
-<h3 id="compose-your-own-novels">Compose your own novels</h3>
+<h2 id="build-your-own-digital-scholarly-editions">Build your own digital scholarly editions</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerryjenkins.com/how-to-write-a-novel">How to Write a Novel: 12 Simple Steps From a Bestseller</a> (Guide / Step-by-step)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reedsy.com/studio/resources/how-to-write-a-novel">How to Write a Novel: A Bestselling Author's Guide</a> (Article / 8-step process)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.savannahgilbo.com/blog/how-to-write-a-novel">First Draft Roadmap: 10 Steps to Writing A Novel For Beginners</a> (Guide / Roadmap)</li>
+<li><a href="https://teibyexample.org/" target="_blank" rel="noopener noreferrer">Tutorials on Text Encoding and TEI P5 (Edward Vanhoutte, Ron Van den Branden, and Melissa Terras / TEI by Example)</a></li>
+<li><a href="https://minicomp.github.io/ed/" target="_blank" rel="noopener noreferrer">Ed: A Jekyll Theme for Minimal Digital Editions (Alex Gil &amp; Columbia University Minicomp)</a></li>
+<li><a href="https://books.openedition.org/oep/426" target="_blank" rel="noopener noreferrer">What Is the Text Encoding Initiative? (Lou Burnard / OpenEdition Press)</a></li>
 </ul>
-<h3 id="create-your-own-plays">Create your own plays</h3>
+<h2 id="produce-your-own-literary-translations">Produce your own literary translations</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.masterclass.com/articles/how-to-write-a-play">How to Write a Play in 9 Steps</a> (Article / Step-by-step)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.instructables.com/How-To-Write-a-Play">How to Write a Play : 7 Steps</a> (Tutorial / Instructables guide)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jotterpad.app/how-to-write-a-stage-play">How To Write A Stage Play</a> (Guide / Procedural steps)</li>
+<li>Getting the Rights to Translate a Work: A How-To Guide (Susan Bernofsky / PEN America) - search "Getting the Rights to Translate a Work" on PEN America (pen.org)</li>
+<li>Guidelines for Evaluating Literary Translation in Academic Contexts (American Literary Translators Association) - search "Guidelines for Evaluating Literary Translation" on ALTA (literarytranslators.org)</li>
 </ul>
-<h3 id="craft-your-own-essays">Craft your own essays</h3>
+<h2 id="write-your-own-translation-commentaries">Write your own translation commentaries</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.scribbr.com/category/academic-essay">The Beginner's Guide to Writing an Essay - Steps &amp; Examples</a> (Guide / Comprehensive steps)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://writingcenter.fas.harvard.edu/pages/strategies-essay-writing">Strategies for Essay Writing</a> (Resource collection / Harvard tutorial series)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://students.unimelb.edu.au/academic-skills/resources/reading,-writing-and-referencing/essays/writing-a-great-essay">Writing a great essay</a> (Guide / University tips with steps)</li>
+<li><a href="https://books.google.com/books?isbn=9781032042787" target="_blank" rel="noopener noreferrer">Writing a Translation Commentary (Penélope Johnson / Routledge)</a> [Paid / Monograph]</li>
 </ul>
-<h3 id="compose-your-own-literary-criticism">Compose your own literary criticism</h3>
+<h2 id="write-your-own-academic-book-reviews">Write your own academic book reviews</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.bucks.edu/media/bcccmedialibrary/pdf/HOWTOWRITEALITERARYANALYSISESSAY_10.15.07_001.pdf">HOW TO WRITE A LITERARY ANALYSIS ESSAY</a> — provides a clear structural process (thesis formation, organization, evidence integration) that can be adapted to produce original critical arguments</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://libguides.uta.edu/literarycriticism/steps">Steps to Literary Criticism - Subject and Course Guides</a> — outlines a sequential method from reading/questioning to thesis-building and evidence defense, useful for crafting independent critical pieces</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://writing.wisc.edu/handbook/closereading">A Short Guide to Close Reading for Literary Analysis</a> — teaches analytical reading techniques that form the foundation for generating one's own interpretive criticism</li>
+<li><a href="https://writingcenter.unc.edu/tips-and-tools/book-reviews/" target="_blank" rel="noopener noreferrer">Book Reviews (UNC Writing Center)</a></li>
+<li><a href="https://owl.purdue.edu/owl/general_writing/common_writing_assignments/book_reviews.html" target="_blank" rel="noopener noreferrer">Writing a Book Review: Elements and Structure (Purdue OWL)</a></li>
 </ul>
-<h3 id="write-your-own-experimental-prose">Write your own experimental prose</h3>
+<h2 id="compile-your-own-annotated-bibliographies">Compile your own annotated bibliographies</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.studysmarter.co.uk/explanations/english/creative-writing/experimental-writing">Experimental Writing: Techniques &amp; Purpose - StudySmarter</a> — describes key techniques (non-linear narratives, fragmentation, language play) with examples to model and apply in original work</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://lithub.com/marisa-crane-on-the-finer-points-of-experimental-fiction">Marisa Crane on the Finer Points of Experimental Fiction</a> — offers practical guidelines (lean into metaphor, embrace failure, edit tightly) from a practitioner for approaching experimental composition confidently</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://blog.homeforfiction.com/2020/03/29/experimental-fiction-examples-dynamics">Experimental Fiction: Examples and Dynamics</a> — analyzes specific works to illustrate how deviation from norms creates effect, aiding in reverse-engineering innovative prose strategies</li>
+<li><a href="https://writingcenter.unc.edu/tips-and-tools/annotated-bibliographies/" target="_blank" rel="noopener noreferrer">Annotated Bibliographies (UNC Writing Center)</a></li>
+<li><a href="https://owl.purdue.edu/owl/general_writing/common_writing_assignments/annotated_bibliographies/index.html" target="_blank" rel="noopener noreferrer">Annotated Bibliographies: Breakdown and Examples (Purdue OWL)</a></li>
 </ul>
-<h3 id="build-your-own-narrative-worlds">Build your own narrative worlds</h3>
+<h2 id="curate-your-own-thematic-literary-anthologies">Curate your own thematic literary anthologies</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerryjenkins.com/worldbuilding">Worldbuilding: A Guide for Creating an Immersive World</a> — step-by-step foundational advice on establishing rules, consistency, and immersion tailored to fiction writing</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://darlingaxe.com/blogs/news/world-building">Building a Fictional World: A Novelist's Guide</a> — systematic questions and elements (government, culture, systems) to methodically construct believable settings</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://writingcooperative.com/a-guide-for-successful-world-building-in-fiction-d2dacbf95d93">A Guide for Successful World-Building in Fiction</a> — explains consistency and integration with story, providing a workflow for building coherent narrative environments</li>
+<li><a href="https://robinderosa.net/uncategorized/my-open-textbook-pedagogy-and-practice/" target="_blank" rel="noopener noreferrer">My Open Textbook: Pedagogy and Practice with the Open Anthology of Earlier American Literature (Robin DeRosa)</a></li>
+<li><a href="https://guide.pressbooks.com/" target="_blank" rel="noopener noreferrer">Pressbooks User Guide for Open Anthologies and Textbooks (Pressbooks)</a></li>
 </ul>
-<h3 id="construct-your-own-characters">Construct your own characters</h3>
+<h2 id="build-your-own-interactive-fiction-games">Build your own interactive fiction games</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.writersdigest.com/write-better-fiction/my-6-point-character-building-process">My 6-Point Character-Building Process</a> — structured questionnaire-based method (background, motivations, flaws) for developing rounded, compelling figures</li>
-<li><a target="_blank" rel="noopener noreferrer" href="http://blog.janicehardy.com/2009/12/under-development.html">A Step-By-Step Plan to Create Compelling Characters</a> — phased approach to character revision and depth, including questions to uncover motivations and consistency</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://iulianionescu.com/character-development-worksheet">Character Development Worksheet: An Essential Writing Tool</a> — detailed worksheet framework covering physical, psychological, and arc dimensions for systematic character creation</li>
+<li><a href="https://programminghistorian.org/en/lessons/interactive-text-games-using-twine" target="_blank" rel="noopener noreferrer">Interactive Fiction in the Humanities Classroom: How to Create Interactive Text Games Using Twine (Gabi Kirilloff / The Programming Historian)</a></li>
 </ul>
-<h3 id="design-your-own-literary-forms">Design your own literary forms</h3>
+<h2 id="compose-your-own-constrained-literary-texts">Compose your own constrained literary texts</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.studysmarter.co.uk/explanations/english/creative-writing/experimental-writing">Experimental Writing: Techniques &amp; Purpose - StudySmarter</a> — surveys unconventional structures and constraints (e.g., Oulipo methods) as models for inventing new forms</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://lithub.com/marisa-crane-on-the-finer-points-of-experimental-fiction">Marisa Crane on the Finer Points of Experimental Fiction</a> — discusses using unusual forms (maps, lists, etc.) tied to theme, encouraging bold experimentation in form design</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://fiveable.me/world-literature-ii/unit-11/contemporary-experimental-forms/study-guide/Kc9FrVLU6E6p5tp2">Contemporary experimental forms - World Literature II Class Notes</a> — highlights characteristics like metafiction and genre-blending to inspire and inform the creation of novel literary structures</li>
+<li><a href="https://poets.org/text/brief-guide-oulipo" target="_blank" rel="noopener noreferrer">A Brief Guide to OULIPO: Procedures, Formulas, and Constraints (Academy of American Poets)</a></li>
+<li><a href="https://books.google.com/books?isbn=9780811220279" target="_blank" rel="noopener noreferrer">Exercises in Style (Raymond Queneau, trans. Barbara Wright / New Directions)</a> [Paid / Canonical Text]</li>
 </ul>
-<h3 id="create-your-own-spoken-word-pieces">Create your own spoken-word pieces</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.grammarly.com/blog/creative-writing/how-to-write-a-poem">How to Write a Poem: A Step-by-Step Guide</a> — adaptable poetry workflow emphasizing rhythm, performance elements, and oral qualities suitable for spoken word</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://thecreativeindependent.com/guides/how-to-write-a-poem">How to write a poem</a> — process-oriented advice on voice, sound, and delivery that translates directly to spoken-word composition</li>
-</ul>
-<h3 id="write-your-own-microfiction">Write your own microfiction</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerryjenkins.com/how-to-write-short-stories">How to Write a Short Story: 9 Proven Steps</a> — concise principles of economy, conflict, and resolution easily scaled down for microfiction practice</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reedsy.com/studio/resources/how-to-write-a-short-story">How to Write a Short Story in 8 Simple Steps</a> — focused structure that supports extreme brevity while maintaining impact</li>
-</ul>
-<h3 id="reconstruct-your-own-myths-and-legends">Reconstruct your own myths and legends</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerryjenkins.com/how-to-write-a-novel">How to Write a Novel: 12 Simple Steps From a Bestseller</a> — narrative-building steps adaptable to mythic structures, archetypes, and symbolic layering</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jerryjenkins.com/worldbuilding">Worldbuilding: A Guide for Creating an Immersive World</a> — techniques for cultural and historical depth that aid in reimagining mythic frameworks</li>
-</ul>
-<h3 id="compose-your-own-epistolary-works">Compose your own epistolary works</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://writers.com/how-to-write-a-short-story">How to Write a Short Story: The Short Story Checklist</a> — structural tools for fragmented, voice-driven narratives suitable for letter/diary formats</li>
-<li><a href="#write-your-own-experimental-prose">Write your own experimental prose</a> resources above — techniques like fragmentation and multiple perspectives support epistolary experimentation</li>
-</ul>
-<h3 id="invent-your-own-poetic-sequences">Invent your own poetic sequences</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://thecreativeindependent.com/guides/how-to-write-a-poem">How to write a poem</a> — iterative process for building connected pieces through theme and variation</li>
-<li><a href="#invent-your-own-poetic-sequences">Invent your own poetic sequences</a> can draw from general poetry guides with emphasis on continuity and progression</li>
-</ul>
-<h3 id="craft-your-own-hybrid-genre-texts">Craft your own hybrid genre texts</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.studysmarter.co.uk/explanations/english/creative-writing/experimental-writing">Experimental Writing: Techniques &amp; Purpose - StudySmarter</a> — explains genre-blending and boundary-pushing as core methods for hybrid creation</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://lithub.com/marisa-crane-on-the-finer-points-of-experimental-fiction">Marisa Crane on the Finer Points of Experimental Fiction</a> — practical mindset for combining forms meaningfully</li>
-</ul>
-<h3 id="build-your-own-literary-manifestos">Build your own literary manifestos</h3>
-<ul>
-<li><a href="#compose-your-own-literary-criticism">Compose your own literary criticism</a> resources above — argumentative structure and thesis-driven writing adaptable to declarative manifesto form</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.studysmarter.co.uk/explanations/english/creative-writing/experimental-writing">Experimental Writing: Techniques &amp; Purpose - StudySmarter</a> — boundary-challenging ethos provides a model for manifesto-style declarations of new literary principles</li>
-</ul>
-</article>
-</main>
+    </article>
+  </main>
 
 </body>
 </html>

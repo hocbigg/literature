@@ -1,209 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/literature/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="Advanced Topics curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/literature/">
+  <link rel="canonical" href="https://hocbigg.github.io/literature/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="Advanced Topics curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/literature/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/literature/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/literature/">Literature</a>
-<a href="/literature/advanced_topics.html">Advanced Topics</a>
-<a href="/literature/projects.html">Projects</a>
-<a href="/literature/extras/courses.html">Extra Courses</a>
-<a href="/literature/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/literature/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/literature/">Literature</a></li>
+      <li><a href="/literature/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/literature/projects.html">Projects</a></li>
+      <li><a href="/literature/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/literature/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/literature/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/literature" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
-<p>Elective deepening through specialization tracks.</p>
-<h2 id="modernism">Modernism</h2>
-<p>Focuses on experimental forms and responses to modernity (e.g., fragmentation, stream-of-consciousness).</p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why Study?</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Modernist Literature: Key Texts</td>
-<td>Explores innovations in form and content during the early 20th century.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Modernist-Papers-Fredric-Jameson/dp/1844672425"><em>The Modernist Papers</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://alison.com/course/introduction-to-modernist-literature">Introduction to Modernist Literature</a></td>
-</tr>
-<tr>
-<td>Modernism and Culture</td>
-<td>Examines intersections with art, psychology, and war.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/modernismverysho0000butl"><em>Modernism: A Very Short Introduction</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/modern-postmodern-1">The Modern and the Postmodern (Part 1)</a></td>
-</tr>
-<tr>
-<td>Postmodernism Extensions</td>
-<td>Investigates shifts from modernism to postmodern playfulness and irony.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/postmodernismorc0000jame"><em>Postmodernism, or, The Cultural Logic of Late Capitalism</em></a></td>
-<td>Covered in <a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/modern-postmodern-1">The Modern and the Postmodern (Part 1)</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="postcolonial-studies">Postcolonial Studies</h2>
-<p>Emphasizes literature from formerly colonized regions, addressing power, identity, and resistance.</p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why Study?</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Postcolonial Theory</td>
-<td>Introduces concepts like hybridity and subaltern voices.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/postcolonialstud0000unse_q6m8"><em>The Post-Colonial Studies Reader</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/swayam-postcolonial-literature-7942">Postcolonial Literature</a></td>
-</tr>
-<tr>
-<td>Postcolonial Literature: Africa and Asia</td>
-<td>Analyzes narratives of decolonization and cultural reclamation.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/empirewritesback0000ashc_i3w1"><em>The Empire Writes Back: Theory and Practice in Post-Colonial Literatures</em></a></td>
-<td>Covered in <a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/swayam-postcolonial-literature-7942">Postcolonial Literature</a> OR <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@postcolonialliterature5324">Postcolonial Literature</a> (indian english, but this is the only full &amp; free course I could find)</td>
-</tr>
-<tr>
-<td>Diaspora and Migration in Literature</td>
-<td>Explores themes of displacement and transnational identities.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/diasporaintroduc0000braz"><em>Diaspora: An Introduction</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/swayam-refugee-migration-diaspora-379920">Refugee, Migration, Diaspora</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="gender-studies">Gender Studies</h2>
-<p>Investigates representations of gender, sexuality, and power in literature.</p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why Study?</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Feminist Literary Criticism</td>
-<td>Applies gender lenses to reinterpret canonical and marginalized texts.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/feministliterary0000unse_s0x4"><em>Feminist Literary Theory: A Reader</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/youtube-20-the-classical-feminist-tradition-109423">The Classical Feminist Tradition in Literature</a></td>
-</tr>
-<tr>
-<td>Queer Theory in Literature</td>
-<td>Examines non-normative sexualities and identities.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/queertheoryintro0000jago"><em>Queer Theory: An Introduction</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/youtube-23-queer-theory-and-gender-performativity-109799">Queer Theory and Gender Performativity</a></td>
-</tr>
-<tr>
-<td>Gender and Intersectionality</td>
-<td>Integrates race, class, and gender for multifaceted analysis.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/in.ernet.dli.2015.182997"><em>This Bridge Called My Back: Writings by Radical Women of Color</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/gender-studies-the-university-of-iceland-gender-a-19311">Gender and Intersectionality</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="digital-humanities">Digital Humanities</h2>
-<p>Blends literature with technology for new analytical methods (e.g., text mining, digital archives).</p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why Study?</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Introduction to Digital Humanities</td>
-<td>Overviews tools for digitizing and analyzing texts.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Debates-Digital-Humanities-Matthew-Gold/dp/0816677956"><em>Debates in the Digital Humanities</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/introduction-digital-humanities">Introduction to Digital Humanities</a></td>
-</tr>
-<tr>
-<td>Textual Analysis with Digital Tools</td>
-<td>Teaches computational methods for pattern recognition in literature.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/DigitalHumanities_201701"><em>Digital_Humanities</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://guides.lib.virginia.edu/digital-humanities/text-analysis">Text Analysis with Digital Tools</a> (unavailable)</td>
-</tr>
-<tr>
-<td>Digital Storytelling and Archives</td>
-<td>Explores creating and curating digital literary projects.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/johnshopkinsguid0000unse_p1l5"><em>The Johns Hopkins Guide to Digital Media</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/digital-storytelling">Digital Storytelling</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="critical-theory-advanced">Critical Theory (Advanced)</h2>
-<p>Deepens theoretical mastery for sophisticated critique.</p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why Study?</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Advanced Literary Theory</td>
-<td>To delve into complex theories like post-structuralism for advanced analysis.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Structuralism and Post-Structuralism</td>
-<td>Delves into language, signs, and deconstruction.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Structuralism-Poststructuralism-Beginners-Donald-Palmer/dp/1934389102"><em>Structuralism and Poststructuralism for Beginners</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLZZB5Jd0WePbZBStC4-H-hFGsbNW7HKjj">Structuralism &amp; Post-Structuralism</a></td>
-</tr>
-<tr>
-<td>Marxist and Cultural Materialism</td>
-<td>Analyzes literature through economic and ideological lenses.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/marxismliteratur00will_0"><em>Marxism and Literature</em></a></td>
-<td></td>
-</tr>
-<tr>
-<td>Ecocriticism and Environmental Theory</td>
-<td>Applies theory to nature, sustainability, and human-environment relations in texts.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/ecocriticismread0000unse"><em>The Ecocriticism Reader: Landmarks in Literary Ecology</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://massolit.io/courses/ecocriticism">Ecocriticism</a></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<p>Specialized subfields, advanced theoretical frameworks, and research methodologies for post-core literary studies. Learners are expected to choose one or two tracks aligned with their interests and critical goals rather than attempting to complete every track.</p>
+<ul>
+<li><a href="#critical-theory-biopolitics-affect">Critical Theory, Biopolitics &amp; Affect</a>: Investigates post-structuralist philosophies of textuality, the modern regulation of biological life and sovereign violence, bodily affect, and non-human agency beyond anthropocentric models.</li>
+<li><a href="#postcolonial-decolonial-transnational-studies">Postcolonial, Decolonial &amp; Transnational Studies</a>: Examines imperial archives, subaltern agency, decolonial border thinking, and the uneven geopolitics of literary production and circulation across the Global South.</li>
+<li><a href="#gender-sexuality-queer-poetics">Gender, Sexuality &amp; Queer Poetics</a>: Explores the discursive construction of gender performativity, queer temporalities and spatialities, intersectional Black feminist thought, and transgender phenomenology.</li>
+<li><a href="#environmental-humanities-ecocriticism">Environmental Humanities &amp; Ecocriticism</a>: Analyzes literary representations of the non-human world, climate crisis, environmental justice, slow violence, and petrocultures in the Anthropocene.</li>
+<li><a href="#computational-literary-studies-digital-humanities">Computational Literary Studies &amp; Digital Humanities</a>: Integrates quantitative distant reading, algorithmic text mining, corpus stylistics, and digital scholarly editing to analyze literary history at scale.</li>
+<li><a href="#advanced-narratology-poetics-experimental-forms">Advanced Narratology, Poetics &amp; Experimental Forms</a>: Scrutinizes cognitive and unnatural narrative architectures, high modernist formal experimentation, postmodern metafiction, and the historical evolution of literary genres.</li>
+</ul>
+<h2 id="critical-theory-biopolitics-affect">Critical Theory, Biopolitics &amp; Affect</h2>
+<p>Investigates post-structuralist philosophies of textuality, the modern regulation of biological life and sovereign violence, bodily affect, and non-human agency beyond anthropocentric models.</p>
+<p>Post-Structuralism, Deconstruction and Textuality: <a href="https://books.google.com/books?isbn=9781421419954" target="_blank" rel="noopener noreferrer">Of Grammatology (Jacques Derrida, trans. Gayatri Chakravorty Spivak)</a> - The foundational monograph of deconstruction, dismantling structuralist linguistics by demonstrating how writing precedes and destabilizes speech through différance, trace, and the supplement.</p>
+<p>Biopolitics, Sovereignty and Disciplinary Power: <a href="https://books.google.com/books?isbn=9780679724698" target="_blank" rel="noopener noreferrer">The History of Sexuality, Volume 1: An Introduction (Michel Foucault)</a> - The seminal text articulating the historical shift from sovereign violence to disciplinary power and the biopolitical management of living bodies and populations.</p>
+<p>Biopolitics, Sovereignty and Disciplinary Power: <a href="https://blogs.law.columbia.edu/foucault1313/" target="_blank" rel="noopener noreferrer">Foucault 13/13 Seminar Series (Columbia Center for Contemporary Critical Thought / Bernard E. Harcourt)</a> - An open university video seminar series that pairs Foucault's thirteen Collège de France lecture courses with in-depth critical commentary by leading contemporary theorists; use alongside Foucault's primary texts.</p>
+<p>Affect Theory and Somatic Registers: <a href="https://books.google.com/books?isbn=9780822351115" target="_blank" rel="noopener noreferrer">Cruel Optimism (Lauren Berlant)</a> - A transformative work that analyzes how contemporary cultural narratives, bodily sensations, and pre-reflective affective states register the slow systemic breakdown of late capitalism.</p>
+<p>Posthumanism and New Materialisms: <a href="https://books.google.com/books?isbn=9780822346333" target="_blank" rel="noopener noreferrer">Vibrant Matter: A Political Ecology of Things (Jane Bennett)</a> - Reconfigures critical reading by attributing agency and vital force to inorganic materials and non-human assemblages, overturning anthropocentric assumptions in textual analysis.</p>
+<h2 id="postcolonial-decolonial-transnational-studies">Postcolonial, Decolonial &amp; Transnational Studies</h2>
+<p>Examines imperial archives, subaltern agency, decolonial border thinking, and the uneven geopolitics of literary production and circulation across the Global South.</p>
+<p>Postcolonial Theory and Colonial Discourse: <a href="https://nptel.ac.in/courses/109104116" target="_blank" rel="noopener noreferrer">Postcolonial Literature (NPTEL / Sayan Chattopadhyay)</a> - A comprehensive 20-lecture video course examining colonial discourse analysis, Commonwealth literature, Achebe, Rushdie, Said, and Bhabha.</p>
+<p>Postcolonial Theory and Colonial Discourse: <a href="https://archive.org/details/wretchedeart00fano" target="_blank" rel="noopener noreferrer">The Wretched of the Earth (Frantz Fanon)</a> - The seminal anti-colonial text that analyzes the psychological, cultural, and political mechanisms through which colonized populations resist imperial subjugation; read in conjunction with the NPTEL lectures.</p>
+<p>Subaltern Studies and Archival Silence: <a href="https://books.google.com/books?isbn=9780691130019" target="_blank" rel="noopener noreferrer">Provincializing Europe: Postcolonial Thought and Historical Difference (Dipesh Chakrabarty)</a> - Interrogates the universalist claims of Western historiography and political theory, demonstrating how postcolonial narratives confront the limits of Eurocentric translation.</p>
+<p>Decoloniality and Linguistic Delinking: <a href="https://books.google.com/books?isbn=9780435080167" target="_blank" rel="noopener noreferrer">Decolonising the Mind: The Politics of Language in African Literature (Ngũgĩ wa Thiong'o)</a> - The foundational manifesto on the cultural and political imperatives of writing in African mother tongues rather than the languages of imperial conquest.</p>
+<p>World-Systems Literature and Combined Development: <a href="https://books.google.com/books?isbn=9781781381915" target="_blank" rel="noopener noreferrer">Combined and Uneven Development: Towards a New Theory of World-Literature (Warwick Research Collective)</a> - Employs Wallerstein’s world-systems theory and Trotsky’s uneven development to demonstrate how peripheral and semi-peripheral economies generate distinct, non-linear literary forms.</p>
+<h2 id="gender-sexuality-queer-poetics">Gender, Sexuality &amp; Queer Poetics</h2>
+<p>Explores the discursive construction of gender performativity, queer temporalities and spatialities, intersectional Black feminist thought, and transgender phenomenology.</p>
+<p>Gender Performativity and Subversive Identity: <a href="https://archive.org/details/gendertroublefem0000butl" target="_blank" rel="noopener noreferrer">Gender Trouble: Feminism and the Subversion of Identity (Judith Butler)</a> - The groundbreaking text establishing that gender is not an internal essence but an iterative performance enforced by compulsory heterosexuality and discursive power.</p>
+<p>Intersectional Poetics and Black Feminist Thought: <a href="https://archive.org/details/sisteroutsideres0000lord" target="_blank" rel="noopener noreferrer">Sister Outsider: Essays and Speeches (Audre Lorde)</a> - The canonical collection weaving poetic theory, personal essay, and radical politics to show how race, class, sexuality, and age operate as interlocking systems of difference.</p>
+<p>Queer Temporalities and Utopian Aesthetics: <a href="https://books.google.com/books?isbn=9780814757284" target="_blank" rel="noopener noreferrer">Cruising Utopia: The Then and There of Queer Futurity (José Esteban Muñoz)</a> - Critiques pragmatic anti-relational and reproductive models of time by arguing that queer aesthetic works from poetry to performance offer glimpses of a transformative utopian future.</p>
+<p>Queer Phenomenology and Spatial Orientations: <a href="https://books.google.com/books?isbn=9780822339144" target="_blank" rel="noopener noreferrer">Queer Phenomenology: Orientations, Objects, Others (Sara Ahmed)</a> - Synthesizes phenomenology with queer critique to investigate how physical and social spaces orient bodies along heterosexual trajectories and how queer deviations construct new ways of dwelling.</p>
+<h2 id="environmental-humanities-ecocriticism">Environmental Humanities &amp; Ecocriticism</h2>
+<p>Analyzes literary representations of the non-human world, climate crisis, environmental justice, slow violence, and petrocultures in the Anthropocene.</p>
+<p>Environmental Literary History and Pastoral Geographies: <a href="http://ecocriticism101.com" target="_blank" rel="noopener noreferrer">English 22: Introduction to Literature and the Environment (Ken Hiltner / UC Santa Barbara)</a> - A complete 16-lecture open university course tracing 5,000 years of literary history from Gilgamesh to the present to uncover how cultural texts shape our ecological attitudes.</p>
+<p>Material Ecocriticism and Dark Ecology: <a href="https://books.google.com/books?isbn=9780674034853" target="_blank" rel="noopener noreferrer">Ecology Without Nature: Rethinking Environmental Aesthetics (Timothy Morton)</a> - A provocative philosophical critique demonstrating that the romanticized, external concept of "nature" actually prevents genuine ecological awareness, advocating instead for an immersive "dark ecology."</p>
+<p>Climate Fiction and Planetary Scales: <a href="https://books.google.com/books?isbn=9780226526812" target="_blank" rel="noopener noreferrer">The Great Derangement: Climate Change and the Unthinkable (Amitav Ghosh)</a> - Examines why the modern realist novel struggles to depict the non-linear, collective violence of global climate disruption, calling for radical reinventions of narrative imagination.</p>
+<p>Slow Violence and Environmental Justice: <a href="https://books.google.com/books?isbn=9780674072343" target="_blank" rel="noopener noreferrer">Slow Violence and the Environmentalism of the Poor (Rob Nixon)</a> - The defining environmental humanities study that analyzes how writer-activists in the Global South render visible the delayed, attritional, and invisible damage of toxic waste, deforestation, and climate breakdown.</p>
+<h2 id="computational-literary-studies-digital-humanities">Computational Literary Studies &amp; Digital Humanities</h2>
+<p>Integrates quantitative distant reading, algorithmic text mining, corpus stylistics, and digital scholarly editing to analyze literary history at scale.</p>
+<p>Distant Reading and Macroanalysis: <a href="https://archive.org/details/distantreading0000more" target="_blank" rel="noopener noreferrer">Distant Reading (Franco Moretti)</a> - The seminal essay collection articulating the methodology of using quantitative graphs, geographic maps, and evolutionary trees to analyze entire literary systems beyond the limitations of single-text close reading.</p>
+<p>Distant Reading and Macroanalysis: <a href="https://books.google.com/books?isbn=9780226612836" target="_blank" rel="noopener noreferrer">Distant Horizons: Digital Evidence and Literary Change (Ted Underwood)</a> - Provides mathematical and machine-learning frameworks to track long-term transformations in genre, gender representation, and poetic diction across centuries of digitized books; read alongside Moretti.</p>
+<p>Cultural Analytics and Computational Text Analysis: <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/" target="_blank" rel="noopener noreferrer">Introduction to Cultural Analytics &amp; Python (Melanie Walsh)</a> - An open-access interactive online textbook that teaches Python programming, natural language processing, topic modeling, and named entity recognition tailored specifically for humanities texts.</p>
+<p>Digital Humanities Research Methodologies: <a href="https://pll.harvard.edu/course/introduction-digital-humanities" target="_blank" rel="noopener noreferrer">Introduction to Digital Humanities (Harvard Online / edX)</a> - A structured online course introducing digital textual scholarship, optical character recognition, digital archives, and spatial visualization workflows across humanities disciplines.</p>
+<p>Practical Corpus Workflows and Text Mining: <a href="https://programminghistorian.org/" target="_blank" rel="noopener noreferrer">Programming Historian Lessons (The Programming Historian)</a> - A peer-reviewed, open-access repository of modular tutorials covering hands-on computational text analysis, corpus preparation, sentiment analysis, and web scraping for literary materials.</p>
+<p>Digital Scholarly Editing and Text Encoding: <a href="https://books.google.com/books?isbn=9781107023161" target="_blank" rel="noopener noreferrer">Digital Scholarly Editing: Theories and Practices (Elena Pierazzo)</a> - Provides the authoritative theoretical and practical framework for digital textual criticism, XML and Text Encoding Initiative (TEI) standards, and creating dynamic, machine-readable editions.</p>
+<h2 id="advanced-narratology-poetics-experimental-forms">Advanced Narratology, Poetics &amp; Experimental Forms</h2>
+<p>Scrutinizes cognitive and unnatural narrative architectures, high modernist formal experimentation, postmodern metafiction, and the historical evolution of literary genres.</p>
+<p>Cognitive and Unnatural Narratology: <a href="https://books.google.com/books?isbn=9780415124829" target="_blank" rel="noopener noreferrer">Towards a 'Natural' Narratology (Monika Fludernik)</a> - A foundational study integrating cognitive linguistics and narrative theory to demonstrate how experientiality, consciousness representation, and reader schema construction drive storytelling across oral and written forms.</p>
+<p>Postmodernism and Metafiction in Late Capitalism: <a href="https://oyc.yale.edu/english/engl-291" target="_blank" rel="noopener noreferrer">The American Novel Since 1945 (Open Yale Courses / Amy Hungerford)</a> - A full 26-lecture university course examining postwar American fiction, self-reflexive narration, metafiction, historical trauma, and minimalism through close readings of Nabokov, Pynchon, Morrison, and DeLillo.</p>
+<p>Postmodernism and Metafiction in Late Capitalism: <a href="https://archive.org/details/postmodernismorc0000jame" target="_blank" rel="noopener noreferrer">Postmodernism, or, The Cultural Logic of Late Capitalism (Fredric Jameson)</a> - The definitive theoretical critique tracing how postmodern aesthetic forms—pastiche, depthlessness, and schizophrenia—mirror the global spatial logic of late consumer capitalism; watch Hungerford's lectures alongside this text.</p>
+<p>Avant-Garde Poetics and Syntactic Indeterminacy: <a href="https://books.google.com/books?isbn=9780810117648" target="_blank" rel="noopener noreferrer">The Poetics of Indeterminacy: Rimbaud to Cage (Marjorie Perloff)</a> - Redraws twentieth-century modernist poetics by tracing an alternative avant-garde tradition characterized by anti-mimetic collage, non-linear syntax, and radical indeterminacy.</p>
+<p>Historical Poetics and the Emergence of the Novel: <a href="https://books.google.com/books?isbn=9780801869594" target="_blank" rel="noopener noreferrer">The Origins of the English Novel, 1600–1740 (Michael McKeon)</a> - A monumental dialectical history demonstrating how the novel emerged as a cultural technology designed to resolve simultaneous crises in epistemological truth and social virtue.</p>
+    </article>
+  </main>
 
 </body>
 </html>
